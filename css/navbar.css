@@ -40,6 +40,44 @@ body {
     }
 }
 
+.primary-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 6px;
+    background-color: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.secondary-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: var(--color-white);
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-primary);
+}
+
 
 /* ===========================
    NAVBAR MAIN
@@ -69,7 +107,7 @@ header .logo img {
     height: 45px;
     width: auto;
     object-fit: contain;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 header .logo:hover img {
@@ -96,7 +134,7 @@ header nav.nav-menu .nav-item a {
     color: black;
     font-size: 16px;
     font-weight: 400;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 header nav.nav-menu .nav-item a:hover {
@@ -107,24 +145,7 @@ header nav.nav-menu .nav-item a:hover {
    CONTACT BUTTON DESKTOP
 =========================== */
 
-header .nav-btn .contact-btn {
-    display: inline-block;
-    padding: 8px 18px;
-    border-radius: 6px;
-    background-color: var(--color-primary);
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 400;
-    border: 1px solid transparent;
-    transition: 0.3s ease;
-}
 
-header .nav-btn .contact-btn:hover {
-    background-color: transparent;
-    color: var(--color-primary);
-    border: 1px solid var(--color-primary);
-}
 
 /* ===========================
    HAMBURGER MENU
@@ -222,7 +243,7 @@ header .nav-btn .contact-btn:hover {
         height: 0;
         overflow: hidden;
         background: #fff;
-        transition: 0.4s ease;
+        transition: all 0.4s ease;
     }
 
     header nav.nav-menu.open {
