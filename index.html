@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arwa Weld Technologies</title>
+    <!-- favicon -->
+    <link rel="icon" href="./images/arwa-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <h1>ARWA WEB</h1>
+    <!-- navbar start -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./images/arwa-logo.png" alt="ARWA Logo">
+                </a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Products</a></li>
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                    <li class="nav-item"><a href="#">Installation</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contact Button (Desktop Only) -->
+            <div class="nav-btn">
+                <a href="#" class="contact-btn">Contact Us</a>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <div class="hero-main">
+                <p class="hero-welcome">Welcome ARWA WELD</p>
+
+                <h1 class="hero-title">
+                    Industrial Solutions With <br> Best Welding Machinery!
+                </h1>
+
+                <p class="hero-subtitle">
+                    Leading OEM-based welding machine manufacturer in India,
+                    delivering precision-engineered and reliable welding solutions
+                    for every industry.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#" class="about-btn">More About Us</a>
+                    <a href="#" class="service-btn">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section">
+        <div class="about-main container">
+
+            <h2 class="about-title">
+                Provide High Performance Services For
+                <br>Multiple Industries And Technologies!
+            </h2>
+
+            <div class="about-content">
+
+                <!-- LEFT IMAGE -->
+                <div class="about-left">
+                    <img src="./images/home-banner.jpg" alt="">
+
+                    <div class="about-overlay">
+                        <div class="icon-row">
+                            <i class="fas fa-cogs"></i>
+                            <i class="fas fa-tools"></i>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet consectetur dolor sit.</p>
+
+                        <a href="#" class="arrow-btn"><i class="fa-solid fa-arrow-right"></i></a>
+
+                        <div class="overlay-shape"></div>
+                    </div>
+                </div>
+
+                <!-- CENTER -->
+                <div class="about-center">
+                    <h3>Lorem ipsum dolor sit amet consectetur. Nam massa mi vulputate sit nisl. In arcu leo massa eu.
+                    </h3>
+
+                    <p>lectus velit pulvinar. Scelerisque justo at lectus volutpat augue elementum fringilla. Et
+                        ultricies feugiat molestie felis aliquet diam erat dui. Et ultricies feugiat molestie felis
+                        aliquet diam erat dui. Lorem ipsum dolor sit amet consectetur. Nam massa mi vulputate sit nisl.
+                        In arcu leoLorem ipsum dolor sit amet consectetur. Nam massa mi vulputate sit nisl. In arcu leo
+                        massa eu</p>
+                    <p>aliquet diam erat dui. Lorem ipsum dolor sit amet consectetur. Nam massa mi vulputate sit nisl.
+                        In arcu leoLorem ipsum dolor sit amet consectetur. Nam massa.</p>
+
+                    <div class="about-btn-main">
+                        <a href="#" class="about-btn">More About Us</a>
+                        <a href="index.html">
+                            <img src="./images/arwa-logo.png" alt="ARWA Logo">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="about-right">
+                    <div class="info-box">
+                        <h3>456+</h3>
+                        <p>Working Hours</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>200+</h3>
+                        <p>Happy Customer</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>426+</h3>
+                        <p>Project Finished</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./js/navbar.js"></script>
+
 </body>
+
 </html>
