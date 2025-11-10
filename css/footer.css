@@ -1,0 +1,414 @@
+/* Footer Styles */
+.footer {
+    margin-top: 0;
+    position: relative;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background: linear-gradient(135deg, #0d4a8f 0%, #1e5fa8 100%);
+    padding: 50px 40px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 900px;
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    transform: translateY(100px);
+    z-index: 10;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.newsletter-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.newsletter-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.newsletter-section h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.newsletter-section p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.email-input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: #999;
+}
+
+.submit-btn {
+    background-color: #d4e8f5;
+    color: #0d4a8f;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #b8d9ed;
+}
+
+/* Footer Main Content */
+.footer-main {
+    padding: 180px 20px 60px;
+    background-color: #d4e8f5;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.8fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.footer-column h3 {
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Company Info */
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.company-tagline {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #0d4a8f;
+}
+
+/* Quick Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0d4a8f;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 12px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    align-items: flex-start;
+}
+
+.contact-item i {
+    color: #1a1a1a;
+    font-size: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    width: 20px;
+}
+
+.contact-item a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #0d4a8f;
+}
+
+.contact-item strong {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.contact-item p {
+    margin: 5px 0 0 0;
+    color: #555;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .company-info {
+        grid-column: 1 / -1;
+    }
+
+    .contact-info {
+        grid-column: 1 / -1;
+    }
+
+    .footer-main {
+        padding: 160px 20px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsletter-section {
+        transform: translateY(70px);
+        padding: 40px 30px;
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+
+    .newsletter-section h2 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .newsletter-section p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .newsletter-section p br {
+        display: none;
+    }
+
+    .newsletter-form {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .company-info {
+        grid-column: 1;
+        text-align: center;
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-main {
+        padding: 130px 20px 40px;
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .newsletter-section {
+        transform: translateY(60px);
+        padding: 35px 25px;
+        width: calc(100% - 30px);
+        margin: 0 15px;
+        border-radius: 15px;
+    }
+
+    .newsletter-section h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-section p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .email-input {
+        padding: 14px 18px;
+        font-size: 15px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .submit-btn {
+        padding: 14px;
+        font-size: 15px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .footer-main {
+        padding: 110px 15px 30px;
+    }
+
+    .footer-logo {
+        width: 140px;
+    }
+
+    .company-tagline {
+        font-size: 13px;
+    }
+
+    .footer-column h3 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .contact-item {
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    .contact-item i {
+        font-size: 14px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 380px) {
+    .newsletter-section {
+        padding: 30px 20px;
+        transform: translateY(50px);
+    }
+
+    .newsletter-section h2 {
+        font-size: 24px;
+    }
+
+    .newsletter-section p {
+        font-size: 13px;
+    }
+
+    .footer-main {
+        padding: 100px 15px 25px;
+    }
+
+    .footer-logo {
+        width: 120px;
+    }
+
+    .social-links a {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        padding: 15px 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 11px;
+    }
+}
