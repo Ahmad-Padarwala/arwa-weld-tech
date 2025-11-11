@@ -3,13 +3,13 @@
 /* hero section */
 section.hero {
     width: 100%;
-    min-height: 70vh;
+   height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 80px 0;
-    background-image: url("../images/home-banner.webp");
+    background-image: url("../images/banner.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
