@@ -10,6 +10,7 @@
     --color-primary: #344D8B;
     --color-white: #FFFFFF;
     --color-blue: #0095FF;
+    --color-black: #000;
     --font1: 'Poppins', sans-serif;
 }
 
@@ -110,17 +111,21 @@ body {
 }
 
 
-/* ===========================
-   NAVBAR MAIN
-=========================== */
+/* ============ NAVBAR MAIN =========== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--color-white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom: 1px solid #ddd;
+}
 
 header .navbar {
     width: 100%;
     background: #ffffff;
     border-bottom: 1px solid #ddd;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 header .nav-container {
@@ -130,9 +135,7 @@ header .nav-container {
     height: 70px;
 }
 
-/* ===========================
-   LOGO
-=========================== */
+/* ====== LOGO ======= */
 
 header .logo img {
     height: 45px;
@@ -172,15 +175,7 @@ header nav.nav-menu .nav-item a:hover {
     color: var(--color-primary);
 }
 
-/* ===========================
-   CONTACT BUTTON DESKTOP
-=========================== */
-
-
-
-/* ===========================
-   HAMBURGER MENU
-=========================== */
+/* ========  HAMBURGER MENU ============== */
 
 .hamburger {
     width: 32px;
@@ -287,7 +282,6 @@ header nav.nav-menu .nav-item a:hover {
         gap: 15px;
     }
 
-    /* Style for mobile dropdown alignment */
     .nav-menu.nav-btn {
         display: flex;
         flex-direction: column;
@@ -302,5 +296,12 @@ header nav.nav-menu .nav-item a:hover {
 @media (max-width: 900px) {
     header .logo img {
         height: 41px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo img {
+        height: 30px;
+        width: auto;
     }
 }
