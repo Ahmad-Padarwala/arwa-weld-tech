@@ -1,4 +1,4 @@
-// slider hero section
+// slider service section
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".service-card");
   let activeIndex = 0;
@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 // product tab json data 
+// OEM Manufacturing Excellence start
 const welderData = {
   "arc": {
     "title": "ARC Welder",
@@ -51,53 +53,162 @@ const welderData = {
       {
         "name": "250 ST",
         "bodyTypes": [
-          { "name": "Standard", "images": ["./images/Group 4.webp", "./images/product1.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/product1.png" },
-          { "name": "blue", "image": "./images/Group 4.webp" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Standard",
+            "images": [
+              {
+                "src": "./images/product2.webp",
+                "colors": [
+                  { "name": "yellow", "image": "./images/product2.webp" },
+                  { "name": "blue", "image": "./images/product1.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/product1.png" },
+                  { "name": "blue", "image": "./images/product1.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "red", "image": "./images/product1.png" },
+                  { "name": "green", "image": "./images/product2.webp" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/product1.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "250 IJ",
         "bodyTypes": [
-          { "name": "Heavy Duty", "images": ["./images/product2.png", "./images/product3.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Heavy Duty",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/product2.webp" },
+                  { "name": "green", "image": "./images/product1.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.webp",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.webp",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              }
+
+            ]
+          }
         ]
       },
       {
         "name": "400 IJ",
         "bodyTypes": [
-          { "name": "Industrial", "images": ["./images/product3.png", "./images/product2.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Industrial",
+            "images": [
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "410 IJ",
         "bodyTypes": [
-          { "name": "Compact", "images": ["./images/product1.png", "./images/product3.png", "./images/product2.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Compact",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
   },
+
 
   "mig": {
     "title": "MIG Welder",
@@ -105,49 +216,129 @@ const welderData = {
       {
         "name": "MIG-200",
         "bodyTypes": [
-          { "name": "Compact", "images": ["./images/product1.png", "./images/product2.png", "./images/product3.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Compact",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "MIG-300",
         "bodyTypes": [
-          { "name": "Standard", "images": ["./images/product2.png", "./images/product3.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Standard",
+            "images": [
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "MIG-400",
         "bodyTypes": [
-          { "name": "Heavy Duty", "images": ["./images/product3.png", "./images/product2.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Heavy Duty",
+            "images": [
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "MIG-500",
         "bodyTypes": [
-          { "name": "Industrial", "images": ["./images/product1.png", "./images/product3.png", "./images/product2.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Industrial",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
@@ -159,49 +350,129 @@ const welderData = {
       {
         "name": "TIG-150",
         "bodyTypes": [
-          { "name": "Compact", "images": ["./images/product1.png", "./images/product2.png", "./images/product3.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Compact",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TIG-200",
         "bodyTypes": [
-          { "name": "Standard", "images": ["./images/product2.png", "./images/product3.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Standard",
+            "images": [
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TIG-300",
         "bodyTypes": [
-          { "name": "Pro Body", "images": ["./images/product3.png", "./images/product1.png", "./images/product2.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Pro Body",
+            "images": [
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TIG-400",
         "bodyTypes": [
-          { "name": "Industrial", "images": ["./images/product1.png", "./images/product3.png", "./images/product2.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Industrial",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
@@ -213,53 +484,133 @@ const welderData = {
       {
         "name": "TX-250",
         "bodyTypes": [
-          { "name": "Compact", "images": ["./images/product1.png", "./images/product2.png", "./images/product3.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Compact",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TX-400",
         "bodyTypes": [
-          { "name": "Heavy Duty", "images": ["./images/product2.png", "./images/product3.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Heavy Duty",
+            "images": [
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TX-600",
         "bodyTypes": [
-          { "name": "Industrial", "images": ["./images/product3.png", "./images/product2.png", "./images/product1.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Industrial",
+            "images": [
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" }
+                ]
+              },
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "TX-800",
         "bodyTypes": [
-          { "name": "Ultra", "images": ["./images/product1.png", "./images/product3.png", "./images/product2.png"] }
-        ],
-        "colors": [
-          { "name": "yellow", "image": "./images/color-yellow.png" },
-          { "name": "blue", "image": "./images/color-blue.png" },
-          { "name": "red", "image": "./images/color-red.png" },
-          { "name": "green", "image": "./images/color-green.png" }
+          {
+            "name": "Ultra",
+            "images": [
+              {
+                "src": "./images/product1.png",
+                "colors": [
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "yellow", "image": "./images/color-yellow.png" }
+                ]
+              },
+              {
+                "src": "./images/product3.png",
+                "colors": [
+                  { "name": "blue", "image": "./images/color-blue.png" },
+                  { "name": "red", "image": "./images/color-red.png" }
+                ]
+              },
+              {
+                "src": "./images/product2.png",
+                "colors": [
+                  { "name": "yellow", "image": "./images/color-yellow.png" },
+                  { "name": "green", "image": "./images/color-green.png" },
+                  { "name": "blue", "image": "./images/color-blue.png" }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
-  }
+  },
 };
 
 
@@ -268,12 +619,13 @@ const tabContainer = document.querySelector('.tabs');
 const modelContainer = document.querySelector('.tabs-two');
 const productListContainer = document.querySelector('.product-list');
 const mainDisplay = document.getElementById('main-image');
-const colorContainer = document.querySelector('.color-options'); // <-- color container
+const colorContainer = document.querySelector('.color-options'); // color container
 
 // --- Render Tabs ---
 tabContainer.innerHTML = Object.keys(welderData)
-  .map((key, index) =>
-    `<button class="tab ${index === 0 ? 'active' : ''}" data-tab="${key}">${welderData[key].title}</button>`
+  .map(
+    (key, index) =>
+      `<button class="tab ${index === 0 ? 'active' : ''}" data-tab="${key}">${welderData[key].title}</button>`
   )
   .join('');
 
@@ -294,8 +646,12 @@ document.querySelectorAll('.tab').forEach(tab => {
 // --- Render Models ---
 function renderModels(tabKey) {
   const models = welderData[tabKey].models;
+
   modelContainer.innerHTML = models
-    .map((m, i) => `<button class="tab-two ${i === 0 ? 'active' : ''}" data-model="${i}">${m.name}</button>`)
+    .map(
+      (m, i) =>
+        `<button class="tab-two ${i === 0 ? 'active' : ''}" data-model="${i}">${m.name}</button>`
+    )
     .join('');
 
   renderBodyTypes(tabKey, 0);
@@ -309,54 +665,175 @@ function renderModels(tabKey) {
   });
 }
 
-// --- Render Body Types + Colors ---
+// --- Render Body Types + Dynamic Colors ---
 function renderBodyTypes(tabKey, modelIndex) {
   const model = welderData[tabKey].models[modelIndex];
   const body = model.bodyTypes[0];
   const images = body.images;
-  const colors = model.colors || []; // if color data exists
 
-  // --- Render Thumbnails ---
+  // --- Render Image Thumbnails ---
   productListContainer.innerHTML = images
-    .map((img, i) =>
-      `<div class="thumb-box">
-          <img src="${img}" class="small-img ${i === 0 ? 'active' : ''}" data-big="${img}" alt="">
-       </div>`
+    .map(
+      (img, i) =>
+        `<div class="thumb-box">
+            <img src="${img.src}" 
+                 class="small-img ${i === 0 ? 'active' : ''}" 
+                 data-index="${i}" 
+                 alt="">
+        </div>`
     )
     .join('');
 
-  // --- Set Default Image ---
-  mainDisplay.src = images[0];
+  // --- Default Main Image ---
+  mainDisplay.src = images[0].src;
 
-  // --- Small Image Click ---
+  // --- Render Colors for Default Image ---
+  renderColors(images[0].colors);
+
+  // --- Thumbnail Click Logic ---
   document.querySelectorAll('.small-img').forEach(img => {
     img.addEventListener('click', () => {
       document.querySelectorAll('.small-img').forEach(i => i.classList.remove('active'));
       img.classList.add('active');
-      mainDisplay.src = img.dataset.big;
+
+      const index = img.dataset.index;
+      const selectedImage = images[index];
+
+      mainDisplay.src = selectedImage.src;
+      renderColors(selectedImage.colors);
     });
   });
-
-  // --- Render Color Dots ---
-  if (colorContainer) {
-    colorContainer.innerHTML = colors
-      .map(
-        (color, i) =>
-          `<span class="color-dot ${color.name} ${i === 0 ? 'active' : ''}" data-img="${color.image}"></span>`
-      )
-      .join('');
-
-    // --- Default color image if available ---
-    if (colors.length > 0) mainDisplay.src = colors[0].image;
-
-    // --- Color Click Logic ---
-    document.querySelectorAll('.color-dot').forEach(dot => {
-      dot.addEventListener('click', () => {
-        const colorImage = dot.dataset.img;
-        mainDisplay.src = colorImage;
-        document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
-        dot.classList.add('active');
-      });
-    });
-  }
 }
+
+// --- Render Colors for Each Image ---
+function renderColors(colors = []) {
+  if (!colorContainer) return;
+
+  if (colors.length === 0) {
+    colorContainer.innerHTML = '<p class="no-color">No colors available</p>';
+    return;
+  }
+
+  colorContainer.innerHTML = colors
+    .map(
+      (color, i) =>
+        `<span 
+            class="color-dot ${color.name} ${i === 0 ? 'active' : ''}" 
+            data-img="${color.image}" 
+            title="${color.name}">
+        </span>`
+    )
+    .join('');
+
+  // --- Default color image (first one)
+  mainDisplay.src = colors[0].image;
+
+  // --- Color Click Logic ---
+  document.querySelectorAll('.color-dot').forEach(dot => {
+    dot.addEventListener('click', () => {
+      const colorImage = dot.dataset.img;
+      mainDisplay.src = colorImage;
+      document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+    });
+  });
+}
+
+// color dots active js
+const colorDots = document.querySelectorAll(".color-dot");
+
+colorDots.forEach(dot => {
+  dot.addEventListener("click", () => {
+    colorDots.forEach(d => d.classList.remove("active"));
+    dot.classList.add("active");
+  });
+});
+
+// product tab json data 
+// OEM Manufacturing Excellence start
+
+
+// Top Seller Products start 
+const productsData = {
+  all: [
+    { name: "ARC 250 ST", desc: "Professional Welding Equipment", img: "./images/product1.png" },
+    { name: "MIG 300", desc: "Professional Welding Equipment", img: "./images/product1.png" },
+    { name: "TIG 200 Pro", desc: "Professional Welding Equipment", img: "./images/product1.png" },
+    { name: "Transformer TX-250", desc: "Professional Welding Equipment", img: "./images/product1.png" },
+    { name: "MIG 500", desc: "Professional Welding Equipment", img: "./images/product1.png" },
+    { name: "TIG 400 Ultra", desc: "Professional Welding Equipment", img: "./images/product1.png" }
+  ],
+
+  arc: [
+    { name: "ARC 200X", desc: "Strong Performance", img: "./images/product1.png" },
+    { name: "ARC 250 Pro", desc: "Compact Welding Machine", img: "./images/product1.png" },
+    { name: "ARC 200X", desc: "Strong Performance", img: "./images/product1.png" },
+    { name: "ARC 250 Pro", desc: "Compact Welding Machine", img: "./images/product1.png" }
+  ],
+
+  mig: [
+    { name: "MIG 300X", desc: "High Efficiency Welding", img: "./images/product2.webp" },
+    { name: "MIG 500X", desc: "Heavy Duty Welding", img: "./images/product2.webp" },
+    { name: "MIG 300X", desc: "High Efficiency Welding", img: "./images/product2.webp" },
+    { name: "MIG 500X", desc: "Heavy Duty Welding", img: "./images/product2.webp" }
+  ],
+
+  tig: [
+    { name: "TIG 200 Lite", desc: "Smooth Welding Output", img: "./images/product1.png" },
+    { name: "TIG 400 Max", desc: "Professional TIG Machine", img: "./images/product1.png" },
+    { name: "TIG 400 Max", desc: "Professional TIG Machine", img: "./images/product1.png" }
+  ],
+
+  transformer: [
+    { name: "TX 200 Basic", desc: "Reliable Transformer Welder", img: "./images/trans1.png" }
+  ],
+
+  accessories: [
+    { name: "Welding Helmet", desc: "Safety First", img: "./images/product1.png" },
+    { name: "Welding Gloves", desc: "Heat Resistant", img: "./images/product1.png" },
+    { name: "Welding Helmet", desc: "Safety First", img: "./images/product1.png" },
+    { name: "Welding Gloves", desc: "Heat Resistant", img: "./images/product1.png" }
+  ]
+};
+
+// -------- FUNCTIONS -------------
+const productGrid = document.getElementById("productGrid");
+const categoryTabs = document.querySelectorAll("#categoryTabs .category-item");
+
+// Render Products
+function renderProducts(category) {
+  const items = productsData[category] || [];
+
+  productGrid.innerHTML = items.map(product => `
+        <div class="product-box">
+            <div class="product-top">
+                <span class="badge">Top Seller</span>
+                <img src="${product.img}" alt="${product.name}">
+            </div>
+            <div class="product-bottom">
+                <h4>${product.name}</h4>
+                <p>${product.desc}</p>
+                <a href="#" class="btn-view">View Details</a>
+            </div>
+        </div>
+    `).join("");
+}
+
+// ------------------------------
+// CATEGORY CLICK EVENTS
+// ------------------------------
+categoryTabs.forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelector(".category-item.active").classList.remove("active");
+    tab.classList.add("active");
+
+    const category = tab.getAttribute("data-category");
+    renderProducts(category);
+  });
+});
+
+// Load default
+renderProducts("all");
+
+
+

@@ -32,7 +32,7 @@
             <!-- Navigation Menu -->
             <nav class="nav-menu" id="navMenu">
                 <ul>
-                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="./index.html" class="active">Home</a></li>
                     <li class="nav-item"><a href="#">Products</a></li>
                     <li class="nav-item"><a href="#">About Us</a></li>
                     <li class="nav-item"><a href="#">Installation</a></li>
@@ -149,7 +149,7 @@
     </section>
 
     <!-- Service Section -->
-    <section class="service-section container">
+    <section class="service-section">
         <h2 class="title">Our Services</h2>
         <div class="service-content ">
             <!-- slide 1 (active by default) -->
@@ -288,25 +288,70 @@
             <div class="product-view">
                 <div class="product-container">
                     <!-- LEFT -->
-                    <div class="product-list"></div>
+                    <div class="product-list">
+                        <div class="thumb-box active"></div>
+                    </div>
 
                     <!-- RIGHT -->
                     <div class="product-display">
-                        <img src="./images/Group 4.webp" id="main-image" alt="">
+                        <img src="./images/product2.webp" id="main-image" alt="">
                         <div class="product-btn">
                             <a href="#">Get Now</a>
                         </div>
                         <div class="color-options">
-                            <span class="color-dot yellow"></span>
-                            <span class="color-dot blue"></span>
-                            <span class="color-dot red"></span>
-                            <span class="color-dot green"></span>
+                            <span class="color-dot yellow" data-color="yellow"></span>
+                            <span class="color-dot blue" data-color="blue"></span>
+                            <span class="color-dot red" data-color="red"></span>
+                            <span class="color-dot green" data-color="green"></span>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <!-- Top Seller Products Section -->
+    <section class="top-section">
+        <h2 class="title">Top Seller Products</h2>
+
+        <div class="top-main container">
+
+            <!-- LEFT SIDEBAR -->
+            <div class="top-left">
+                <div class="sidebar-box">
+                    <h3>Product Categories</h3>
+
+                    <ul class="category-list" id="categoryTabs">
+                        <!-- Dynamically filled OR keep as static -->
+                        <li class="category-item active" data-category="all">All Products <span class="badge">20</span>
+                        </li>
+                        <li class="category-item" data-category="arc">ARC Welder <span class="badge">8</span></li>
+                        <li class="category-item" data-category="mig">MIG Welder <span class="badge">4</span></li>
+                        <li class="category-item" data-category="tig">TIG Welder <span class="badge">6</span></li>
+                        <li class="category-item" data-category="transformer">Transformer Series <span
+                                class="badge">3</span></li>
+                        <li class="category-item" data-category="accessories">Accessories <span class="badge">5</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="help-box">
+                    <h4>Need Help?</h4>
+                    <p>Have questions or need product guidance?<br>Our team is here to assist you.</p>
+                    <button class="btn-contact">Contact Us</button>
+                </div>
+            </div>
+
+            <!-- RIGHT PRODUCT GRID -->
+            <div class="top-right">
+                <div class="product-grid" id="productGrid">
+                    <!-- JS will insert product boxes here -->
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- Reels section -->
@@ -363,7 +408,7 @@
 
         <!-- Footer Main Content -->
         <div class="footer-main">
-            <div class="container footer-container">
+            <div class="footer-container container">
                 <!-- Company Info -->
                 <div class="footer-column company-info">
                     <a href="./index.html">
