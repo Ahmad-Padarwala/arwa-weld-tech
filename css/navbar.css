@@ -149,9 +149,7 @@ header .logo:hover img {
     opacity: 0.9;
 }
 
-/* ===========================
-   MENU ITEMS
-=========================== */
+/* ======= MENU ITEMS ========== */
 
 header nav.nav-menu {
     display: flex;
@@ -166,9 +164,15 @@ header nav.nav-menu ul {
 header nav.nav-menu .nav-item a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     transition: all 0.3s ease;
+}
+
+header nav.nav-menu .nav-item a.active {
+    color: var(--color-primary);
+    font-weight: 400;
+    position: relative;
 }
 
 header nav.nav-menu .nav-item a:hover {
