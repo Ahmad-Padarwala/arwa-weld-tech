@@ -418,12 +418,12 @@ section.hero .hero-main .hero-subtitle {
 
 @media (max-width: 768px) {
     .service-section .service-content .service-card .badge {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .service-section .service-content .service-card.active .desc {
         color: var(--color-white);
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .service-section .service-content .service-card.active .service-left .service-icon img {
@@ -1211,9 +1211,9 @@ section.top-section .top-main .top-right .product-grid .product-box .btn-view:ho
 /* Reels Section */
 section.reels-section {
     background:
-      linear-gradient(rgba(255, 255, 255, 0.776), rgb(233, 234, 236)),
-      url(../images/product-story-bg.webp);
-    background-size: cover;     
+        linear-gradient(rgba(255, 255, 255, 0.776), rgb(233, 234, 236)),
+        url(../images/product-story-bg.webp);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 25px 0px;
