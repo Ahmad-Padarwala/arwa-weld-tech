@@ -7,15 +7,25 @@ hamburger.addEventListener("click", () => {
 });
 
 // active link
-const navLinks = document.querySelectorAll(".nav-menu .nav-item a");
+ const navLinks = document.querySelectorAll(".nav-menu .nav-item a");
 
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
+    // 1. SET ACTIVE BASED ON CURRENT PAGE
+    const currentPage = window.location.pathname.split("/").pop();
 
-        // remove active from all links
-        navLinks.forEach(item => item.classList.remove("active"));
+    navLinks.forEach(link => {
+        const linkPage = link.getAttribute("href");
 
-        // add active to clicked link
-        link.classList.add("active");
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+        }
     });
-});
+
+    // 2. OPTIONAL: ACTIVE ON CLICK (WITHOUT RELOAD)
+    navLinks.forEach(link => {
+        link.addEventListener("click", function() {
+            navLinks.forEach(item => item.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+
+    

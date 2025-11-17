@@ -1,0 +1,358 @@
+/* Installation Section */
+section.installation-section {
+    width: 100%;
+    padding: 100px 0;
+    background-image: url('../images/installation-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+/* Dark overlay */
+section.installation-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Content */
+section.installation-section .installation-content {
+    position: relative;
+    color: var(--color-white);
+    transform: scaleX(-1);
+}
+
+section.installation-section .installation-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section.installation-section .installation-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 620px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section.installation-section .installation-content h2 {
+        font-size: 26px;
+    }
+
+    section.installation-section .installation-content p {
+        font-size: 14px;
+    }
+
+    section.installation-section {
+        padding: 60px 15px;
+    }
+}
+
+/* Machine Installation */
+.machine-installation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+/* Left Content */
+.machine-installation .machine-left h2 {
+    font-size: 37px;
+    font-weight: 600;
+    color: var(--color-black);
+    line-height: 1.3;
+}
+
+/* Right Content */
+.machine-installation .machine-right p {
+    font-size: 16px;
+    color: var(--color-black);
+    line-height: 1.7;
+}
+
+/* Responsive – stack on mobile */
+@media (max-width: 768px) {
+    .machine-installation {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .machine-installation .machine-left h2 {
+        font-size: 20px;
+    }
+
+    .machine-installation .machine-right p {
+        font-size: 14px;
+    }
+}
+
+/* machine video */
+section.machine-section {
+    background-color: var(--color-primary);
+    padding: 20px 0;
+}
+
+section.machine-section .machine-video {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+}
+
+section.machine-section .machine-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+section.machine-section .machine-video .machine-play i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Step section  */
+section.step-section {
+    padding: 40px 0;
+    background: var(--color-white);
+}
+
+section.step-section .step-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+section.step-section .step-main .step-box {
+    background: var(--color-white);
+    border-radius: 10px;
+    padding: 30px 25px;
+    position: relative;
+    border: 1px solid var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section.step-section .step-main .step-box .badge {
+    background: #EAF0FF;
+    color: var(--color-primary);
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+section.step-section .step-main .step-box h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+section.step-section .step-main .step-box .step-desc {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+section.step-section .step-main .step-box .step-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section.step-section .step-main .step-box .step-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+section.step-section .step-main .step-box .step-list li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    font-size: 15px;
+    color: var(--color-black);
+}
+
+section.step-section .step-main .step-box .step-list i {
+    color: var(--color-primary);
+    font-size: 18px;
+}
+
+@media (max-width: 992px) {
+    section.step-section .step-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    section.step-section .step-main {
+        grid-template-columns: 1fr;
+    }
+
+    section.step-section .step-main .step-box {
+        padding: 25px 20px;
+    }
+
+    section.step-section .step-main .step-box .step-box h2 {
+        font-size: 18px;
+    }
+
+    section.step-section .step-main .step-box .step-list li {
+        font-size: 14px;
+    }
+}
+
+.machine-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*  Industry Equipment Section  */
+section.industry {
+    padding: 20px 0;
+}
+
+section.industry .indusry-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Left Content */
+section.industry .indusry-main .indusry-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-black);
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+section.industry .indusry-main .indusry-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Right Image Box */
+section.industry .indusry-main .indusry-video .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #000;
+}
+
+section.industry .indusry-main .indusry-video .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: none;
+    object-fit: cover;
+}
+
+/* section.industry .indusry-main .indusry-video img {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+} */
+
+/* section.industry .indusry-main .indusry-video .machine-play i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+section.industry .indusry-main .indusry-video .machine-play i:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+} */
+
+/* Responsive */
+@media (max-width: 900px) {
+    section.industry .indusry-main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* section.industry .indusry-main .indusry-video .machine-play i {
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    } */
+}
+
+@media (max-width: 480px) {
+    section.industry .indusry-main .indusry-content h2 {
+        font-size: 22px;
+    }
+
+    section.industry .indusry-main .indusry-content p {
+        font-size: 14px;
+    }
+
+    /* section.industry .indusry-main .indusry-video .machine-play i {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    } */
+}

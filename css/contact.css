@@ -1,0 +1,367 @@
+/* Contact hero section */
+
+section.contact-hero-section {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.contact-hero-section h1 {
+    color: var(--color-white);
+    font-size: 35px;
+    font-weight: 600;
+    z-index: 2;
+    position: relative;
+}
+
+section.contact-hero-section .hero-overlay-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+section.contact-hero-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(22, 22, 22, 0.55);
+    z-index: 1;
+}
+
+/* Contact Form */
+section.contact-form-section {
+    width: 100%;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+section.contact-form-section .custom-form {
+    width: 100%;
+    max-width: 900px;
+}
+
+section.contact-form-section .custom-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.contact-form-section .custom-form .form-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+section.contact-form-section .custom-form .form-row .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact-form-section .custom-form .form-row .form-group.full {
+    flex: 100%;
+}
+
+/* Labels */
+section.contact-form-section .custom-form .form-row .form-group label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #000;
+}
+
+section.contact-form-section .custom-form .form-row .form-group label span {
+    color: red;
+}
+
+/* Inputs */
+section.contact-form-section .custom-form input,
+section.contact-form-section .custom-form select,
+section.contact-form-section .custom-form textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    width: 100%;
+}
+
+section.contact-form-section .custom-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Submit button */
+section.contact-form-section .submit-row {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ---------- RESPONSIVE CSS ---------- */
+@media (max-width: 1024px) {
+    section.contact-hero-section {
+        height: 280px;
+        padding: 20px;
+    }
+
+    section.contact-hero-section h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.contact-form-section .custom-form .form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.contact-hero-section .hero-overlay-img {
+        width: 100%;
+    }
+
+    section.contact-hero-section {
+        height: 260px;
+    }
+
+    section.contact-hero-section h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    section.contact-hero-section {
+        height: 220px;
+    }
+
+    section.contact-hero-section h1 {
+        font-size: 24px;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+/* Contact Details */
+section.contact-details {
+    background: #F7F7F7;
+    padding: 10px 0;
+}
+
+/* Main Grid Layout */
+section.contact-details .contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Left Content */
+section.contact-details .contact-main .contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.contact-details .contact-main .contact-left h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+section.contact-details .contact-main .contact-left .desc {
+    color: var(--color-black);
+    line-height: 1.6;
+}
+
+/* Contact Items */
+section.contact-details .contact-main .contact-left .contact-info .info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+section.contact-details .contact-main .contact-left .contact-info i {
+    font-size: 16px;
+    color: var(--color-primary);
+    margin-top: 3px;
+}
+
+section.contact-details .contact-main .contact-left .call-group p {
+    color: var(--color-black);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+section.contact-details .contact-main .contact-left .contact-info a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .email-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+
+/* Each email box */
+section.contact-details .contact-main .contact-left .contact-info .email-group .email-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .email-group .email-box i {
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .email-group .email-box a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .email-group .email-box a:hover {
+    text-decoration: underline;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .call-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* two columns for first row */
+section.contact-details .contact-main .contact-left .contact-info .call-group .call-row.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+
+/* single row (services) */
+section.contact-details .contact-main .contact-left .contact-info .call-group .call-row {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .call-group .call-row .info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+section.contact-details .contact-main .contact-left .contact-info .call-group .call-row .info-box i {
+    font-size: 16px;
+    color: var(--color-primary);
+}
+
+
+/* Right Image */
+section.contact-details .contact-main .contact-right img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    section.contact-details .contact-main {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    section.contact-details .contact-right img {
+        max-height: 260px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 600px) {
+
+    section.contact-details {
+        padding: 25px 0px;
+    }
+
+    /* Heading */
+    section.contact-details .contact-left h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    /* Left content text */
+    section.contact-details .contact-left .desc,
+    section.contact-details .contact-info p,
+    section.contact-details .contact-info a {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* Icons */
+    section.contact-details .contact-info i {
+        font-size: 16px;
+    }
+
+    section.contact-details .contact-main .contact-left .contact-info .email-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* Sales + Admin stack vertically */
+    section.contact-details .contact-main .contact-left .contact-info .call-group .call-row.two-cols {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    section.contact-details .contact-main .contact-left .contact-info .call-group .call-row .info-box p {
+        font-size: 14px;
+    }
+
+    /* Image smaller */
+    section.contact-details .contact-right img {
+        max-height: 230px;
+        border-radius: 6px;
+    }
+}
+
+/* Small Phones (down to 380px) */
+@media (max-width: 380px) {
+
+    section.contact-details .contact-left h2 {
+        font-size: 19px;
+    }
+
+    section.contact-details .contact-info p,
+    section.contact-details .contact-info a {
+        font-size: 13px;
+    }
+
+    section.contact-details .contact-info i {
+        font-size: 14px;
+    }
+
+    /* Reduce gaps */
+    section.contact-details .contact-info .info-box {
+        gap: 8px;
+    }
+
+    section.contact-details .email-group {
+        gap: 6px;
+    }
+}
