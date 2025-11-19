@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Products</title>
+    <title>All Products</title>
     <!-- favicon -->
     <link rel="icon" href="./images/arwa-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/product-common.css">
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/hero-section.css">
-
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/product-details.css">
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -36,7 +34,7 @@
             <nav class="nav-menu" id="navMenu">
                 <ul>
                     <li class="nav-item"><a href="./index.html">Home</a></li>
-                    <li class="nav-item"><a href="./product.html" class="active">Products</a></li>
+                    <li class="nav-item"><a href="./product.html">Products</a></li>
                     <li class="nav-item"><a href="./about.html">About Us</a></li>
                     <li class="nav-item"><a href="./installation.html">Installation</a></li>
                     <li class="nav-item"><a href="./blog.html">Blog</a></li>
@@ -59,52 +57,97 @@
     </header>
 
     <!-- product hero section -->
-    <section class="contact-hero-section">
-        <h1>Our Products</h1>
-        <img src="./images/hero-shape.png" alt="" class="hero-overlay-img" draggable="false">
-    </section>
-
-    <!-- Top Seller Products Section -->
-    <section class="top-section">
-        <h2 class="title">Top Seller Products</h2>
-
-        <div class="top-main container">
-
-            <!-- LEFT SIDEBAR -->
-            <div class="top-left">
-                <div class="sidebar-box">
-                    <h3>Product Categories</h3>
-
-                    <ul class="category-list" id="categoryTabs">
-                        <!-- Dynamically filled OR keep as static -->
-                        <li class="category-item active" data-category="all">All Products <span class="badge">20</span>
-                        </li>
-                        <li class="category-item" data-category="arc">ARC Welder <span class="badge">8</span></li>
-                        <li class="category-item" data-category="mig">MIG Welder <span class="badge">4</span></li>
-                        <li class="category-item" data-category="tig">TIG Welder <span class="badge">6</span></li>
-                        <li class="category-item" data-category="transformer">Transformer Series <span
-                                class="badge">3</span></li>
-                        <li class="category-item" data-category="accessories">Accessories <span class="badge">5</span>
-                        </li>
-                    </ul>
+    <section class="product-hero">
+        <div class="container">
+            <div class="product-hero-main">
+                <div class="product-hero-content">
+                    <h2>MIG Welding Equipment</h2>
+                    <p>MIG (GMAW) welding is versatile & popular for everything from auto body to fabrication
+                        applications.</p>
                 </div>
-
-                <div class="help-box">
-                    <h4>Need Help?</h4>
-                    <p>Have questions or need product guidance?<br>Our team is here to assist you.</p>
-                    <button class="btn-contact">Contact Us</button>
+                <div class="product-hero-img">
+                    <img src="./images/product-hero-right.webp" alt="">
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- RIGHT PRODUCT GRID -->
-            <div class="top-right">
-                <div class="product-grid" id="productGrid">
-                    <!-- JS will insert product boxes here -->
+    <!-- product view section -->
+    <section class="product-details">
+        <div class="container product-wrapper">
+
+            <!-- LEFT SIDE IMAGES -->
+            <div class="left-col">
+                <div class="left-small">
+                    <div class="thumbs">
+                        <div class="thumb-box active">
+                            <img src="./images/product-in.png" onclick="changeImage(this)">
+                        </div>
+                        <div class="thumb-box">
+                            <img src="./images/product-in.png" onclick="changeImage(this)">
+                        </div>
+                        <div class="thumb-box">
+                            <img src="./images/product-in.png" onclick="changeImage(this)">
+                        </div>
+                        <div class="thumb-box">
+                            <img src="./images/product-in.png" onclick="changeImage(this)">
+                        </div>
+
+                    </div>
                 </div>
+
+                <!-- Main Image -->
+                <div class="main-image-box">
+                    <img id="mainImage" src="./images/product-main.png" alt="">
+                    <p class="zoom-hint"><i class="fa-brands fa-searchengin"></i> Click image to zoom</p>
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE DETAILS -->
+            <div class="right-col">
+
+                <h1 class="product-title">ARWA 400 IJ MIG Welder</h1>
+                <p class="sku">1234567</p>
+
+                <div class="rating-box">
+                    <span class="stars"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></span>
+                    <span class="rating-number">4.8</span>
+                </div>
+
+                <p class="short-desc">
+                    MIG and flux cored 120 V welder that welds from 24 gauge – 3/16 in. mild steel.
+                </p>
+
+                <div class="select-header">
+                    <h3>Select One</h3>
+                    <a href="#">Compare</a>
+                </div>
+
+                <div class="compare-box-wrapper">
+                    <div class="compare-box selected">
+                        <img src="./images/product-in.png" alt="">
+                        <h4>Machine Only</h4>
+                        <p>254285</p>
+                    </div>
+
+                    <div class="compare-box">
+                        <img src="./images/product-in.png" alt="">
+                        <h4>Running Gear / Cylinder Rack</h4>
+                        <p>254286</p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </section>
+
+
 
     <!-- Footer Section -->
     <footer class="footer">
@@ -227,8 +270,7 @@
     </footer>
 
     <script src="./js/navbar.js"></script>
-    <script src="./js/product-common.js"></script>
-
+    <script src="./js/home.js"></script>
 </body>
 
 </html>

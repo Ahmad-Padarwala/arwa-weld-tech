@@ -58,7 +58,7 @@ function renderProducts(category) {
             <div class="product-bottom">
                 <h4>${product.name}</h4>
                 <p>${product.desc}</p>
-                <a href="#" class="btn-view">View Details</a>
+                <a href="./product-details.html" class="btn-view">View Details</a>
             </div>
         </div>
     `).join("");

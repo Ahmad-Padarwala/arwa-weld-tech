@@ -18,6 +18,12 @@ body {
     font-family: var(--font1);
 }
 
+input,
+textarea,
+select {
+    font-family: var(--font1);
+}
+
 
 /* container css */
 .container {
@@ -144,11 +150,6 @@ header .logo img {
     transition: all 0.3s ease;
 }
 
-header .logo:hover img {
-    transform: scale(1.05);
-    opacity: 0.9;
-}
-
 /* ======= MENU ITEMS ========== */
 
 header nav.nav-menu {
@@ -240,7 +241,7 @@ header nav.nav-menu .nav-item a:hover {
         top: 70px;
         left: 0;
         width: 100%;
-        background: #ffffff;
+        background: var(--color-white);
         height: 0;
         overflow: hidden;
         transition: height 0.4s ease;
@@ -272,7 +273,7 @@ header nav.nav-menu .nav-item a:hover {
         width: 100%;
         height: 0;
         overflow: hidden;
-        background: #fff;
+        background: var(--color-white);
         transition: all 0.4s ease;
     }
 
@@ -295,9 +296,7 @@ header nav.nav-menu .nav-item a:hover {
     .hamburger {
         display: block;
     }
-}
 
-@media (max-width: 900px) {
     header .logo img {
         height: 41px;
     }
