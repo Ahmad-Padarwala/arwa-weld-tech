@@ -85,7 +85,7 @@ section.contact-form-section .submit-row {
 
 /* Contact Details */
 section.contact-details {
-    background: #F7F7F7;
+    /* background: #F7F7F7; */
     padding: 10px 0;
 }
 
@@ -94,6 +94,9 @@ section.contact-details .contact-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    background: #F7F7F7;
+    border-radius: 8px;
+    padding: 10px 12px;
     align-items: center;
 }
 
@@ -148,6 +151,8 @@ section.contact-details .contact-main .contact-left .contact-info .email-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
+    margin-bottom: 6px;
+    margin-top: 4px;
 }
 
 /* Each email box */
@@ -165,12 +170,8 @@ section.contact-details .contact-main .contact-left .contact-info .email-group .
 section.contact-details .contact-main .contact-left .contact-info .email-group .email-box a {
     text-decoration: none;
     color: #333;
-    font-weight: 500;
+    font-weight: 600;
     white-space: nowrap;
-}
-
-section.contact-details .contact-main .contact-left .contact-info .email-group .email-box a:hover {
-    text-decoration: underline;
 }
 
 section.contact-details .contact-main .contact-left .contact-info .call-group {
