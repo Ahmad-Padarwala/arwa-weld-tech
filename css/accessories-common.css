@@ -1,0 +1,89 @@
+/* ------------ ACCESSORIES , CONSUMABLES , RESOURCES Common ----------- */
+
+section.tab-content-wrapper .tab-content .accessories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+section.tab-content-wrapper .tab-content .accessories-grid .acc-card {
+    background: #fff;
+    padding-bottom: 15px;
+}
+
+section.tab-content-wrapper .tab-content .accessories-grid .acc-card img {
+    width: 100%;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+section.tab-content-wrapper .tab-content .accessories-grid .acc-card h4 {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0056b3;
+    cursor: pointer;
+}
+
+section.tab-content-wrapper .tab-content .accessories-grid .acc-card h4:hover {
+    text-decoration: underline;
+}
+
+section.tab-content-wrapper .tab-content .accessories-grid .acc-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+section.tab-content-wrapper .tab-content .acc-buttons {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+section.tab-content-wrapper .tab-content .acc-buttons .btn-load {
+    background: #f5c542;
+    border: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+section.tab-content-wrapper .tab-content .acc-buttons .btn-viewall {
+    background: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+section.tab-content-wrapper .tab-content .acc-buttons .btn-load:hover,
+section.tab-content-wrapper .tab-content .acc-buttons .btn-viewall:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 992px) {
+    section.tab-content-wrapper .tab-content .accessories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    section.tab-content-wrapper .tab-content .accessories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section.tab-content-wrapper .tab-content .acc-buttons .acc-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
