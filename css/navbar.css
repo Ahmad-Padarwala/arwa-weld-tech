@@ -163,22 +163,43 @@ header nav.nav-menu ul {
 }
 
 header nav.nav-menu .nav-item a {
+    position: relative;
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: 400;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
-header nav.nav-menu .nav-item a.active {
-    color: var(--color-primary);
-    font-weight: 400;
-    position: relative;
+header nav.nav-menu .nav-item a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    border-radius: 10px;
+    background: var(--color-primary);
+    transition: width 0.3s ease;
 }
 
 header nav.nav-menu .nav-item a:hover {
     color: var(--color-primary);
 }
+
+header nav.nav-menu .nav-item a:hover::after {
+    width: 100%;
+}
+
+/* Active link */
+header nav.nav-menu .nav-item a.active {
+    color: var(--color-primary);
+}
+
+/* header nav.nav-menu .nav-item a.active::after {
+    width: 100%;
+} */
+
 
 /* ========  HAMBURGER MENU ============== */
 

@@ -333,12 +333,6 @@ section.industry .indusry-main .indusry-video .machine-play i:hover {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-
-    /* section.industry .indusry-main .indusry-video .machine-play i {
-        width: 55px;
-        height: 55px;
-        font-size: 20px;
-    } */
 }
 
 @media (max-width: 480px) {
