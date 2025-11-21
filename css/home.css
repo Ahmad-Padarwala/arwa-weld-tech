@@ -435,12 +435,13 @@ section.hero .hero-main .hero-subtitle {
 
 /* Who We Are Section */
 section.who .who-title {
-    text-align: center;
     margin-top: 18px;
-    text-transform: uppercase;
-    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    font-size: 2rem;
     font-weight: 600;
-    color: var(--color-black);
+    text-align: center;
+    width: 100%;
 }
 
 /* Who Grid */
@@ -460,11 +461,11 @@ section.who .vision-p {
 
 section.who h3 {
     font-size: 2rem;
+    font-weight: 500;
     color: var(--color-black);
     line-height: 1.3;
 }
 
-/* Vision / Goal Section */
 section.who .vision-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -544,6 +545,10 @@ section.who .vision-box p {
     section.who .vision-box {
         margin-top: 15px;
         padding: 22px;
+    }
+
+    section.who .who-title {
+        font-size: 1.6rem;
     }
 }
 
