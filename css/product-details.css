@@ -467,7 +467,6 @@ section.product-tab-section .custom-tabs {
     justify-content: center;
     border-bottom: 2px solid #e4e4e4;
     scrollbar-width: none;
-    /* -ms-overflow-style: none; */
 }
 
 section.product-tab-section .custom-tabs::-webkit-scrollbar {
@@ -530,7 +529,7 @@ section.product-tab-section .custom-tabs .tab.active::before {
 @media (max-width: 900px) {
     section.product-tab-section .custom-tabs {
         gap: 22px;
-        justify-content: center;
+        justify-content: start;
     }
 
     section.product-tab-section .custom-tabs .tab:not(:last-child)::after {
@@ -540,16 +539,16 @@ section.product-tab-section .custom-tabs .tab.active::before {
 
 @media (max-width: 600px) {
     section.product-tab-section .custom-tabs {
-        gap: 18px;
+        gap: 30px;
     }
 
     section.product-tab-section .custom-tabs .tab {
         padding: 8px 0;
-        font-size: clamp(12px, 3vw, 15px);
+        font-size: clamp(15px, 3vw, 15px);
     }
 
     section.product-tab-section .custom-tabs .tab:not(:last-child)::after {
-        right: -8px;
+        right: -15px;
     }
 }
 

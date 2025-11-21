@@ -291,17 +291,101 @@ section.corporate-section .culture-grid .culture-card p {
 
 /* Responsive */
 @media (max-width: 992px) {
-   section.corporate-section .culture-grid {
+    section.corporate-section .culture-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 576px) {
-   section.corporate-section .culture-grid {
+    section.corporate-section .culture-grid {
         grid-template-columns: 1fr;
     }
 
     section.corporate-section .section-title {
         font-size: 28px;
+    }
+}
+
+/*  FAQ Section  */
+section.faq-section {
+    padding: 50px 0;
+    background-color: var(--color-primary);
+}
+
+section.faq-section .faq-container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+section.faq-section .faq-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+section.faq-section .faq-container .faq-item {
+    border-bottom: 1px solid var(--color-white);
+    padding: 10px 0;
+}
+
+section.faq-section .faq-container .faq-item .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    color: var(--color-white);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+section.faq-section .faq-container .faq-item .faq-question .icon {
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+section.faq-section .faq-container .faq-item .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    color: var(--color-white);
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0 0;
+}
+
+section.faq-section .faq-container .faq-item .faq-answer p {
+    margin: 10px 0;
+}
+
+section.faq-section .faq-container .faq-item.active .faq-answer {
+    max-height: 200px;
+    padding: 10px 0;
+}
+
+section.faq-section .faq-container .faq-item.active .faq-question .icon {
+    transform: rotate(180deg);
+    content: "–";
+}
+
+@media screen and (max-width: 789px) {
+    section.faq-section .faq-title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    section.faq-section .faq-container .faq-item .faq-question {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    section.faq-section .faq-container .faq-item .faq-answer p {
+        font-size: 0.9rem;
+        margin: 0;
     }
 }
