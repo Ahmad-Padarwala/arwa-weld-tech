@@ -747,3 +747,4 @@ colorDots.forEach(dot => {
     dot.classList.add("active");
   });
 });
+
