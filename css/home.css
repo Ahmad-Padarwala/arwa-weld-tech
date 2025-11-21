@@ -53,8 +53,6 @@ section.hero .hero-main .hero-subtitle {
     line-height: 1.6;
 }
 
-/* ===========  Responsive ================= */
-
 /* Tablet */
 @media (max-width: 768px) {
     section.hero .hero {
@@ -294,11 +292,6 @@ section.hero .hero-main .hero-subtitle {
         /* flex-direction:row; */
         gap: 10px;
     }
-
-    /* 
-    .about-section .about-main .about-content .about-right .info-box {
-        width: 100%;
-    } */
 }
 
 /* service section */
@@ -1036,3 +1029,4 @@ section.reels-section .video-item:hover video {
         border-radius: 10px;
     }
 }
+
