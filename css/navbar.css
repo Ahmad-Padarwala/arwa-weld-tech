@@ -16,6 +16,7 @@
 
 body {
     font-family: var(--font1);
+    overflow-x: hidden;
 }
 
 input,
@@ -117,21 +118,13 @@ select {
 }
 
 
-/* ============ NAVBAR MAIN =========== */
-
+/* ======== NAVBAR MAIN ======== */
 header {
     position: sticky;
     top: 0;
     z-index: 1000;
     background: var(--color-white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-bottom: 1px solid #ddd;
-}
-
-header .navbar {
-    width: 100%;
-    background: #ffffff;
-    border-bottom: 1px solid #ddd;
 }
 
 header .nav-container {
@@ -141,37 +134,53 @@ header .nav-container {
     height: 70px;
 }
 
-/* ====== LOGO ======= */
-
+/* ====== LOGO ====== */
 header .logo img {
     height: 45px;
     width: auto;
-    object-fit: contain;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
-/* ======= MENU ITEMS ========== */
-
-header nav.nav-menu {
+/* ====== DESKTOP MENU ====== */
+header nav {
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 header nav.nav-menu ul {
     display: flex;
     gap: 30px;
+    align-items: center;
+    height: 100%;
     list-style: none;
 }
 
-header nav.nav-menu .nav-item a {
+header nav.nav-menu li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header nav.nav-menu li a {
     position: relative;
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-weight: 400;
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 
-header nav.nav-menu .nav-item a::after {
+/* header nav.nav-menu a:hover,
+header nav.nav-menu a.active {
+    color: var(--color-primary);
+} */
+
+/* header nav.nav-menu a:hover::after,
+header nav.nav-menu a.active::after {
+    width: 100%;
+} */
+
+header nav.nav-menu a::after {
     content: "";
     position: absolute;
     bottom: -3px;
@@ -196,20 +205,15 @@ header nav.nav-menu .nav-item a.active {
     color: var(--color-primary);
 }
 
-/* header nav.nav-menu .nav-item a.active::after {
-    width: 100%;
-} */
+/* header nav.nav-menu .nav-item a.active::after { width: 100%; } */
 
-
-/* ========  HAMBURGER MENU ============== */
-
+/* ====== HAMBURGER ====== */
 .hamburger {
     width: 32px;
     height: 24px;
     position: relative;
     display: none;
     cursor: pointer;
-    z-index: 2000;
 }
 
 .hamburger span {
@@ -219,7 +223,7 @@ header nav.nav-menu .nav-item a.active {
     background-color: var(--color-primary);
     border-radius: 3px;
     left: 0;
-    transition: all 0.35s ease;
+    transition: 0.35s ease;
 }
 
 .hamburger span:nth-child(1) {
@@ -240,93 +244,341 @@ header nav.nav-menu .nav-item a.active {
 
 .hamburger.active span:nth-child(2) {
     opacity: 0;
-    transform: scaleX(0);
 }
 
 .hamburger.active span:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-/* ===========================  MOBILE MENU ========================= */
+/* ---------------- MEGA MENU ------------------ */
+header nav.nav-menu .dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    display: flex;
+    background: #fff;
+    width: 85vw;
+    max-width: 1200px;
+    max-height: 60vh;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    transform: translateX(-35%) translateY(-15px);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.45s ease-out,
+        transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
 
-@media (max-width: 900px) {
+header nav.nav-menu .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
 
-    /* show hamburger */
-    .hamburger {
-        display: block;
-    }
+/* Scrollable Columns */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar,
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
+    max-height: 60vh;
+    height: 400px;
+    overflow-y: auto;
+}
 
-    /* Mobile dropdown menu */
-    nav.nav-menu {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: var(--color-white);
-        height: 0;
-        overflow: hidden;
-        transition: height 0.4s ease;
-        border-bottom: 1px solid #ddd;
-        z-index: 1500;
-    }
+/* Scrollbar Styling */
+header nav.nav-menu .dropdown .dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
 
-    /* When open */
-    nav.nav-menu.open {
-        height: 260px;
-    }
+header nav.nav-menu .dropdown .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
 
-    /* Vertical list */
-    nav.nav-menu ul {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px;
-        align-items: flex-start;
+/* ---------------- SIDEBAR ------------------ */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar {
+    background: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 12px;
+    height: 100%;
+    width: 280px;
+    overflow-y: scroll;
+    border-radius: 0 0 0 10px;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card {
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card.active,
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+/* ---------------- RIGHT CONTENT ------------------ */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
+    flex: 1;
+    padding: 20px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Hide other tabs initially */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-content {
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    position: absolute;
+    inset: 2px 7px;
+    padding: 2px 7px;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-content.active {
+    opacity: 1;
+    transform: translateY(-15px);
+    pointer-events: auto;
+}
+
+/* Swiper card layouts */
+.one-content.swiper:not(.no-swiper) .swiper-wrapper {
+    display: flex !important;
+}
+
+.one-content.no-swiper .swiper-wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+
+/* ---------------- PRODUCT CARDS ------------------ */
+.dropdown-content .content-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    color: #000;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.25s ease, transform 0.25s ease, scale 0.25s ease;
+    position: relative;
+}
+
+/* Show animated product cards */
+header .dropdown-content.active .content-card {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+/* Hover effect refined */
+header .dropdown-content .content-card:hover {
+    scale: 1.05;
+    z-index: 10;
+}
+
+/* Product Image */
+header .dropdown-content .content-card img {
+    width: 180px;
+    height: 220px;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Smooth floating image */
+header .dropdown-content .content-card:hover img {
+    transform: translateY(-6px);
+}
+
+/* Text Style */
+header .content-card .title {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+header .content-card .description {
+    font-size: 14px;
+    max-width: 250px;
+    text-align: center;
+    opacity: 0.85;
+    margin-top: 8px;
+    transition: color 0.3s ease;
+}
+
+/* Text hover color */
+header .content-card:hover .title,
+header .content-card:hover .description {
+    color: var(--color-primary);
+}
+
+
+/* ---------------- NAVIGATION BUTTONS ------------------ */
+header .custom-prev,
+header .custom-next {
+    color: var(--color-primary);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.3s ease;
+}
+
+header .custom-prev i {
+    position: absolute;
+    left: -7px;
+}
+
+header .custom-next i {
+    position: absolute;
+    right: -7px;
+}
+
+header .custom-prev i,
+header .custom-next i {
+    font-size: 18px;
+}
+
+/* Hide default arrow icons */
+.swiper-button-next,
+.swiper-button-prev svg {
+    display: none !important;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1200px) {
+    header nav.nav-menu .dropdown .dropdown-menu .swiper-wrapper {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* ---------------------- RESPONSIVE ---------------------- */
-
-@media (max-width: 900px) {
-    header nav.nav-menu {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-        background: var(--color-white);
-        transition: all 0.4s ease;
-    }
-
-    header nav.nav-menu.open {
-        height: 220px;
-    }
-
-    header nav.nav-menu ul {
-        flex-direction: column;
-        padding: 10px 20px;
-        gap: 15px;
-    }
-
-    .nav-menu.nav-btn {
-        display: flex;
-        flex-direction: column;
+@media (max-width: 768px) {
+    header nav.nav-menu .dropdown .dropdown-menu .swiper-wrapper {
+        display: flex !important;
         gap: 20px;
     }
 
-    .hamburger {
-        display: block;
-    }
-
-    header .logo img {
-        height: 41px;
+    header .content-card img {
+        width: 180px;
     }
 }
 
 @media (max-width: 480px) {
+    header .content-card img {
+        width: 150px;
+    }
+
+    header .content-card .title {
+        font-size: 16px;
+    }
+}
+
+
+/* ====== SEPARATE MOBILE MENU ====== */
+.mobile-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--color-white);
+    border-top: 1px solid #ddd;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s ease;
+    z-index: 900;
+}
+
+.mobile-menu.show {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-menu ul {
+    padding: 15px;
+    list-style: none;
+}
+
+.mobile-menu ul li a {
+    display: block;
+    padding: 12px 0;
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+}
+
+.mobile-menu ul li a:hover {
+    color: var(--color-primary);
+}
+
+/* extra contact button style */
+.mobile-menu .mobile-contact a {
+    color: #fff;
+    background: var(--color-primary);
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:900px) {
+
+    nav.nav-menu,
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width:480px) {
     header .logo img {
-        height: 36px;
-        margin-top: 5px;
-        width: auto;
+        height: 38px;
     }
 }
