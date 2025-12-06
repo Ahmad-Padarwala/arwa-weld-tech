@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (items > 3) {
 
-            const slidesPerRow = 3; // 👈 visible cards limit
+            const slidesPerRow = 3; 
 
             const swiper = new Swiper(dropdown, {
                 slidesPerView: slidesPerRow,
