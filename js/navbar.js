@@ -14,6 +14,7 @@ links.forEach(link => {
 });
 
 
+// Dropdown
 document.addEventListener("DOMContentLoaded", () => {
 
     const tabs = document.querySelectorAll('.dropdown-sidebar .sidebar-card');
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (items > 3) {
 
-            const slidesPerRow = 3; 
+            const slidesPerRow = 3;
 
             const swiper = new Swiper(dropdown, {
                 slidesPerView: slidesPerRow,
@@ -49,9 +50,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             dropdown.swiper = swiper;
 
-            // 👇 Function to disable at real last index
+            //  Function to disable at real last index
             function limitButtons(sw) {
-                const maxIndex = items - slidesPerRow; // 👈 custom limit
+                const maxIndex = items - slidesPerRow; //  custom limit
 
                 // Disable/Enable prev
                 if (sw.activeIndex <= 0) {
@@ -75,29 +76,38 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+
     // ====== Sidebar Hover Switch ======
     tabs.forEach(tab => {
         tab.addEventListener('mouseenter', () => {
 
+            // Highlight active tab
             tabs.forEach(c => c.classList.remove('active'));
             tab.classList.add('active');
 
+            // Switch content with smooth animation
             contents.forEach(content => content.classList.remove('active'));
             const target = tab.getAttribute('data-target');
             const activeContent = document.getElementById(target);
-            activeContent.classList.add('active');
 
-            // reset swiper index & buttons
-            if (activeContent.swiper) {
+            // Wait small delay to sync with animation (optional, makes smoother)
+            setTimeout(() => activeContent.classList.add('active'), 50);
+
+            // RESET swiper if exists
+            if (activeContent && activeContent.swiper) {
+
+                // Slide to first item without animation
                 activeContent.swiper.slideTo(0, 0);
 
                 const nextBtn = activeContent.querySelector(".swiper-button-next");
                 const prevBtn = activeContent.querySelector(".swiper-button-prev");
 
-                prevBtn.classList.add("swiper-button-disabled");
-                nextBtn.classList.remove("swiper-button-disabled");
+                // Reset navigation buttons safely
+                if (prevBtn) prevBtn.classList.add("swiper-button-disabled");
+                if (nextBtn) nextBtn.classList.remove("swiper-button-disabled");
             }
+
         });
     });
-
 });
+

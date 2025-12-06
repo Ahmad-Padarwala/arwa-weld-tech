@@ -16,7 +16,6 @@
 
 body {
     font-family: var(--font1);
-    overflow-x: hidden;
 }
 
 input,
@@ -24,7 +23,6 @@ textarea,
 select {
     font-family: var(--font1);
 }
-
 
 /* container css */
 .container {
@@ -241,6 +239,35 @@ header nav.nav-menu .nav-item a.active {
 }
 
 /* ---------------- MEGA MENU ------------------ */
+/* header nav.nav-menu .dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    display: flex;
+    background: #fff;
+    width: 85vw;
+    max-width: 1200px;
+    max-height: 60vh;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    transform: translateX(-50%) translateY(-15px); 
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.45s ease-out,
+        transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+header nav.nav-menu .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0); 
+} */
+
+/* ---------------- MEGA MENU ------------------ */
 header nav.nav-menu .dropdown .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -255,25 +282,31 @@ header nav.nav-menu .dropdown .dropdown-menu {
     border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     z-index: 9999;
-    transform: translateX(-35%) translateY(-15px);
+
+    /* 👇 Hidden state (higher position & lighter scale) */
+    transform: translateX(-50%) translateY(-25px) scale(0.98);
     opacity: 0;
     visibility: hidden;
+
     transition:
         opacity 0.45s ease-out,
-        transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 header nav.nav-menu .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-    transform: translateX(-50%) translateY(0);
+
+    /* 👇 Final state (center + normal scale) */
+    transform: translateX(-50%) translateY(0) scale(1);
 }
+
 
 /* Scrollable Columns */
 header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar,
 header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
     max-height: 60vh;
-    height: 400px;
+    height: 380px;
     overflow-y: auto;
 }
 
@@ -300,6 +333,23 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar {
     border-radius: 0 0 0 10px;
 }
 
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card {
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.45s ease,
+        color 0.45s ease,
+        transform 0.35s ease;
+}
+
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card.active,
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card:hover {
+    background-color: #fff;
+    color: #000;
+    transform: translateX(2px);
+}
+
 header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar::-webkit-scrollbar-track {
     background-color: transparent;
 }
@@ -314,19 +364,6 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar::-webkit-scrollba
     border-radius: 10px;
 }
 
-header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card {
-    color: #fff;
-    padding: 10px;
-    border-radius: 7px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card.active,
-header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card:hover {
-    background-color: #fff;
-    color: #000;
-}
 
 header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card h3 {
     font-size: 17px;
@@ -341,7 +378,7 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-sidebar .sidebar-card p {
 
 
 /* ---------------- RIGHT CONTENT ------------------ */
-header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
+/* header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
     flex: 1;
     padding: 20px 30px;
     position: relative;
@@ -349,7 +386,6 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
     background: #fff;
 }
 
-/* Hide other tabs initially */
 header nav.nav-menu .dropdown .dropdown-menu .dropdown-content {
     opacity: 0;
     transform: translateY(10px);
@@ -364,7 +400,37 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-content.active {
     opacity: 1;
     transform: translateY(-15px);
     pointer-events: auto;
+} */
+
+/* RIGHT CONTENT WRAPPER (No change needed here) */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
+    flex: 1;
+    padding: 20px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
 }
+
+/* DEFAULT HIDDEN STATE */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-content {
+    opacity: 0;
+    transform: translateY(40px) scale(0.92); /* deeper + smoother */
+    pointer-events: none;
+    position: absolute;
+    inset: 2px 7px;
+    padding: 2px 7px;
+    transition:
+        opacity 0.95s ease,
+        transform 1.05s cubic-bezier(0.22, 1, 0.36, 1); /* slower */
+}
+
+/* SMOOTH ACTIVE STATE */
+header nav.nav-menu .dropdown .dropdown-menu .dropdown-content.active {
+    opacity: 1;
+    transform: translateY(-10px) scale(1);
+    pointer-events: auto;
+}
+
 
 /* Swiper card layouts */
 .one-content.swiper:not(.no-swiper) .swiper-wrapper {
@@ -376,7 +442,6 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-content.active {
     grid-template-columns: repeat(3, minmax(220px, 1fr));
     gap: 30px;
 }
-
 
 /* ---------------- PRODUCT CARDS ------------------ */
 .dropdown-content .content-card {
