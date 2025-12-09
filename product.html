@@ -8,10 +8,9 @@
     <!-- favicon -->
     <link rel="icon" href="./images/arwa-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/product-common.css">
+    <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/hero-section.css">
-
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/footer.css">
 
     <!-- fontawesome -->
@@ -59,9 +58,15 @@
     </header>
 
     <!-- product hero section -->
-    <section class="contact-hero-section">
-        <h1>Our Products</h1>
-        <img src="./images/hero-shape.png" alt="" class="hero-overlay-img" draggable="false">
+    <section class="product-section">
+        <div class="container">
+            <div class="product-content">
+                <h2>Our Products</h2>
+                <p>amet consectetur. Dictumst augue urna facilisi penatibus mauris. Dictumst augue urna facilisi
+                    penatibus
+                    mauris urna facilisi penatibus mauris.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Top Seller Products Section -->
@@ -76,15 +81,99 @@
                     <h3>Product Categories</h3>
 
                     <ul class="category-list" id="categoryTabs">
-                        <!-- Dynamically filled OR keep as static -->
-                        <li class="category-item active" data-category="all">All Products <span class="badge">20</span>
+
+                        <!-- ARC DROPDOWN (LEVEL-1) -->
+                        <li class="category-item has-dropdown" data-category="ARC SERIES">
+                            ARC SERIES <span>(8)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    SINGLE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>ARC 200-IGOLD</li>
+                                        <li>ARC 250-IGOLD</li>
+                                        <li>ARC 250 IJ-S</li>
+                                        <li>ARC 300 IJ-S</li>
+                                    </ul>
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    1+2 PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>ARC 200 ST</li>
+                                        <li>ARC 250 ST</li>
+                                        <li>ARC 300 ST</li>
+                                    </ul>
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    1+2+3 PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>ARC 400 ST</li>
+                                    </ul>
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    THREE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>ARC 300 IJ-T</li>
+                                        <li>ARC 400-ULTRA</li>
+                                        <li>ARC 400-IJ</li>
+                                        <li>ARC 630-IJ</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
                         </li>
-                        <li class="category-item" data-category="arc">ARC Welder <span class="badge">8</span></li>
-                        <li class="category-item" data-category="mig">MIG Welder <span class="badge">4</span></li>
-                        <li class="category-item" data-category="tig">TIG Welder <span class="badge">6</span></li>
-                        <li class="category-item" data-category="transformer">Transformer Series <span
-                                class="badge">3</span></li>
-                        <li class="category-item" data-category="accessories">Accessories <span class="badge">5</span>
+
+                        <!-- MIG -->
+                        <li class="category-item has-dropdown" data-category="MIG SERIES">
+                            MIG SERIES <span>(8)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    THREE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>MIG 300-IJ</li>
+                                        <li>MIG 400-IJ</li>
+                                        <li>MIG 630-IJ</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- TIG -->
+                        <li class="category-item has-dropdown" data-category="TIG SERIES">
+                            TIG SERIES <span>(8)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    SINGLE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>TIG 250 IJ-S</li>
+                                        <li>TIG 300 IJ-S</li>
+                                    </ul>
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    THREE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>TIG 300 IJ-T</li>
+                                        <li>TIG 400-IJ</li>
+                                        <li>TIG 630-IJ</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- CUT -->
+                        <li class="category-item has-dropdown" data-category="CUT SERIES">
+                            CUT SERIES <span>(8)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    THREE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>CUT-100 LGK</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -98,11 +187,103 @@
 
             <!-- RIGHT PRODUCT GRID -->
             <div class="top-right">
-                <div class="product-grid" id="productGrid">
-                    <!-- JS will insert product boxes here -->
-                </div>
+                <div class="product-grid" id="productGrid"></div>
             </div>
 
+        </div>
+    </section>
+
+    <!-- corporate section -->
+    <section class="corporate-section">
+        <h2 class="section-title">Corporate Culture</h2>
+
+        <div class="culture-grid container">
+
+            <div class="culture-card">
+                <div class="icon"><i class="fa-solid fa-award"></i></div>
+                <h3>ENTERPRISE MISSION</h3>
+                <p>Do specialized fine, guide the industry to develop upward</p>
+            </div>
+
+            <div class="culture-card">
+                <div class="icon"><i class="fas fa-gem"></i>
+                </div>
+                <h3>CORPORATE VALUES</h3>
+                <p>Pragmatic, efficient, professional, innovative and win-win</p>
+            </div>
+
+            <div class="culture-card">
+                <div class="icon"><i class="fas fa-dove"></i>
+                </div>
+                <h3>CORPORATE VISION</h3>
+                <p>Committed to becoming an excellent global supplier of welding equipment</p>
+            </div>
+
+            <div class="culture-card">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <h3>TALENT VIEW</h3>
+                <p>To provide employees with material wealth and spiritual value at the same time to make
+                    contributions to society</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is ARWA Weld Technologies? <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>CodePen is an online community for testing and showcasing HTML, CSS, and JavaScript code
+                            snippets.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is CodePen free to use? <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, CodePen has a free plan with many features, and a Pro plan with advanced capabilities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I share my pens? <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can share your pens with a unique URL or embed them into your website.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Why is responsive design important? <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Responsive design ensures your website looks and functions well on all devices, improving
+                            user
+                            experience and SEO rankings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the key principles of UI/UX design? <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Clarity, consistency, accessibility, and visual hierarchy are essential principles to create
+                            intuitive and user-friendly interfaces.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -227,7 +408,8 @@
     </footer>
 
     <script src="./js/navbar.js"></script>
-    <script src="./js/product-common.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/product.js"></script>
 
 </body>
 

@@ -1,3 +1,60 @@
+/* blog Section */
+section.blog-section {
+    width: 100%;
+    padding: 100px 0;
+    background-image: url('../images/blog-hero-shape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+/* Dark overlay */
+section.blog-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Content */
+section.blog-section .blog-content {
+    position: relative;
+    color: var(--color-white);
+    transform: scaleX(-1);
+}
+
+section.blog-section .blog-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section.blog-section .blog-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 620px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section.blog-section .blog-content h2 {
+        font-size: 26px;
+    }
+
+    section.blog-section .blog-content p {
+        font-size: 14px;
+    }
+
+    section.blog-section {
+        padding: 60px 15px;
+    }
+}
+
 /* Feature Section */
 section.feature-section {
     padding: 30px 0;
