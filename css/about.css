@@ -1,9 +1,230 @@
+/* about hero section */
+.about-hero-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #006aff, #344D8B, #006aff) -100%/ 200%;
+    animation: shimmer 2s linear infinite;
+}
+
+.about-hero-container .image-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr);
+    perspective: 1200px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.about-hero-container .image-grid::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(top bottom,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    position: absolute;
+    z-index: 2;
+}
+
+.about-hero-container .grid-cell {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .3s ease-in-out;
+}
+
+.about-hero-container .grid-cell.flip {
+    transform: rotateY(180deg);
+}
+
+.about-hero-container .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-size: calc(100% * var(--cols)) calc(100% * var(--rows));
+    background-repeat: no-repeat;
+}
+
+.about-hero-container .front {
+    transform: rotateY(0deg);
+}
+
+.about-hero-container .back {
+    transform: rotateY(180deg);
+}
+
+.about-hero-container .content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 3;
+}
+
+.about-hero-container .content-container h1 {
+    font-size: 8rem;
+}
+
+.about-hero-container .content-container p {
+    font-size: 18px;
+    max-width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.loading-text {
+    place-self: center;
+    background: linear-gradient(135deg, #072959, #344D8B, #006aff) -100%/ 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: var(--font2);
+    color: transparent;
+
+    /* 🆕 White Border Stroke */
+ -webkit-text-stroke: 1.5px rgba(255,255,255,0.8);
+
+
+    animation: shimmer 2s linear infinite;
+}
+
+
+@keyframes shimmer {
+    to {
+        background-position: 100%;
+    }
+}
+
+/* solution start */
+.pr-solve-section,
+.vision-mission-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.pr-solve-section .pr-solve-title {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.pr-solve-section .solution-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 3rem;
+}
+
+.pr-solve-section .solution-grid .solution-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pr-solve-section .solution-grid .solution-card .solution-no {
+    font-size: 16px;
+    color: #0045e6;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.pr-solve-section .solution-grid .solution-card .solution-title {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pr-solve-section .solution-grid .solution-card .solution-text {
+    color: #373737;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .about-hero-container .content-container h1 {
+        font-size: 5rem;
+    }
+
+    .about-hero-container .content-container p {
+        font-size: 16px;
+        max-width: 70%;
+    }
+
+    .pr-solve-section,
+    .vision-mission-section {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .pr-solve-section .solution-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-hero-container .content-container h1 {
+        font-size: 3rem;
+    }
+
+    .about-hero-container {
+        height: calc(80vh - 70px);
+    }
+
+    .about-hero-container .content-container p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .pr-solve-section,
+    .vision-mission-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .pr-solve-section .pr-solve-title {
+        font-size: 1.6rem;
+        letter-spacing: 0;
+    }
+
+    .pr-solve-section .solution-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        margin-top: 1rem;
+    }
+
+    .pr-solve-section .solution-grid .solution-card {
+        padding: 10px;
+        gap: 6px;
+    }
+}
+
 /* About Section */
 section.about-section {
     position: relative;
 }
 
-/* GRID */
 section.about-section .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -138,7 +359,7 @@ section.about-section .about-three-part .info-box p {
 /* welding section */
 section.welding-section {
     background-color: var(--color-primary);
-    padding: 24px 0;
+    padding: 40px 0;
     margin-top: 20px;
     color: var(--color-white);
 }
@@ -148,13 +369,13 @@ section.welding-section .welding-grid {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
-    max-width: 1300px;
     margin: 0 auto;
 }
 
 section.welding-section .welding-left h1 {
     font-size: 2.8rem;
     font-weight: 600;
+    font-family: var(--font2);
     line-height: 1.2;
     color: var(--color-white);
 }
@@ -173,7 +394,7 @@ section.welding-section .img-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 section.welding-section .img-section .img-box {
@@ -244,11 +465,15 @@ section.corporate-section::before {
 }
 
 section.corporate-section .section-title {
-    text-align: center;
-    font-size: 36px;
-    color: var(--color-white);
-    margin-bottom: 40px;
+    font-size: 2rem;
+    font-family: var(--font2);
     font-weight: 700;
+    opacity: 0.9;
+    color: var(--color-white);
+    font-style: normal;
+    margin-bottom: 34px;
+    text-align: center;
+    width: 100%;
 }
 
 section.corporate-section .culture-grid {
@@ -318,10 +543,14 @@ section.faq-section .faq-container {
 }
 
 section.faq-section .faq-title {
-    text-align: center;
     font-size: 2rem;
+    font-family: var(--font2);
+    font-weight: 700;
     color: var(--color-white);
-    margin-bottom: 20px;
+    font-style: normal;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
 }
 
 section.faq-section .faq-container .faq-item {

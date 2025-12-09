@@ -99,8 +99,12 @@ section.hero .hero-main .hero-subtitle {
 
 .about-section .about-title {
     text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--color-primary);
+    font-style: normal;
     font-size: 30px;
-    font-weight: 600;
 }
 
 
@@ -171,11 +175,11 @@ section.hero .hero-main .hero-subtitle {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 26px;
 }
 
 .about-section .about-main .about-content .about-center h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -302,9 +306,12 @@ section.hero .hero-main .hero-subtitle {
 
 .service-section .title {
     font-size: 2rem;
-    font-weight: 600;
     color: var(--color-primary);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
+    margin: 12px 0;
     width: 100%;
 }
 
@@ -327,12 +334,37 @@ section.hero .hero-main .hero-subtitle {
     cursor: pointer;
     transition: flex 0.6s ease, background 0.5s ease;
     display: flex;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     background-image: url('../images/service1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: blur(2px);
+    opacity: 0.4;
+    transition: all 0.4s ease;
+}
+
+.service-section .service-content .service-card:hover {
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.service-section .service-content .service-card:not(.active) {
+    filter: blur(2px);
+    opacity: 0.9;
+    transition: all 0.4s ease;
+}
+
+.service-section .service-content .service-card.active {
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.service-section .service-content:hover .service-card.active {
+    filter: blur(0px);
+    opacity: 1;
 }
 
 /* DARK OVERLAY */
@@ -422,17 +454,16 @@ section.hero .hero-main .hero-subtitle {
     .service-section .service-content .service-card.active .service-left .service-icon img {
         width: 30px;
     }
-
 }
-
 
 /* Who We Are Section */
 section.who .who-title {
-    margin-top: 18px;
-    font-weight: 500;
-    color: var(--color-primary);
+    margin: 20px 0;
     font-size: 2rem;
-    font-weight: 600;
+    color: var(--color-primary);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     width: 100%;
 }
@@ -578,19 +609,25 @@ section.who .vision-box p {
     }
 }
 
-/* product section */
+/* -------------- product section ----------------- */
 section.product {
     margin-top: 20px;
-    padding: 25px 0;
+    padding: 20px 0;
     background-image: url("../images/product-bg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section.product h1 {
+section.product .title {
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
-    font-weight: 600;
+    margin: 12px 0;
+    width: 100%;
 }
 
 section.product p {
@@ -657,6 +694,41 @@ section.product .tab-panel.active {
     display: block;
 }
 
+/* PHASE TAB STYLE */
+section.product .tabs-phase {
+    display: flex;
+    gap: 10px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tab-phase {
+    flex: 1 1 0;
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.tab-phase:hover {
+    background: #f7f7f7;
+}
+
+.tab-phase.active {
+    background: #EFF6FF;
+    border-color: #0095FF;
+    color: #000;
+}
 
 /* SECOND TAB STYLE */
 section.product .tabs-two {
@@ -917,9 +989,7 @@ section.product .product-view .product-container .product-display .color-options
     }
 }
 
-
-
-/* Reels Section */
+/* ------------------ Reels Section ------------------- */
 section.reels-section {
     background:
         linear-gradient(rgba(255, 255, 255, 0.776), rgb(233, 234, 236)),
@@ -943,8 +1013,10 @@ section.reels-section .header {
 /* Title */
 section.reels-section .title {
     font-size: 2rem;
-    font-weight: 600;
     color: var(--color-primary);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
     width: 100%;
 }
@@ -1029,4 +1101,3 @@ section.reels-section .video-item:hover video {
         border-radius: 10px;
     }
 }
-
