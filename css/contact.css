@@ -29,7 +29,8 @@ section.contact-section .contact-content {
 }
 
 section.contact-section .contact-content h2 {
-    font-size: 36px;
+    font-size:40px;
+    font-family: var(--font2);
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -70,6 +71,8 @@ section.contact-form-section .custom-form {
 
 section.contact-form-section .custom-form h2 {
     text-align: center;
+    font-size: 30px;
+    font-family: var(--font2);
     margin-bottom: 30px;
 }
 
@@ -165,8 +168,9 @@ section.contact-details .contact-main .contact-left {
 }
 
 section.contact-details .contact-main .contact-left h2 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 500;
+    font-family: var(--font2);
     color: var(--color-black);
 }
 

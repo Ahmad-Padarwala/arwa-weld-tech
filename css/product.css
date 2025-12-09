@@ -29,8 +29,9 @@ section.product-section .product-content {
 }
 
 section.product-section .product-content h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
+    font-family: var(--font2);
     margin-bottom: 10px;
 }
 
