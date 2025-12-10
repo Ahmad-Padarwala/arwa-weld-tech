@@ -281,6 +281,7 @@ section.top-section .top-main .top-left .help-box h4 {
 section.top-section .top-main .top-left .help-box p {
     font-size: 0.9rem;
     line-height: 1.4;
+    color: var(--primary-light);
     margin-bottom: 15px;
 }
 
@@ -368,7 +369,7 @@ section.top-section .top-main .top-right .product-grid .product-box h4 {
 
 section.top-section .top-main .top-right .product-grid .product-box p {
     font-size: 0.9rem;
-    color: #333;
+    color: var(--text-grey);
     margin-bottom: 15px;
 }
 

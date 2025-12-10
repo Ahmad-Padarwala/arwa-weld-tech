@@ -172,12 +172,18 @@ section.hero .hero-main .hero-buttons {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid var(--color-white);
     text-decoration: none;
 }
 
-/* ============================
-   CENTER CONTENT
-============================ */
+.about-section .about-main .about-content .about-left .about-overlay .arrow-btn:hover {
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+}
+
+/* =======  CENTER CONTENT ========= */
 .about-section .about-main .about-content .about-center {
     flex: 1;
     display: flex;
@@ -220,7 +226,8 @@ section.hero .hero-main .hero-buttons {
     padding: 19px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.25),
+        0 2px 6px rgba(128, 128, 128, 0.15);
 }
 
 .about-section .about-main .about-content .about-right .info-box h3 {
@@ -232,7 +239,7 @@ section.hero .hero-main .hero-buttons {
 .about-section .about-main .about-content .about-right .info-box p {
     margin-top: 5px;
     font-size: 16px;
-    color: #444;
+    color: var(--text-grey);
 }
 
 /* Tablet */
@@ -543,7 +550,7 @@ section.who .vision-box h2 {
 
 section.who .vision-box p {
     font-size: 14px;
-    color: #555;
+    color: var(--text-grey);
     line-height: 1.6;
 }
 
