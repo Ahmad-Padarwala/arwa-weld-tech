@@ -470,12 +470,12 @@ header .custom-next {
 
 header .custom-prev i {
     position: absolute;
-    left: -7px;
+    left: -3px;
 }
 
 header .custom-next i {
     position: absolute;
-    right: -7px;
+    right: -3px;
 }
 
 header .custom-prev i,
