@@ -718,6 +718,8 @@ section.product .tabs-phase {
     width: 100%;
     margin-top: 10px;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     white-space: nowrap;
 }
 

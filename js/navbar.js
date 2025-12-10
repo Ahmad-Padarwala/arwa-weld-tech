@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (prevBtn) prevBtn.classList.add("swiper-button-disabled");
                 if (nextBtn) nextBtn.classList.remove("swiper-button-disabled");
             }
-
         });
     });
 });
@@ -143,11 +142,18 @@ document.querySelectorAll('.mobile-dropdown').forEach(drop => {
     });
 });
 
-// ===== CATEGORY DROPDOWN: ANY CLICK OPENS =====
-document.querySelectorAll('.mobile-category').forEach(cat => {
+// ===== CATEGORY DROPDOWN WITH AUTO CLOSE =====
+const categories = document.querySelectorAll(".mobile-category");
+
+categories.forEach(cat => {
     cat.addEventListener("click", e => {
         e.preventDefault();
         e.stopPropagation();
+
+        categories.forEach(other => {
+            if (other !== cat) other.classList.remove("active");
+        });
+
         cat.classList.toggle("active");
     });
 });
