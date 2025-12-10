@@ -91,7 +91,7 @@
 .footer .footer-main .footer-grid .footer-column h3 {
     font-size: 20px;
     margin-bottom: 15px;
-    color: #1a1a1a;
+    color:var(--text-dark);
 }
 
 .footer .footer-main .footer-grid .footer-column .footer-logo {
@@ -101,7 +101,7 @@
 
 .footer .footer-main .footer-grid .footer-column .company-tagline {
     font-size: 14px;
-    color: #333;
+    color: var(--text-grey);
     margin-bottom: 20px;
 }
 
@@ -134,7 +134,7 @@
 
 .footer .footer-main .footer-grid .footer-column .footer-links a {
     font-size: 15px;
-    color: #333;
+    color: var(--text-grey);
     text-decoration: none;
 }
 
@@ -163,25 +163,25 @@
 
 .footer .footer-main .footer-grid .footer-column .contact-item .contact-label {
     font-weight: 600;
-    color: var(--color-black);
+    color: var(--text-dark);
     margin-right: 4px;
 }
 
 .footer .footer-main .footer-grid .footer-column .contact-item .contact-text {
     font-size: 14px;
-    color: #333;
+    color: var(--text-grey);
     text-decoration: none;
 }
 
 .footer .footer-main .footer-grid .footer-column .contact-item .contact-location h4 {
     font-weight: 600;
-    color: var(--color-black);
+    color: var(--text-dark);
     margin-right: 4px;
 }
 
 .footer .footer-main .footer-grid .footer-column .contact-item .contact-location p {
     font-size: 14px;
-    color: #333;
+    color:var(--text-grey);
     text-decoration: none;
 }
 
