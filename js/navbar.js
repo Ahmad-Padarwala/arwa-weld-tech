@@ -1,13 +1,3 @@
-// // HAMBURGER MOBILE MENU OPEN/CLOSE
-// const hamburger = document.getElementById("hamburger");
-// const mobileMenu = document.getElementById("mobileMenu");
-
-// hamburger?.addEventListener("click", () => {
-//     hamburger.classList.toggle("active");
-//     mobileMenu.classList.toggle("show");
-//     document.body.classList.toggle("menu-open");
-// });
-
 // Highlight active link
 const links = document.querySelectorAll(".mobile-menu a, .nav-menu a");
 const currentPage = window.location.pathname.split("/").pop();

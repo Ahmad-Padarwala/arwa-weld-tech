@@ -1,4 +1,4 @@
-/* hero section */
+/* -------------------- Hero Section -------------------- */
 section.hero {
     width: 100%;
     height: 100vh;
@@ -28,14 +28,12 @@ section.hero .hero-content {
     color: var(--color-white);
 }
 
-/* Main layout */
 section.hero .hero-main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Typography */
 section.hero .hero-main .hero-welcome {
     font-size: 18px;
     font-weight: 500;
@@ -93,7 +91,7 @@ section.hero .hero-main .hero-buttons {
     }
 }
 
-/* ========= ABOUT SECTION ========== */
+/* ------------ About Section ------------- */
 .about-section {
     padding: 17px 0;
 }
@@ -114,8 +112,6 @@ section.hero .hero-main .hero-buttons {
     font-size: 30px;
 }
 
-
-/* ======== MAIN CONTENT LAYOUT ============ */
 .about-section .about-main .about-content {
     display: flex;
     justify-content: space-between;
@@ -123,7 +119,6 @@ section.hero .hero-main .hero-buttons {
     align-items: flex-start;
 }
 
-/* LEFT IMAGE */
 .about-section .about-main .about-content .about-left {
     position: relative;
     width: fit-content;
@@ -183,7 +178,6 @@ section.hero .hero-main .hero-buttons {
     border: 2px solid var(--color-white);
 }
 
-/* =======  CENTER CONTENT ========= */
 .about-section .about-main .about-content .about-center {
     flex: 1;
     display: flex;
@@ -214,7 +208,6 @@ section.hero .hero-main .hero-buttons {
     height: 40px;
 }
 
-/* ========= RIGHT INFO BOXES ========== */
 .about-section .about-main .about-content .about-right {
     display: flex;
     flex-direction: column;
@@ -312,7 +305,7 @@ section.hero .hero-main .hero-buttons {
     }
 }
 
-/* service section */
+/* ---------------- Service Section ---------------- */
 .service-section {
     position: relative;
     max-width: 2000px;
@@ -381,7 +374,6 @@ section.hero .hero-main .hero-buttons {
     opacity: 1;
 }
 
-/* DARK OVERLAY */
 .service-section .service-content .service-card::after {
     content: "";
     position: absolute;
@@ -391,7 +383,6 @@ section.hero .hero-main .hero-buttons {
     z-index: 1;
 }
 
-/* Ensure inner content stays above overlay */
 .service-section .service-content .service-card * {
     position: relative;
     z-index: 2;
@@ -470,7 +461,7 @@ section.hero .hero-main .hero-buttons {
     }
 }
 
-/* Who We Are Section */
+/* ------------------  Who We Are Section ------------------ */
 section.who .who-title {
     margin: 20px 0;
     font-size: 2rem;
@@ -554,8 +545,6 @@ section.who .vision-box p {
     line-height: 1.6;
 }
 
-/* ======== RESPONSIVE ======= */
-
 @media (max-width: 1024px) {
     section.who .who-grid {
         grid-template-columns: 1fr;
@@ -623,7 +612,7 @@ section.who .vision-box p {
     }
 }
 
-/* -------------- product section ----------------- */
+/* ---------------- Product Section ------------------ */
 section.product {
     margin-top: 20px;
     padding: 20px 0;

@@ -1,4 +1,4 @@
-/* contact Section */
+/* ------------------ Contact Hero Section ------------------ */
 section.contact-section {
     width: 100%;
     padding: 100px 0;
@@ -56,7 +56,7 @@ section.contact-section .contact-content p {
     }
 }
 
-/* Contact Form */
+/* ------------------ Contact Form ------------------ */
 section.contact-form-section {
     width: 100%;
     padding: 40px 15px;
@@ -147,7 +147,7 @@ section.contact-form-section .submit-row {
     }
 }
 
-/* --- Contact details --- */
+/* ------------------ Contact Details ------------------ */
 section.contact-details {
     padding: 60px 0;
     background-color: #F7F7F7;

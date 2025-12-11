@@ -1,4 +1,4 @@
-/* =================== TRANSFORMER BASED PRODUCT DATA =================== */
+/* =================== TRANSFORMER BASED PRODUCT JSON DATA =================== */
 const TransformerData = {
 
     /* ------------ (1) PORTABLE ARC SERIES ------------ */

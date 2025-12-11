@@ -1,5 +1,4 @@
-// product details json
-
+// Product Details JSON
 const productData = {
     product: {
         title: "ARWA 400 IJ MIG Welder",
@@ -98,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (!product.images.newWindow.enable) {
-        openNewWindowLink.style.display = "none"; 
+        openNewWindowLink.style.display = "none";
     }
 
 });
@@ -146,11 +145,11 @@ modalOverlay.addEventListener("click", () => {
     modalBox.style.display = "none";
 });
 
-document.getElementById("brochureForm").addEventListener("submit", function(e) {
+document.getElementById("brochureForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
     const link = document.createElement('a');
-    link.href = "./brochure.pdf"; 
+    link.href = "./brochure.pdf";
     link.download = "Brochure.pdf";
     link.click();
 

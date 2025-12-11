@@ -1,4 +1,4 @@
-/* about hero section */
+/* ------------------- About Hero Section ------------------ */
 .about-hero-container {
     position: relative;
     width: 100%;
@@ -108,7 +108,6 @@
     }
 }
 
-/* solution start */
 .pr-solve-section,
 .vision-mission-section {
     padding-top: 3rem;
@@ -216,7 +215,7 @@
     }
 }
 
-/* About Section */
+/* ----------------- About Section ---------------- */
 section.about-section {
     position: relative;
 }
@@ -354,7 +353,7 @@ section.about-section .about-three-part .info-box p {
     }
 }
 
-/* welding section */
+/* ------------------ Welding Machine Section ---------------- */
 section.welding-section {
     background-color: var(--color-primary);
     padding: 40px 0;
@@ -443,7 +442,7 @@ section.welding-section .img-section .img-box {
     }
 }
 
-/* corporate section */
+/* ------------------- Corporate Section ---------------- */
 section.corporate-section {
     background-image: url("../images/corporate-bg.jpg");
     background-size: cover;
@@ -529,7 +528,7 @@ section.corporate-section .culture-grid .culture-card p {
     }
 }
 
-/*  FAQ Section  */
+/* ------------------ FAQ Section ------------------ */
 section.faq-section {
     padding: 50px 0;
     background-color: var(--color-primary);

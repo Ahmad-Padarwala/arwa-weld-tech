@@ -1,4 +1,4 @@
-// about hero section
+// About Hero Section
 document.addEventListener('DOMContentLoaded', () => {
     const rows = 10;
     const cols = 17;
@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1170&auto=format=fit&crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ];
-
 
     const grid = document.getElementById("grid");
     let currentImageIndex = 0;
