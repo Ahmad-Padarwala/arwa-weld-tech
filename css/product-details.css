@@ -1,4 +1,4 @@
-/* PRODUCT HERO SECTION */
+/* -------------------- Product Details Hero Section -------------------- */
 section.product-hero {
     width: 100%;
     padding: 70px 0;
@@ -83,7 +83,7 @@ section.product-hero .product-hero-main .product-hero-img img {
     }
 }
 
-/* -------------------- product details Section ----------------------- */
+/* -------------------- Product Details Section ----------------------- */
 section.product-details {
     padding: 40px 0;
 }
@@ -282,7 +282,7 @@ section.product-details .product-wrapper .right-col .short-desc {
     }
 }
 
-/*  Industry Equipment Section  */
+/* -------------------- Industry Equipment Section -------------------- */
 section.industry {
     padding: 20px 0;
     background-color: #F6F8FF;
@@ -361,7 +361,7 @@ section.industry .indusry-main .indusry-content p {
     }
 }
 
-/* -------- Product Details Tab Section -------- */
+/* -------------------- Product Details Tab design Section -------------------- */
 section.product-tab-section {
     padding: 15px 0;
 }
@@ -470,9 +470,8 @@ section.product-tab-section .custom-tabs .tab.active::before {
     }
 }
 
-/* ---------------------- Tab Content ------------------------ */
-
-/* ----------------------- Feature Section -------------------- */
+/* -------------------- Tab Content Section -------------------- */
+/* -------------------- Feature Section -------------------- */
 section.tab-content-wrapper {
     padding: 25px 0;
 }
@@ -650,7 +649,7 @@ section.tab-content-wrapper .tab-content .not-included-box .included-list {
     }
 }
 
-/* ----------------------- Specification Section -------------------- */
+/* -------------------- Specification Section -------------------- */
 section.tab-content-wrapper .tab-content .spec-section {
     margin-top: 20px;
     border: 1px solid #e0e0e0;
@@ -702,7 +701,7 @@ section.tab-content-wrapper .tab-content .spec-section .spec-row:last-child {
     }
 }
 
-/* ----------------------- Question and Answer Section -------------------- */
+/* -------------------- Question and Answer Section -------------------- */
 section.tab-content-wrapper .tab-content .qa-header {
     display: flex;
     justify-content: space-between;
@@ -870,7 +869,7 @@ section.tab-content-wrapper .tab-content .qa-item .qa-answer .vote-box button:ho
     }
 }
 
-/* --------------------- Download Brochure Section ----------------------- */
+/* -------------------- Download Brochure Section -------------------- */
 footer .download-brochure {
     background-image: url("../images/about1.jpg");
     background-size: cover;

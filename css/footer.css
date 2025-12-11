@@ -1,3 +1,4 @@
+/* -------------------- Footer Section -------------------- */
 .footer .newsletter-section {
     background-image: url("../images/footer-bg.jpg");
     background-size: cover;
@@ -91,7 +92,7 @@
 .footer .footer-main .footer-grid .footer-column h3 {
     font-size: 20px;
     margin-bottom: 15px;
-    color:var(--text-dark);
+    color: var(--text-dark);
 }
 
 .footer .footer-main .footer-grid .footer-column .footer-logo {
@@ -181,7 +182,7 @@
 
 .footer .footer-main .footer-grid .footer-column .contact-item .contact-location p {
     font-size: 14px;
-    color:var(--text-grey);
+    color: var(--text-grey);
     text-decoration: none;
 }
 

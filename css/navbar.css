@@ -26,7 +26,6 @@
 }
 
 body {
-    /* font-family: var(--font1); */
     font-family: var(--font1);
 }
 
@@ -89,6 +88,7 @@ select {
     }
 }
 
+/* ------- Custom Button -------- */
 .primary-btn {
     display: inline-block;
     padding: 8px 18px;
@@ -127,8 +127,7 @@ select {
     border: 2px solid var(--color-primary);
 }
 
-
-/* ======== NAVBAR MAIN ======== */
+/* ------------------ Navbar Start ------------------ */
 header {
     position: sticky;
     top: 0;
@@ -151,7 +150,6 @@ header .logo img {
     transition: 0.3s ease;
 }
 
-/* ====== DESKTOP MENU ====== */
 header nav {
     display: flex;
     align-items: center;
@@ -207,7 +205,6 @@ header nav.nav-menu .nav-item a.active {
 
 /* header nav.nav-menu .nav-item a.active::after { width: 100%; } */
 
-/* ====== HAMBURGER ====== */
 .hamburger {
     width: 27px;
     height: 24px;
@@ -516,7 +513,7 @@ header .custom-next i {
     }
 }
 
-/**************** MOBILE MENU ***************/
+/* ------------------- Mobile Menu ------------------- */
 .mobile-menu {
     position: fixed;
     top: 65px;
@@ -569,7 +566,6 @@ header .custom-next i {
     font-weight: 400;
 }
 
-/************ CONTACT BUTTON ***************/
 .mobile-menu .mobile-contact a {
     background: var(--color-primary);
     color: #fff !important;
@@ -643,7 +639,6 @@ header .custom-next i {
     transform: rotate(90deg);
 }
 
-/************** PRODUCTS ***************/
 .mobile-menu ul li .mobile-dropdown-content .mobile-category .mobile-product-list {
     transform-origin: left center;
     transform: scaleX(0);
@@ -675,7 +670,6 @@ header .custom-next i {
     color: var(--primary);
 }
 
-/************ MOBILE ONLY ***************/
 @media (min-width:992px) {
     .mobile-menu {
         display: none !important;

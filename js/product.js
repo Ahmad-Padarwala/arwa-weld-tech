@@ -1,4 +1,4 @@
-// ===================== PRODUCT DATABASE ===================== //
+// ===================== Product Section JSON Data ===================== //
 const productsHierarchy = {
   "ARC SERIES": {
     "SINGLE PHASE": [

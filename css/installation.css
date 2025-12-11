@@ -1,4 +1,4 @@
-/* Installation Section */
+/* -------------------- Installation Hero Section -------------------- */
 section.installation-section {
     width: 100%;
     padding: 100px 0;
@@ -56,7 +56,7 @@ section.installation-section .installation-content p {
     }
 }
 
-/* Machine Installation */
+/* -------------------- Machine Installation -------------------- */
 .machine-installation {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -97,7 +97,7 @@ section.installation-section .installation-content p {
     }
 }
 
-/* machine video */
+/* -------------------- Machine Video -------------------- */
 section.machine-section {
     background-color: var(--color-primary);
     padding: 20px 0;
@@ -138,7 +138,7 @@ section.machine-section .machine-video .machine-play i {
     z-index: 1;
 }
 
-/* Step section  */
+/* -------------------- Three Steps Section -------------------- */
 section.step-section {
     padding: 40px 0;
     background: var(--color-white);
@@ -244,7 +244,7 @@ section.step-section .step-main .step-box .step-list i {
     object-fit: cover;
 }
 
-/*  Industry Equipment Section  */
+/* -------------------- Industry Equipment Section -------------------- */
 section.industry {
     padding: 20px 0;
 }

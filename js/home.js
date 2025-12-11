@@ -1,4 +1,4 @@
-// slider service section
+// Slider Service Section
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".service-card");
   let activeIndex = 0;
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// product tab json data 
+// Product Tab JSON Data
 // OEM Manufacturing Excellence start
 const welderData = {
 
