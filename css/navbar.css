@@ -108,12 +108,18 @@ select {
     border: 2px solid var(--color-primary);
 }
 
+.hero-btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+}
+
 .secondary-btn {
     display: inline-block;
     padding: 8px 16px;
     border-radius: 6px;
     background-color: var(--color-white);
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
@@ -124,7 +130,7 @@ select {
 .secondary-btn:hover {
     background-color: transparent;
     color: var(--color-white);
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-white);
 }
 
 /* ------------------ Navbar Start ------------------ */

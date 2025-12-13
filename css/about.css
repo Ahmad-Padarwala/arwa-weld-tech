@@ -448,8 +448,8 @@ section.corporate-section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 0;
-    margin-top: 40px;
+    padding: 45px 0;
+    margin-top: 30px;
     position: relative;
     color: var(--color-white);
 }
@@ -462,20 +462,48 @@ section.corporate-section::before {
 }
 
 section.corporate-section .section-title {
-    font-size: 2rem;
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    opacity: 0.9;
-    color: var(--color-white);
-    font-style: normal;
-    margin-bottom: 34px;
-    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1;
+
+    /* Gradient / Primary Color Text Effect */
+    background: var(--color-white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 12px 0 40px;
     width: 100%;
+
+    /* Animation */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+}
+
+section.corporate-section .section-title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-white);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 section.corporate-section .culture-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 25px;
 }
 
@@ -540,14 +568,43 @@ section.faq-section .faq-container {
 }
 
 section.faq-section .faq-title {
-    font-size: 2rem;
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    color: var(--color-white);
-    font-style: normal;
-    margin-bottom: 24px;
-    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1;
+
+    /* Gradient / Primary Color Text Effect */
+    background: var(--color-white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 12px 0 16px;
     width: 100%;
+
+    /* Animation */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+}
+
+section.faq-section .faq-title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-white);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 section.faq-section .faq-container .faq-item {
