@@ -222,6 +222,24 @@ section.product .product-view-transformar .product-container .product-display im
     object-fit: contain;
 }
 
+/* BUTTON */
+section.product .product-view-transformar .product-container .product-display .product-btn a {
+    padding: 6px 60px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid var(--color-black);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+section.product .product-view-transformar .product-container .product-display .product-btn a:hover {
+    background-color: transparent;
+    color: var(--color-black);
+}
+
 /* COLOR DOTS */
 section.product .product-view-transformar .product-container .product-display .color-options {
     position: absolute;
@@ -247,29 +265,22 @@ section.product .product-view-transformar .product-container .product-display .c
     transform: scale(1.1);
 }
 
-/* BUTTON */
-section.product .product-view-transformar .product-container .product-display .product-btn a {
-    padding: 6px 60px;
-    background-color: var(--color-black);
-    color: var(--color-white);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
-    border: 2px solid var(--color-black);
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-
-section.product .product-view-transformar .product-container .product-display .product-btn a:hover {
-    background-color: transparent;
-    color: var(--color-black);
-}
-
 /* Colors */
-section.product .product-view-transformar .product-container .product-display .color-options .red { background: red; }
-section.product .product-view-transformar .product-container .product-display .color-options .yellow { background: yellow; }
-section.product .product-view-transformar .product-container .product-display .color-options .blue { background: blue; }
-section.product .product-view-transformar .product-container .product-display .color-options .green { background: green; }
+section.product .product-view-transformar .product-container .product-display .color-options .red {
+    background: red;
+}
+
+section.product .product-view-transformar .product-container .product-display .color-options .yellow {
+    background: yellow;
+}
+
+section.product .product-view-transformar .product-container .product-display .color-options .blue {
+    background: blue;
+}
+
+section.product .product-view-transformar .product-container .product-display .color-options .green {
+    background: green;
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -278,12 +289,18 @@ section.product .product-view-transformar .product-container .product-display .c
         overflow: visible;
     }
 
-    section.product h1 { font-size: 1.6rem; }
+    section.product h1 {
+        font-size: 1.6rem;
+    }
 
     section.product .tab-transformar,
-    section.product .tab-two-transformar { font-size: 14px; }
+    section.product .tab-two-transformar {
+        font-size: 14px;
+    }
 
-    section.product .select-model-transformar { font-size: 17px; }
+    section.product .select-model-transformar {
+        font-size: 17px;
+    }
 
     section.product .product-view-transformar .product-container .product-list-transformar {
         flex-direction: row;
