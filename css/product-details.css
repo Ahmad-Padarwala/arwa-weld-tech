@@ -928,9 +928,10 @@ footer .download-brochure .brochure-content .bg-title-wrapper .dotted-text-svg t
 }
 
 footer .download-brochure .brochure-content .main-title {
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--color-white);
+    font-family: var(--font2);
     margin: 0;
 }
 

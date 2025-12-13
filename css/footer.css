@@ -29,6 +29,7 @@
 
 .footer .newsletter-section .newsletter-container h2 {
     font-size: 38px;
+    font-family: var(--font2);
     font-weight: 700;
     color: #fff;
     margin-bottom: 12px;

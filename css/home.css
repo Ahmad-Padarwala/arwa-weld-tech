@@ -107,10 +107,36 @@ section.hero .hero-main .hero-buttons {
     font-family: var(--font2);
     font-weight: 700;
     letter-spacing: 1px;
-    color: var(--color-primary);
-    font-style: normal;
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 1.4;
+    background: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
 }
+
+/* Underline Effect */
+.about-section .about-title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .about-section .about-main .about-content {
     display: flex;
@@ -312,15 +338,43 @@ section.hero .hero-main .hero-buttons {
 }
 
 .service-section .title {
-    font-size: 2rem;
-    color: var(--color-primary);
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    margin: 12px 0;
+    letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 1;
+    background: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 12px 0 16px;
     width: 100%;
+
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
 }
+
+/* Underline Effect */
+.service-section .title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Animation (same as about-title) */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .service-section .service-content {
     width: 100%;
@@ -463,14 +517,44 @@ section.hero .hero-main .hero-buttons {
 
 /* ------------------  Who We Are Section ------------------ */
 section.who .who-title {
-    margin: 20px 0;
-    font-size: 2rem;
-    color: var(--color-primary);
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    font-style: normal;
-    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1;
+
+    /* Gradient / Primary Text Effect */
+    background: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     width: 100%;
+    margin: 20px 0 16px;
+
+    /* Animation */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Underline Effect */
+section.who .who-title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Who Grid */
@@ -478,7 +562,7 @@ section.who .who-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 section.who .vision-p {
@@ -623,14 +707,44 @@ section.product {
 }
 
 section.product .title {
-    font-size: 2rem;
-    color: var(--color-primary);
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    margin: 12px 0;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1;
+
+    /* Gradient / Primary Color Text Effect */
+    background: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 12px 0 16px;
     width: 100%;
+
+    /* Animation */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Underline Effect */
+section.product .title::after {
+    content: "";
+    display: block;
+    width: 115px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 section.product p {
@@ -1017,14 +1131,46 @@ section.reels-section .header {
 
 /* Title */
 section.reels-section .title {
-    font-size: 2rem;
-    color: var(--color-primary);
+    text-align: center;
     font-family: var(--font2);
     font-weight: 700;
-    font-style: normal;
-    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1;
+
+    /* Primary / Gradient Text Effect */
+    background: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     width: 100%;
+    margin: 16px 0;
+
+    /* Fade-up animation */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
 }
+
+/* Underline Bar */
+section.reels-section .title::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 12px auto 0;
+    border-radius: 8px;
+}
+
+/* Smooth fade + slide */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 /* Video Grid */
 section.reels-section .video-grid {
