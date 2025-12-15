@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// ===== RESET ALL OPEN DROPDOWNS WHEN MENU CLOSE =====
+// ================= HAMBURGER RESET =================
 const hamburger = document.getElementById("hamburger");
 const mobileMenu = document.getElementById("mobileMenu");
 
@@ -107,43 +107,71 @@ hamburger.addEventListener("click", () => {
     mobileMenu.classList.toggle("show");
     document.body.classList.toggle("menu-open");
 
-    // If closing the menu, reset all open dropdowns/submenus
+    // Reset all when menu closes
     if (!mobileMenu.classList.contains("show")) {
-        document.querySelectorAll(".mobile-dropdown, .mobile-category")
+        document
+            .querySelectorAll(
+                ".mobile-dropdown, .mobile-category, .mobile-sub-category"
+            )
             .forEach(el => el.classList.remove("active"));
     }
 });
 
-// ===== MAIN DROPDOWN: ONLY ARROW CLICK OPENS =====
-document.querySelectorAll('.mobile-dropdown').forEach(drop => {
-    const arrow = drop.querySelector('.dropdown-arrow');
 
-    // Block text link from opening dropdown
-    drop.querySelector('.mobile-dropdown-link').addEventListener("click", e => {
-        if (e.target.classList.contains("dropdown-arrow")) return; // allow arrow click
-        // Let text navigate normally
-    });
-
-    // Toggle dropdown only on arrow click
+// ================= MAIN DROPDOWN (PRODUCT) =================
+document.querySelectorAll(".mobile-dropdown .dropdown-arrow").forEach(arrow => {
     arrow.addEventListener("click", e => {
         e.preventDefault();
         e.stopPropagation();
-        drop.classList.toggle("active");
+
+        const dropdown = arrow.closest(".mobile-dropdown");
+
+        document.querySelectorAll(".mobile-dropdown").forEach(d => {
+            if (d !== dropdown) d.classList.remove("active");
+        });
+
+        dropdown.classList.toggle("active");
     });
 });
 
-// ===== CATEGORY DROPDOWN WITH AUTO CLOSE =====
-const categories = document.querySelectorAll(".mobile-category");
 
-categories.forEach(cat => {
-    cat.addEventListener("click", e => {
-        e.preventDefault();
+// ================= CATEGORY (ARC / MIG / TIG) =================
+document.querySelectorAll(".mobile-category-title").forEach(title => {
+    title.addEventListener("click", e => {
         e.stopPropagation();
 
-        categories.forEach(other => {
-            if (other !== cat) other.classList.remove("active");
+        const category = title.closest(".mobile-category");
+
+        // Close other categories
+        document.querySelectorAll(".mobile-category").forEach(cat => {
+            if (cat !== category) cat.classList.remove("active");
         });
 
-        cat.classList.toggle("active");
+        // Close all subcategories
+        category
+            .querySelectorAll(".mobile-sub-category")
+            .forEach(sub => sub.classList.remove("active"));
+
+        category.classList.toggle("active");
+    });
+});
+
+
+// ================= SUBCATEGORY (ONLY ONE OPEN AT A TIME) =================
+document.querySelectorAll(".mobile-sub-title").forEach(title => {
+    title.addEventListener("click", e => {
+        e.stopPropagation();
+
+        const subCategory = title.closest(".mobile-sub-category");
+        const parentCategory = subCategory.closest(".mobile-category");
+
+        // Close other subcategories in SAME category
+        parentCategory
+            .querySelectorAll(".mobile-sub-category")
+            .forEach(sub => {
+                if (sub !== subCategory) sub.classList.remove("active");
+            });
+
+        subCategory.classList.toggle("active");
     });
 });

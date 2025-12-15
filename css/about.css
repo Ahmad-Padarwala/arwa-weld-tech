@@ -444,7 +444,7 @@ section.welding-section .img-section .img-box {
 
 /* ------------------- Corporate Section ---------------- */
 section.corporate-section {
-    background-image: url("../images/corporate-bg.jpg");
+    background-image: url("../images/corporate-bg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

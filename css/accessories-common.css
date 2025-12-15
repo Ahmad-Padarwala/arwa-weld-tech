@@ -1,4 +1,4 @@
-/* ------------ Accessories , Consumables , Resources Common ----------- */
+/* ------------ Accessories Common ----------- */
 section.tab-content-wrapper .tab-content .accessories-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
