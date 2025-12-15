@@ -87,7 +87,7 @@
 .footer .footer-main .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    gap: 30px;
 }
 
 .footer .footer-main .footer-grid .footer-column h3 {
@@ -206,14 +206,14 @@
 @media (max-width: 1025px) {
     .footer .footer-main .footer-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 35px;
+        gap: 25px;
     }
 }
 
 @media (max-width: 576px) {
     .footer .footer-main .footer-grid {
         grid-template-columns: 1fr;
-        gap: 28px;
+        gap: 20px;
     }
 
     .footer .newsletter-section .newsletter-container .newsletter-form {
