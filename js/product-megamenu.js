@@ -1,4 +1,4 @@
-const productsHierarchy = {
+const productsMegaMenu = {
 
     /* ================= ARC SERIES ================= */
     "ARC SERIES": {
@@ -249,21 +249,21 @@ const rightContent = document.getElementById("dropdownRight");
 let index = 0;
 
 // ================= CREATE SIDEBAR =================
-Object.keys(productsHierarchy).forEach((category, i) => {
+Object.keys(productsMegaMenu).forEach((category, i) => {
     const card = document.createElement("div");
     card.className = `sidebar-card ${i === 0 ? "active" : ""}`;
     card.dataset.target = `content-${i}`;
 
     card.innerHTML = `
     <h3>${category}</h3>
-    <p>${productsHierarchy[category].desc}</p>
+    <p>${productsMegaMenu[category].desc}</p>
   `;
 
     sidebar.appendChild(card);
 });
 
 // ================= CREATE PRODUCT CONTENT =================
-Object.entries(productsHierarchy).forEach(([category, data], i) => {
+Object.entries(productsMegaMenu).forEach(([category, data], i) => {
     const content = document.createElement("div");
     content.className = `dropdown-content one-content swiper ${i === 0 ? "active" : ""}`;
     content.id = `content-${i}`;

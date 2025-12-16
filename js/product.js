@@ -246,7 +246,7 @@ const productsHierarchy = {
       {
         id: "AST_200",
         name: "AST-200",
-       img: "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
+        img: "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
         desc: "High accuracy welding"
       },
       {
