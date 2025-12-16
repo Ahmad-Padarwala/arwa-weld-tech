@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -35,276 +38,22 @@
 
                     <!-- PRODUCT WITH DROPDOWN -->
                     <li class="dropdown nav-item">
-                        <a href="./product.html" class="active">Products</a>
+                        <a href="./product.html">Products</a>
 
                         <!------ MEGA MENU ------->
                         <div class="dropdown-menu">
-                            <!-- Sidebar Category -->
-                            <div class="dropdown-sidebar">
-                                <div class="sidebar-card active" data-target="content-1">
-                                    <h3>ARC SERIES</h3>
-                                    <p>Single, 1+2, 1+2+3 & Three Phase</p>
-                                </div>
 
-                                <div class="sidebar-card" data-target="content-2">
-                                    <h3>MIG SERIES</h3>
-                                    <p>Three Phase MIG Welding </p>
-                                </div>
-
-                                <div class="sidebar-card" data-target="content-3">
-                                    <h3>TIG SERIES</h3>
-                                    <p>Single & Three Phase TIG Welders</p>
-                                </div>
-
-                                <div class="sidebar-card" data-target="content-4">
-                                    <h3>CUT SERIES</h3>
-                                    <p>Three Phase Plasma Cutting </p>
-                                </div>
-                                <div class="sidebar-card" data-target="content-5">
-                                    <h3>PORTABLE ARC SERIES</h3>
-                                    <p>Single Phase Plasma Cutting </p>
-                                </div>
-                                <div class="sidebar-card" data-target="content-4">
-                                    <h3>STUD ARC SERIES</h3>
-                                    <p>Single Phase Plasma Cutting </p>
-                                </div>
-                                <div class="sidebar-card" data-target="content-3">
-                                    <h3>WELDING ACCESSORIES</h3>
-                                    <p>Three Phase Plasma Cutting </p>
-                                </div>
+                            <!-- LEFT SIDEBAR -->
+                            <div class="dropdown-sidebar" id="categorySidebar">
+                                <!-- JS injects categories -->
                             </div>
 
                             <!-- RIGHT CONTENT -->
-                            <div class="dropdown-right">
-                                <div class="dropdown-content one-content swiper active" id="content-1">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">ARC SERIES</h3>
-                                                <p class="description">Get deep into the pores and take away dirt with
-                                                    shiny
-                                                    and
-                                                    beautiful results.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">ARC 250-IGOLD</h3>
-                                                <p class="description">Advanced analyzer and probes for a radiant,
-                                                    healthy
-                                                    glow.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">ARC 250 IJ-S</h3>
-                                                <p class="description">Premium hydra facial device with analyzer and
-                                                    oxygen
-                                                    dome
-                                                    for
-                                                    skin healing.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <!-- view more btn -->
-                                        <div class="primary-btn">
-                                            <a href="./product.html">View More</a>
-                                        </div>
-                                    </div>
-                                    <!-- Swiper Navigation -->
-                                    <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-chevron-left"></i>
-                                    </div>
-                                    <div class="swiper-button-next custom-next"><i
-                                            class="fa-solid fa-chevron-right"></i>
-                                    </div>
-
-                                </div>
-                                <div class="dropdown-content one-content swiper" id="content-2">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">MIG SERIES</h3>
-                                                <p class="description">Unleash powerful, permanent results; this is
-                                                    next-level diode laser technology.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">MIG 300-IJ</h3>
-                                                <p class="description">new verticle hair removal device with economical
-                                                    price safe for all skin and hair type.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">MIG 400-IJ</h3>
-                                                <p class="description">Advanced 4-wavelength diode laser for all skin
-                                                    and
-                                                    hair types.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">MIG 630-IJ</h3>
-                                                <p class="description">USFDA-approved 4-wavelength diode laser for safe,
-                                                    effective hair reduction.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">MIG Three Phase</h3>
-                                                <p class="description">Premium USFDA-approved 4-wavelength diode laser
-                                                    for
-                                                    safe, effective hair removal.</p>
-                                            </a>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Swiper Navigation -->
-                                    <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-chevron-left"></i>
-                                    </div>
-                                    <div class="swiper-button-next custom-next"><i
-                                            class="fa-solid fa-chevron-right"></i>
-                                    </div>
-
-                                </div>
-                                <div class="dropdown-content one-content swiper" id="content-3">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">TIG 250 IJ-S</h3>
-                                                <p class="description">LUMASPOT is best Picosecond laser works on 4
-                                                    operational modes for better results.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">TIG 300 IJ-S</h3>
-                                                <p class="description">top powerful technology for pigment and tattoo
-                                                    removal treatment.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">TIG 300 IJ-T</h3>
-                                                <p class="description">all pigment removal and tattoo removal treatment
-                                                    with
-                                                    2 wavelengths.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- Swiper Navigation -->
-                                    <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-chevron-left"></i>
-                                    </div>
-                                    <div class="swiper-button-next custom-next"><i
-                                            class="fa-solid fa-chevron-right"></i>
-                                    </div>
-                                </div>
-
-                                <div class="dropdown-content one-content swiper" id="content-4">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">CUT-100 LGK</h3>
-                                                <p class="description">most advance combination laser system of diode.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">CUT-200 LGK</h3>
-                                                <p class="description">combination laser system of diode and picosecond
-                                                    laser.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">CUT Three Phase</h3>
-                                                <p class="description">most advance FDA approved multifunctional
-                                                    platform.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">CUT system</h3>
-                                                <p class="description">Unilog 4 in 1 IPL Q switch laser system is
-                                                    economical
-                                                    laser device.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- Swiper Navigation -->
-                                    <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-chevron-left"></i>
-                                    </div>
-                                    <div class="swiper-button-next custom-next"><i
-                                            class="fa-solid fa-chevron-right"></i>
-                                    </div>
-
-                                </div>
-                                <div class="dropdown-content one-content swiper" id="content-5">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">APT-200</h3>
-                                                <p class="description">works at 10600 nm wavelength and comes with 60W
-                                                    power.</p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">APT-250</h3>
-                                                <p class="description">USFDA approved laser with 60W power useful to
-                                                    treat.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">APT-250 H</h3>
-                                                <p class="description">USFDA approved laser with 60W power useful to
-                                                    treat.
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./product-details.html" class="content-card">
-                                                <img src="./images/product-main.png" alt="machine">
-                                                <h3 class="title">AST-150</h3>
-                                                <p class="description">USFDA approved laser with 60W power useful to
-                                                    treat.
-                                                </p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- Swiper Navigation -->
-                                    <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-chevron-left"></i>
-                                    </div>
-                                    <div class="swiper-button-next custom-next"><i
-                                            class="fa-solid fa-chevron-right"></i>
-                                    </div>
-                                </div>
+                            <div class="dropdown-right" id="dropdownRight">
+                                <!-- JS injects product sliders -->
                             </div>
+
+                        </div>
                     </li>
 
                     <li class="nav-item"><a href="./about.html">About Us</a></li>
@@ -326,11 +75,11 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
         <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html" class="active">Home</a></li>
 
             <!-- PRODUCT DROPDOWN -->
             <li class="mobile-dropdown">
-                <a href="./product.html" class="active mobile-dropdown-link">
+                <a href="./product.html" class="mobile-dropdown-link">
                     Product
                     <i class="fas fa-chevron-right dropdown-arrow toggle-menu"></i>
                 </a>
@@ -434,7 +183,7 @@
                     <div class="mobile-category">
 
                         <div class="mobile-category-title toggle">
-                            MIG SERIES
+                            TIG SERIES
                             <i class="fas fa-chevron-right category-arrow"></i>
                         </div>
 
@@ -608,7 +357,7 @@
 
                         <!-- ARC DROPDOWN (LEVEL-1) -->
                         <li class="category-item has-dropdown" data-category="ARC SERIES">
-                            ARC SERIES <span>(8)</span>
+                            ARC SERIES <span>(12)</span>
                             <i class="fa-solid fa-chevron-right arrow"></i>
                             <ul class="sub-category">
                                 <li class="sub-item has-sub-dropdown">
@@ -649,7 +398,7 @@
 
                         <!-- MIG -->
                         <li class="category-item has-dropdown" data-category="MIG SERIES">
-                            MIG SERIES <span>(8)</span>
+                            MIG SERIES <span>(3)</span>
                             <i class="fa-solid fa-chevron-right arrow"></i>
                             <ul class="sub-category">
                                 <li class="sub-item has-sub-dropdown">
@@ -665,7 +414,7 @@
 
                         <!-- TIG -->
                         <li class="category-item has-dropdown" data-category="TIG SERIES">
-                            TIG SERIES <span>(8)</span>
+                            TIG SERIES <span>(5)</span>
                             <i class="fa-solid fa-chevron-right arrow"></i>
                             <ul class="sub-category">
                                 <li class="sub-item has-sub-dropdown">
@@ -688,7 +437,7 @@
 
                         <!-- CUT -->
                         <li class="category-item has-dropdown" data-category="CUT SERIES">
-                            CUT SERIES <span>(8)</span>
+                            CUT SERIES <span>(1)</span>
                             <i class="fa-solid fa-chevron-right arrow"></i>
                             <ul class="sub-category">
                                 <li class="sub-item has-sub-dropdown">
@@ -696,6 +445,95 @@
                                     <ul class="sub-sub-category">
                                         <li>CUT-100 LGK</li>
                                     </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- PORTABLE ARC SERIES -->
+                        <li class="category-item has-dropdown" data-category="PORTABLE ARC SERIES">
+                            PORTABLE ARC SERIES <span>(3)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    SINGLE PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>APT-200</li>
+                                        <li>APT-250</li>
+                                    </ul>
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    1+2 PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>APT-250 H</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- STUD ARC SERIES -->
+                        <li class="category-item has-dropdown" data-category="STUD ARC SERIES">
+                            STUD ARC SERIES <span>(5)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    1+2 PHASE <i class="fa-solid fa-chevron-right sub-arrow"></i>
+                                    <ul class="sub-sub-category">
+                                        <li>AST-150</li>
+                                        <li>AST-200</li>
+                                        <li>AST-250</li>
+                                        <li>AST-300</li>
+                                        <li>AST-400</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- WELDING ACCESSORIES -->
+                        <li class="category-item has-dropdown" data-category="WELDING ACCESSORIES">
+                            WELDING ACCESSORIES <span style="font-size: 12px;">(14)</span>
+                            <i class="fa-solid fa-chevron-right arrow"></i>
+                            <ul class="sub-category">
+                                <li class="sub-item has-sub-dropdown">
+                                    CONNECTOR
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    HOLDER
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    TOURCH LINER
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    CONTECT TIP
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    MIG TOURCH
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    WELDING HELMET
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    DIFFUSER
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    ROLLERS
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    TIP HOLDER
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    EARTH CLAMP
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    SWAN NECK
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    GAS REGULATORS
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    GAS NOZZLE
+                                </li>
+                                <li class="sub-item has-sub-dropdown">
+                                    TIG TOURCH HEAD
                                 </li>
                             </ul>
                         </li>
@@ -942,8 +780,10 @@
 
     </footer>
 
-
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/navbar.js"></script>
+    <script src="./js/product-megamenu.js"> </script>
     <script src="./js/about.js"></script>
     <script src="./js/product.js"></script>
 

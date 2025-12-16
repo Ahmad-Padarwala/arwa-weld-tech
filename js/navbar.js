@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// ================= HAMBURGER RESET =================
+// ================= HAMBURGER RESET MOBILE MENU =================
 const hamburger = document.getElementById("hamburger");
 const mobileMenu = document.getElementById("mobileMenu");
 
@@ -175,3 +175,5 @@ document.querySelectorAll(".mobile-sub-title").forEach(title => {
         subCategory.classList.toggle("active");
     });
 });
+
+
