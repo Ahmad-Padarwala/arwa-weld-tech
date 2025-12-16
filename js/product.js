@@ -207,6 +207,195 @@ const productsHierarchy = {
         desc: "Smooth Plasma Cutting"
       }
     ]
+  },
+
+  "PORTABLE ARC SERIES": {
+    "SINGLE PHASE": [
+      {
+        id: "APT_200",
+        name: "APT-200",
+        img: "./images/top-range/portable-arc-series/single-phase/apt-200.webp",
+        desc: "Excellent arc quality"
+      },
+      {
+        id: "APT_250",
+        name: "APT-250",
+        img: "./images/top-range/portable-arc-series/single-phase/apt-250.webp",
+        desc: "High accuracy welding"
+      }
+    ],
+
+    "1+2 PHASE": [
+      {
+        id: "APT_250 H",
+        name: "APT-250 H",
+        img: "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp",
+        desc: "Precision welding"
+      },
+    ]
+  },
+
+  "STUD ARC SERIES": {
+    "1+2 PHASE": [
+      {
+        id: "AST_150",
+        name: "AST-150",
+        img: "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp",
+        desc: "Excellent arc quality"
+      },
+      {
+        id: "AST_200",
+        name: "AST-200",
+       img: "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
+        desc: "High accuracy welding"
+      },
+      {
+        id: "AST_250",
+        name: "AST-250",
+        img: "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp",
+        desc: "High accuracy welding"
+      },
+      {
+        id: "AST_300",
+        name: "AST-300",
+        img: "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp",
+        desc: "High accuracy welding"
+      },
+      {
+        id: "AST_400",
+        name: "AST-400",
+        img: "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp",
+        desc: "High accuracy welding"
+      }
+    ],
+  },
+
+  "WELDING ACCESSORIES": {
+    "CONNECTOR": [
+      {
+        id: "CON-101",
+        name: "Welding Connector ",
+        img: "./images/accessories/connector-200a.webp",
+        desc: "High quality welding connector"
+      }
+    ],
+
+    "HOLDER": [
+      {
+        id: "HOL-201",
+        name: "Electrode Holder 300A",
+        img: "./images/accessories/holder-300a.webp",
+        desc: "Heavy duty electrode holder"
+      }
+    ],
+
+    "TORCH LINER": [
+      {
+        id: "TL-301",
+        name: "Torch Liner Steel",
+        img: "./images/accessories/torch-liner.webp",
+        desc: "Smooth wire feeding liner"
+      }
+    ],
+
+    "CONTACT TIP": [
+      {
+        id: "CT-401",
+        name: "Contact Tip 1.2mm",
+        img: "./images/accessories/contact-tip.webp",
+        desc: "High conductivity copper tip"
+      }
+    ],
+
+    "MIG TORCH": [
+      {
+        id: "MT-501",
+        name: "MIG Torch 15AK",
+        img: "./images/accessories/mig-torch.webp",
+        desc: "Durable MIG welding torch"
+      }
+    ],
+
+    "WELDING HELMET": [
+      {
+        id: "WH-601",
+        name: "Auto Darkening Helmet",
+        img: "./images/accessories/welding-helmet.webp",
+        desc: "Eye protection welding helmet"
+      }
+    ],
+
+    "DIFFUSER": [
+      {
+        id: "DF-701",
+        name: "Gas Diffuser",
+        img: "./images/accessories/diffuser.webp",
+        desc: "Uniform gas flow diffuser"
+      }
+    ],
+
+    "ROLLERS": [
+      {
+        id: "RL-801",
+        name: "Wire Feed Rollers",
+        img: "./images/accessories/rollers.webp",
+        desc: "Precision wire feeding rollers"
+      }
+    ],
+
+    "TIP HOLDER": [
+      {
+        id: "TH-901",
+        name: "Tip Holder",
+        img: "./images/accessories/tip-holder.webp",
+        desc: "Strong and heat resistant"
+      }
+    ],
+
+    "EARTH CLAMP": [
+      {
+        id: "EC-1001",
+        name: "Earth Clamp 500A",
+        img: "./images/accessories/earth-clamp.webp",
+        desc: "Strong grounding clamp"
+      }
+    ],
+
+    "SWAN NECK": [
+      {
+        id: "SN-1101",
+        name: "Swan Neck MIG Torch",
+        img: "./images/accessories/swan-neck.webp",
+        desc: "Flexible torch neck"
+      }
+    ],
+
+    "GAS REGULATORS": [
+      {
+        id: "GR-1201",
+        name: "Gas Regulator",
+        img: "./images/accessories/gas-regulator.webp",
+        desc: "Precise gas pressure control"
+      }
+    ],
+
+    "GAS NOZZLE": [
+      {
+        id: "GN-1301",
+        name: "Gas Nozzle",
+        img: "./images/accessories/gas-nozzle.webp",
+        desc: "Heat resistant gas nozzle"
+      }
+    ],
+
+    "TIG TORCH HEAD": [
+      {
+        id: "TTH-1401",
+        name: "TIG Torch Head",
+        img: "./images/accessories/tig-torch-head.webp",
+        desc: "Precision TIG torch head"
+      }
+    ]
   }
 };
 

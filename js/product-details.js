@@ -331,8 +331,153 @@ const products = {
         images: [
             "./images/top-range/cut-series/three-phase/cut-100-lgk.webp"
         ]
-    }
+    },
 
+    /* ================= PORTABLE ARC SERIES ================= */
+    APT_200: {
+        heroTitle: "Portable ARC Welding Machine",
+        heroDesc: "Compact & efficient ARC welder",
+        heroImage: "./images/top-range/portable-arc-series/single-phase/apt-200.webp",
+
+        title: "APT-200",
+        sku: "APT200",
+        rating: 4.8,
+
+        shortDesc: "Portable single phase ARC welding machine.",
+        longDesc1: "Excellent arc quality with stable performance.",
+        longDesc2: "Lightweight and easy to carry for on-site welding.",
+
+        images: [
+            "./images/top-range/portable-arc-series/single-phase/apt-200.webp"
+        ]
+    },
+
+    APT_250: {
+        heroTitle: "Portable ARC Welding Machine",
+        heroDesc: "High accuracy welding solution",
+        heroImage: "./images/top-range/portable-arc-series/single-phase/apt-250.webp",
+
+        title: "APT-250",
+        sku: "APT250",
+        rating: 4.9,
+
+        shortDesc: "High performance single phase ARC welder.",
+        longDesc1: "Smooth and accurate welding output.",
+        longDesc2: "Ideal for workshops and fabrication jobs.",
+
+        images: [
+            "./images/top-range/portable-arc-series/single-phase/apt-250.webp"
+        ]
+    },
+
+    APT_250_H: {
+        heroTitle: "Portable ARC Welding Machine",
+        heroDesc: "Heavy duty ARC welder",
+        heroImage: "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp",
+
+        title: "APT-250 H",
+        sku: "APT250H",
+        rating: 5.0,
+
+        shortDesc: "Heavy duty 1+2 phase ARC welding machine.",
+        longDesc1: "Precision welding with enhanced power output.",
+        longDesc2: "Designed for continuous industrial usage.",
+
+        images: [
+            "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp"
+        ]
+    },
+
+    /* ================= STUD ARC SERIES ================= */
+    AST_150: {
+        heroTitle: "Stud ARC Welding Machine",
+        heroDesc: "Reliable stud arc welding solution",
+        heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp",
+
+        title: "AST-150",
+        sku: "AST150",
+        rating: 4.7,
+
+        shortDesc: "Compact 1+2 phase stud ARC welding machine.",
+        longDesc1: "Excellent arc quality for consistent stud welding.",
+        longDesc2: "Designed for smooth and reliable operation.",
+
+        images: [
+            "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp"
+        ]
+    },
+
+    AST_200: {
+        heroTitle: "Stud ARC Welding Machine",
+        heroDesc: "High accuracy stud welding system",
+        heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
+
+        title: "AST-200",
+        sku: "AST200",
+        rating: 4.8,
+
+        shortDesc: "High accuracy 1+2 phase stud ARC welder.",
+        longDesc1: "Stable welding output for precision jobs.",
+        longDesc2: "Ideal for fabrication and industrial use.",
+
+        images: [
+            "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp"
+        ]
+    },
+
+    AST_250: {
+        heroTitle: "Stud ARC Welding Machine",
+        heroDesc: "Precision stud welding machine",
+        heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp",
+
+        title: "AST-250",
+        sku: "AST250",
+        rating: 4.9,
+
+        shortDesc: "Heavy duty stud ARC welding machine.",
+        longDesc1: "High accuracy welding performance.",
+        longDesc2: "Built for continuous industrial operation.",
+
+        images: [
+            "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp"
+        ]
+    },
+
+    AST_300: {
+        heroTitle: "Stud ARC Welding Machine",
+        heroDesc: "Industrial grade stud welder",
+        heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp",
+
+        title: "AST-300",
+        sku: "AST300",
+        rating: 5.0,
+
+        shortDesc: "Industrial 1+2 phase stud ARC welding machine.",
+        longDesc1: "Consistent arc performance under heavy load.",
+        longDesc2: "Rugged design for demanding environments.",
+
+        images: [
+            "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp"
+        ]
+    },
+
+    AST_400: {
+        heroTitle: "Stud ARC Welding Machine",
+        heroDesc: "Heavy industrial stud welding solution",
+        heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp",
+
+        title: "AST-400",
+        sku: "AST400",
+        rating: 5.0,
+
+        shortDesc: "High power stud ARC welding machine.",
+        longDesc1: "Designed for heavy duty industrial applications.",
+        longDesc2: "Maximum efficiency with robust construction.",
+
+        images: [
+            "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp"
+        ]
+    }
 };
 
 // ================= PAGE LOAD =================
