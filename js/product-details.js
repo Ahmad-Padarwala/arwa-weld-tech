@@ -16,21 +16,78 @@ const products = {
         sku: "ARC200IG",
         rating: 4.6,
         shortDesc: "Compact and powerful ARC welding machine.",
-        longDesc1: "Designed for workshop and industrial usage,Designed for workshop and industrial usage,Designed for workshop and industrial usage,Designed for workshop and industrial usage.,Designed for workshop and industrial usage.",
-        longDesc2: "High duty cycle with stable arc output.Designed for workshop and industrial usage,Designed for workshop and industrial usage,Designed for workshop and industrial usage,Designed for workshop and industrial usage.,Designed for workshop and industrial usage.",
+        longDesc1: "Designed for workshop and industrial usage.",
+        longDesc2: "High duty cycle with stable arc output.",
         images: [
-            "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-            "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-            "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-            "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-            "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-        ]
+            "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold.webp",
+            "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-left.webp",
+            "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-front.webp",
+            "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-back.webp",
+        ],
+
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_250_IGOLD: {
         heroTitle: "ARC Welding Equipment",
         heroDesc: "High duty cycle ARC welding solution",
-        heroImage: "./images/top-range/arc-series/single-phase/arc-250-igold.webp",
+        heroImage: "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp",
         title: "ARC 250-IGOLD",
         sku: "ARC250IG",
         rating: 4.7,
@@ -38,14 +95,73 @@ const products = {
         longDesc1: "Ideal for fabrication and maintenance work.",
         longDesc2: "Stable arc with excellent performance.",
         images: [
-            "./images/top-range/arc-series/single-phase/arc-250-igold.webp"
-        ]
+            "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp",
+            "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-left.webp",
+            "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-front.webp"
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_250_IJ_S: {
         heroTitle: "ARC Welding Equipment",
         heroDesc: "Reliable & compact ARC welding machine",
-        heroImage: "./images/top-range/arc-series/single-phase/arc-250-ijs.webp",
+        heroImage: "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp",
         title: "ARC 250 IJ-S",
         sku: "ARC250IJS",
         rating: 4.5,
@@ -53,14 +169,74 @@ const products = {
         longDesc1: "Suitable for small workshops.",
         longDesc2: "Energy efficient and portable.",
         images: [
-            "./images/top-range/arc-series/single-phase/arc-250-ijs.webp"
-        ]
+            "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp",
+            "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-left.webp",
+            "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-front.webp",
+            "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-back.webp",
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_300_IJ_S: {
         heroTitle: "ARC Welding Equipment",
         heroDesc: "Professional ARC welding solution",
-        heroImage: "./images/top-range/arc-series/single-phase/arc-300-ijs.webp",
+        heroImage: "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp",
         title: "ARC 300 IJ-S",
         sku: "ARC300IJS",
         rating: 4.8,
@@ -68,8 +244,68 @@ const products = {
         longDesc1: "Heavy-duty welding applications.",
         longDesc2: "Long-lasting performance.",
         images: [
-            "./images/top-range/arc-series/single-phase/arc-300-ijs.webp"
-        ]
+            "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp",
+            "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-left.webp",
+            "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-front.webp",
+            "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-back.webp",
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_200_ST: {
@@ -84,7 +320,64 @@ const products = {
         longDesc2: "Advanced cooling system.",
         images: [
             "./images/top-range/arc-series/1+2-phase/arc-200-st.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_250_ST: {
@@ -99,7 +392,64 @@ const products = {
         longDesc2: "Consistent arc quality.",
         images: [
             "./images/top-range/arc-series/1+2-phase/arc-250-st.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_300_ST: {
@@ -114,7 +464,64 @@ const products = {
         longDesc2: "Long operational life.",
         images: [
             "./images/top-range/arc-series/1+2-phase/arc-300-st.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_400_ST: {
@@ -129,7 +536,64 @@ const products = {
         longDesc2: "Rugged build quality.",
         images: [
             "./images/top-range/arc-series/1+2+3-phase/arc-400-st.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_300_IJ_T: {
@@ -144,7 +608,64 @@ const products = {
         longDesc2: "Excellent arc stability.",
         images: [
             "./images/top-range/arc-series/three-phase/arc-300-ijt.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_400_ULTRA: {
@@ -159,7 +680,64 @@ const products = {
         longDesc2: "Maximum duty cycle.",
         images: [
             "./images/top-range/arc-series/three-phase/arc-400-ultra.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_400_IJ: {
@@ -174,7 +752,64 @@ const products = {
         longDesc2: "Industrial reliability.",
         images: [
             "./images/top-range/arc-series/three-phase/arc-400-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     ARC_630_IJ: {
@@ -189,7 +824,64 @@ const products = {
         longDesc2: "Maximum output power.",
         images: [
             "./images/top-range/arc-series/three-phase/arc-630-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     /* ================= MIG SERIES ================= */
@@ -206,7 +898,64 @@ const products = {
         longDesc2: "Stable welding arc.",
         images: [
             "./images/top-range/mig-series/three-phase/mig-300-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     MIG_400_IJ: {
@@ -221,7 +970,64 @@ const products = {
         longDesc2: "High efficiency welding.",
         images: [
             "./images/top-range/mig-series/three-phase/mig-400-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     MIG_630_IJ: {
@@ -236,7 +1042,64 @@ const products = {
         longDesc2: "High output performance.",
         images: [
             "./images/top-range/mig-series/three-phase/mig-630-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     /* ================= TIG SERIES ================= */
@@ -253,7 +1116,64 @@ const products = {
         longDesc2: "Smooth arc control.",
         images: [
             "./images/top-range/tig-series/single-phase/tig-250-ijs.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     TIG_300_IJ_S: {
@@ -268,7 +1188,64 @@ const products = {
         longDesc2: "Reliable and durable.",
         images: [
             "./images/top-range/tig-series/single-phase/tig-300-ijs.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     TIG_300_IJ_T: {
@@ -283,7 +1260,64 @@ const products = {
         longDesc2: "Continuous operation capable.",
         images: [
             "./images/top-range/tig-series/three-phase/tig-300-ijt.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     TIG_400_IJ: {
@@ -298,7 +1332,64 @@ const products = {
         longDesc2: "High duty cycle.",
         images: [
             "./images/top-range/tig-series/three-phase/tig-400-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     TIG_630_IJ: {
@@ -313,7 +1404,64 @@ const products = {
         longDesc2: "Rugged industrial design.",
         images: [
             "./images/top-range/tig-series/three-phase/tig-630-ij.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     /* ================= CUT SERIES ================= */
@@ -330,7 +1478,64 @@ const products = {
         longDesc2: "Industrial metal cutting solution.",
         images: [
             "./images/top-range/cut-series/three-phase/cut-100-lgk.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     /* ================= PORTABLE ARC SERIES ================= */
@@ -349,7 +1554,64 @@ const products = {
 
         images: [
             "./images/top-range/portable-arc-series/single-phase/apt-200.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     APT_250: {
@@ -367,7 +1629,64 @@ const products = {
 
         images: [
             "./images/top-range/portable-arc-series/single-phase/apt-250.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     APT_250_H: {
@@ -385,7 +1704,64 @@ const products = {
 
         images: [
             "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     /* ================= STUD ARC SERIES ================= */
@@ -404,7 +1780,64 @@ const products = {
 
         images: [
             "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     AST_200: {
@@ -422,7 +1855,64 @@ const products = {
 
         images: [
             "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     AST_250: {
@@ -440,7 +1930,64 @@ const products = {
 
         images: [
             "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     AST_300: {
@@ -458,7 +2005,64 @@ const products = {
 
         images: [
             "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     },
 
     AST_400: {
@@ -476,11 +2080,68 @@ const products = {
 
         images: [
             "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp"
-        ]
+        ],
+        /* ================= TAB DATA ================= */
+        tabs: {
+            features: {
+                cardsLeft: [
+                    {
+                        title: "Multiprocess Capabilities",
+                        desc: "MIG, Flux-cored, Stick and TIG welding.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Auto Spool Gun Detect™",
+                        desc: "Automatically detects spool gun.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ],
+                cardsRight: [
+                    {
+                        title: "Fan-On-Demand™",
+                        desc: "Runs only when needed.",
+                        img: "./images/industry-equipement.jpg"
+                    },
+                    {
+                        title: "Multi Voltage Plug (MVP™)",
+                        desc: "120V / 240V support.",
+                        img: "./images/industry-equipement.jpg"
+                    }
+                ]
+            },
+
+            specification: [
+                { label: "Amperage", value: "20A – 230A" },
+                { label: "Current Type", value: "DC" },
+                { label: "Input Voltage", value: "110V / 230V" },
+                { label: "Warranty", value: "3 Years" }
+            ],
+
+            accessories: [
+                {
+                    title: "Protective Nylon Cover",
+                    desc: "Protects machine from dust & damage.",
+                    img: "./images/industry-equipement.jpg"
+                },
+                {
+                    title: "Cylinder Rack",
+                    desc: "Easy gas cylinder mounting.",
+                    img: "./images/industry-equipement.jpg"
+                }
+            ],
+
+            qa: [
+                {
+                    question: "How many amps does it support?",
+                    answer: "Supports up to 230A output.",
+                    author: "Admin"
+                }
+            ]
+        }
     }
 };
 
-// ================= PAGE LOAD =================
+// =================PRODUCT DETAILS PAGE LOAD =================
 document.addEventListener("DOMContentLoaded", () => {
 
     if (!productId || !products[productId]) {
@@ -556,6 +2217,99 @@ document.querySelectorAll('.custom-tabs .tab').forEach((tab, index) => {
     });
 });
 
+
+// ================== PRODUCT TAB DESIGN =================
+
+function renderFeatures(data) {
+    document.getElementById("features").innerHTML = `
+    <h3>FEATURES</h3>
+    <div class="features-wrapper">
+      <div class="features-column">
+        ${data.cardsLeft.map(c => `
+          <div class="feature-card">
+            <img src="${c.img}">
+            <div class="fc-text">
+              <h4>${c.title}</h4>
+              <p>${c.desc}</p>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+
+      <div class="features-column">
+        ${data.cardsRight.map(c => `
+          <div class="feature-card">
+            <img src="${c.img}">
+            <div class="fc-text">
+              <h4>${c.title}</h4>
+              <p>${c.desc}</p>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderSpecification(specs) {
+    document.getElementById("specification").innerHTML = `
+    <h3>SPECIFICATION</h3>
+    <div class="spec-section">
+      ${specs.map(s => `
+        <div class="spec-row">
+          <div class="spec-label">${s.label}</div>
+          <div class="spec-value">${s.value}</div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderAccessories(items) {
+    document.getElementById("accessories").innerHTML = `
+    <h3>ACCESSORIES</h3>
+    <div class="accessories-grid">
+      ${items.map(a => `
+        <div class="acc-card">
+          <img src="${a.img}">
+          <h4>${a.title}</h4>
+          <p>${a.desc}</p>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderQA(list) {
+    document.getElementById("qa").innerHTML = `
+    <h3>QUESTION & ANSWER</h3>
+    ${list.map(q => `
+      <div class="qa-item">
+        <div class="qa-question">
+          <div class="q-icon">Q</div>
+          <div class="q-content">
+            <h4>${q.question}</h4>
+          </div>
+        </div>
+        <div class="qa-answer">
+          <p class="ans-text">${q.answer}</p>
+          <span>— ${q.author}</span>
+        </div>
+      </div>
+    `).join("")}
+  `;
+}
+document.addEventListener("DOMContentLoaded", () => {
+    const product = products[productId];
+    if (!product) return;
+
+    renderFeatures(product.tabs.features);
+    renderSpecification(product.tabs.specification);
+    renderAccessories(product.tabs.accessories);
+    renderQA(product.tabs.qa);
+});
+
+
 // ---------------------- Download Brochure Model----------------------
 const modalOverlay = document.getElementById("modalOverlay");
 const modalBox = document.getElementById("modalBox");
@@ -590,3 +2344,5 @@ document.getElementById("brochureForm").addEventListener("submit", function (e) 
     modalOverlay.style.display = "none";
     modalBox.style.display = "none";
 });
+
+

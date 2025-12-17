@@ -1,7 +1,7 @@
 /* -------------------- Product Details Hero Section -------------------- */
 section.product-hero {
     width: 100%;
-    padding: 70px 0;
+    padding: 10px 0;
     background-image: url('../images/product-hero.webp');
     background-size: cover;
     background-position: center;
@@ -31,12 +31,13 @@ section.product-hero .product-hero-main {
 
 /* LEFT CONTENT */
 section.product-hero .product-hero-main .product-hero-content {
-    max-width: 50%;
+    /* max-width: 50%; */
     color: #fff;
 }
 
 section.product-hero .product-hero-main .product-hero-content h2 {
     font-size: 44px;
+    font-family: var(--font2);
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -49,12 +50,17 @@ section.product-hero .product-hero-main .product-hero-content p {
 /* RIGHT IMAGE */
 section.product-hero .product-hero-main .product-hero-img img {
     width: 100%;
-    height: 200px;
-    max-width: 510px;
+    max-width: 650px;
+    height: 350px;
     object-fit: contain;
 }
 
+
 @media (max-width: 992px) {
+    section.product-hero {
+        padding: 60px 0;
+    }
+
     section.product-hero .product-hero-main {
         flex-direction: column;
         text-align: center;
@@ -67,11 +73,15 @@ section.product-hero .product-hero-main .product-hero-img img {
     section.product-hero .product-hero-main .product-hero-content .product-hero-img img {
         max-width: 320px;
     }
+
+    section.product-hero .product-hero-main .product-hero-img img {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
     section.product-hero {
-        padding: 60px 0;
+        padding: 50px 0;
     }
 
     section.product-hero .product-hero-main .product-hero-content h2 {
@@ -130,9 +140,21 @@ section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-bo
 }
 
 section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 70%;
     object-fit: contain;
+    transition: transform 0.45s ease, opacity 0.35s ease;
+}
+
+/* animation states */
+.main-image-box img.slide-out {
+    transform: translateX(-40px);
+    opacity: 0;
+}
+
+.main-image-box img.slide-in {
+    transform: translateX(40px);
+    opacity: 0;
 }
 
 /* Main Image */
@@ -160,6 +182,11 @@ section.product-details .product-wrapper .left-col .main-image-box .zoom-hint {
 /* RIGHT SIDE */
 section.product-details .product-wrapper .right-col {
     width: 50%;
+}
+section.product-details .product-wrapper .right-col h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--font2);
 }
 
 section.product-details .product-wrapper .right-col .product-title {
@@ -244,6 +271,7 @@ section.product-details .product-wrapper .right-col .short-desc {
     /* ITEMS */
     section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box {
         min-width: 90px;
+        width: 130px;
         height: 120px;
         padding: 6px;
         flex-shrink: 0;
@@ -255,7 +283,7 @@ section.product-details .product-wrapper .right-col .short-desc {
 
     section.product-details .product-wrapper .left-col .main-image-box img {
         width: 100%;
-        height: 250px;
+        height: 300px;
         /* smaller */
         padding: 8px;
     }
@@ -280,13 +308,9 @@ section.product-details .product-wrapper .right-col .short-desc {
         font-size: 18px;
     }
 
-    section.product-details .product-wrapper .left-col .main-image-box img {
-        height: 230px;
-    }
-
     section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box {
-        width: 70px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
     }
 }
 

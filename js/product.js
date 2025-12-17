@@ -1,54 +1,6 @@
 // ===================== Product Section JSON Data ===================== //
-// const productsHierarchy = {
-//   "ARC SERIES": {
-//     "SINGLE PHASE": [
-//       { name: "ARC 200-IGOLD", img: "./images/top-range/arc-series/single-phase/arc-200-igold.webp", desc: "Powerful ARC welder" },
-//       { name: "ARC 250-IGOLD", img: "./images/top-range/arc-series/single-phase/arc-250-igold.webp", desc: "High duty cycle" },
-//       { name: "ARC 250 IJ-S", img: "./images/top-range/arc-series/single-phase/arc-250-ijs.png", desc: "Reliable & compact" },
-//       { name: "ARC 300 IJ-S", img: "./images/top-range/arc-series/single-phase/arc-300-ijs.png", desc: "Professional welding machine" }
-//     ],
-//     "1+2 PHASE": [
-//       { name: "ARC 200 ST", img: "./images/top-range/arc-series/1+2-phase/arc-200-st.png", desc: "Stable output performance" },
-//       { name: "ARC 250 ST", img: "./images/top-range/arc-series/1+2-phase/arc-250-st.png", desc: "Advanced cooling system" },
-//       { name: "ARC 300 ST", img: "./images/top-range/arc-series/1+2-phase/arc-300-st.png", desc: "Efficient welding output" }
-//     ],
-//     "1+2+3 PHASE": [
-//       { name: "ARC 400 ST", img: "./images/top-range/arc-series/1+2+3-phase/arc-400-st.png", desc: "Durable industrial welder" }
-//     ],
-//     "THREE PHASE": [
-//       { name: "ARC 300 IJ-T", img: "./images/top-range/arc-series/three-phase/arc-300-ijt.png", desc: "High performance" },
-//       { name: "ARC 400-ULTRA", img: "./images/top-range/arc-series/three-phase/arc-400-ultra.png", desc: "Heavy duty welding" },
-//       { name: "ARC 400-IJ", img: "./images/top-range/arc-series/three-phase/arc-400-ij.png", desc: "Powerful arc control" },
-//       { name: "ARC 630-IJ", img: "./images/top-range/arc-series/three-phase/arc-630-ij.png", desc: "Industrial welding capacity" }
-//     ]
-//   },
-
-//   "MIG SERIES": {
-//     "THREE PHASE": [
-//       { name: "MIG 300-IJ", img: "./images/top-range/mig-series/three-phase/mig-300-ij.jpg", desc: "Efficient metal welding" },
-//       { name: "MIG 400-IJ", img: "./images/top-range/mig-series/three-phase/mig-400-ij.jpg", desc: "Robust & stable" },
-//       { name: "MIG 630-IJ", img: "./images/top-range/mig-series/three-phase/mig-630-ij.png", desc: "Heavy-duty MIG welding" }
-//     ]
-//   },
-
-//   "TIG SERIES": {
-//     "SINGLE PHASE": [
-//       { name: "TIG 250 IJ-S", img: "./images/top-range/tig-series/single-phase/tig-250-ijs.png", desc: "Excellent arc quality" },
-//       { name: "TIG 300 IJ-S", img: "./images/top-range/tig-series/single-phase/tig-300-ijs.png", desc: "High accuracy welding" }
-//     ],
-//     "THREE PHASE": [
-//       { name: "TIG 300 IJ-T", img: "./images/top-range/tig-series/three-phase/tig-300-ijt.png", desc: "Precision welding" },
-//       { name: "TIG 400-IJ", img: "./images/top-range/tig-series/three-phase/tig-400-ij.png", desc: "Stable output arc" },
-//       { name: "TIG 630-IJ", img: "./images/top-range/tig-series/three-phase/tig-630-ij.png", desc: "Industrial TIG welding" }
-//     ]
-//   },
-
-//   "CUT SERIES": {
-//     "THREE PHASE": [
-//       { name: "CUT-100 LGK", img: "./images/top-range/cut-series/three-phase/cut-100-lgk.png", desc: "Smooth Plasma Cutting" }
-//     ]
-//   }
-// };
+const urlParams = new URLSearchParams(window.location.search);
+const selectedSeries = urlParams.get("series");
 
 const productsHierarchy = {
   "ARC SERIES": {
@@ -56,26 +8,26 @@ const productsHierarchy = {
       {
         id: "ARC_200_IGOLD",
         name: "ARC 200-IGOLD",
-        img: "./images/top-range/arc-series/single-phase/arc-200-igold.webp",
-        desc: "Powerful ARC welder"
+        img: "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold.webp",
+        desc: "200 ARC WELDING MACHINE FOR FABRICATION"
       },
       {
         id: "ARC_250_IGOLD",
         name: "ARC 250-IGOLD",
-        img: "./images/top-range/arc-series/single-phase/arc-250-igold.webp",
-        desc: "High duty cycle"
+        img: "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp",
+        desc: "HIGH-PERFORMANCE 250 ARC WELDING MACHINE"
       },
       {
         id: "ARC_250_IJ_S",
         name: "ARC 250 IJ-S",
-        img: "./images/top-range/arc-series/single-phase/arc-250-ijs.webp",
-        desc: "Reliable & compact"
+        img: "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp",
+        desc: "HEAVY DUTY 250 ARC WELDING MACHINE"
       },
       {
         id: "ARC_300_IJ_S",
         name: "ARC 300 IJ-S",
-        img: "./images/top-range/arc-series/single-phase/arc-300-ijs.webp",
-        desc: "Professional welding machine"
+        img: "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp",
+        desc: "COMPACT HEAVY DUTY 300A SINGLE PHASE WELDING MACHINE"
       }
     ],
 
@@ -84,19 +36,19 @@ const productsHierarchy = {
         id: "ARC_200_ST",
         name: "ARC 200 ST",
         img: "./images/top-range/arc-series/1+2-phase/arc-200-st.webp",
-        desc: "Stable output performance"
+        desc: "SINGLE TWO-PHASE ARC 200 WELDING MACHINE"
       },
       {
         id: "ARC_250_ST",
         name: "ARC 250 ST",
         img: "./images/top-range/arc-series/1+2-phase/arc-250-st.webp",
-        desc: "Advanced cooling system"
+        desc: "COMPACT SINGLE TWO PHASE WELDING MACHINE"
       },
       {
         id: "ARC_300_ST",
         name: "ARC 300 ST",
         img: "./images/top-range/arc-series/1+2-phase/arc-300-st.webp",
-        desc: "Efficient welding output"
+        desc: "SINGLE TWO PHASE COMPACT 300 ARC WELDING MACHINE"
       }
     ],
 
@@ -105,7 +57,7 @@ const productsHierarchy = {
         id: "ARC_400_ST",
         name: "ARC 400 ST",
         img: "./images/top-range/arc-series/1+2+3-phase/arc-400-st.webp",
-        desc: "Durable industrial welder"
+        desc: "SINGLE TWO PHASE COMPACT 400 ARC WELDING MACHINE"
       }
     ],
 
@@ -114,25 +66,25 @@ const productsHierarchy = {
         id: "ARC_300_IJ_T",
         name: "ARC 300 IJ-T",
         img: "./images/top-range/arc-series/three-phase/arc-300-ijt.webp",
-        desc: "High performance"
+        desc: "HEAVY DUTY THREE PHASE 300 ARC WELDING MACHINE"
       },
       {
         id: "ARC_400_ULTRA",
         name: "ARC 400-ULTRA",
         img: "./images/top-range/arc-series/three-phase/arc-400-ultra.webp",
-        desc: "Heavy duty welding"
+        desc: "POWERFULL ARC 400A WELDING MACHINE FOR INDUSTRIAL USE"
       },
       {
         id: "ARC_400_IJ",
         name: "ARC 400-IJ",
         img: "./images/top-range/arc-series/three-phase/arc-400-ij.webp",
-        desc: "Powerful arc control"
+        desc: "HEAVY DUTY 400 ARC INDUSTRIAL WELDING MACHINE"
       },
       {
         id: "ARC_630_IJ",
         name: "ARC 630-IJ",
         img: "./images/top-range/arc-series/three-phase/arc-630-ij.webp",
-        desc: "Industrial welding capacity"
+        desc: "HEAVY DUTY INDUSTRIAL ARC 630 WELDING MACHINE"
       }
     ]
   },
@@ -143,19 +95,19 @@ const productsHierarchy = {
         id: "MIG_300_IJ",
         name: "MIG 300-IJ",
         img: "./images/top-range/mig-series/three-phase/mig-300-ij.webp",
-        desc: "Efficient metal welding"
+        desc: "PROFESSIONAL MIG 300A WELDING MACHINE"
       },
       {
         id: "MIG_400_IJ",
         name: "MIG 400-IJ",
         img: "./images/top-range/mig-series/three-phase/mig-400-ij.webp",
-        desc: "Robust & stable"
+        desc: "HIGH QUALITY MIG 400A WELDING MACHINE"
       },
       {
         id: "MIG_630_IJ",
         name: "MIG 630-IJ",
         img: "./images/top-range/mig-series/three-phase/mig-630-ij.webp",
-        desc: "Heavy-duty MIG welding"
+        desc: " HEAVY DUTY INDUSTRIAL MIG WELDING MACHINE"
       }
     ]
   },
@@ -166,13 +118,13 @@ const productsHierarchy = {
         id: "TIG_250_IJ_S",
         name: "TIG 250 IJ-S",
         img: "./images/top-range/tig-series/single-phase/tig-250-ijs.webp",
-        desc: "Excellent arc quality"
+        desc: "HIGH PRECISION, SINGLE PHASE 250A TIG WELDING MACHINE"
       },
       {
         id: "TIG_300_IJ_S",
         name: "TIG 300 IJ-S",
         img: "./images/top-range/tig-series/single-phase/tig-300-ijs.webp",
-        desc: "High accuracy welding"
+        desc: "HIGH POWER, SINGLE PHASE 300A TIG WELDING MACHINE"
       }
     ],
 
@@ -181,19 +133,19 @@ const productsHierarchy = {
         id: "TIG_300_IJ_T",
         name: "TIG 300 IJ-T",
         img: "./images/top-range/tig-series/three-phase/tig-300-ijt.webp",
-        desc: "Precision welding"
+        desc: "INDSUTRIAL THREE PHASE 300A TIG WELDING MACHINE"
       },
       {
         id: "TIG_400_IJ",
         name: "TIG 400-IJ",
         img: "./images/top-range/tig-series/three-phase/tig-400-ij.webp",
-        desc: "Stable output arc"
+        desc: "HEAVY DUTY THREE PHASE 400A TIG WELDING MACHINE"
       },
       {
         id: "TIG_630_IJ",
         name: "TIG 630-IJ",
         img: "./images/top-range/tig-series/three-phase/tig-630-ij.webp",
-        desc: "Industrial TIG welding"
+        desc: "INDUSTRIAL 630A TIG WELDING MACHINE"
       }
     ]
   },
@@ -204,7 +156,7 @@ const productsHierarchy = {
         id: "CUT_100_LGK",
         name: "CUT-100 LGK",
         img: "./images/top-range/cut-series/three-phase/cut-100-lgk.webp",
-        desc: "Smooth Plasma Cutting"
+        desc: "POWERFUL THREE PHASE PLASMA CUTTING MACHINE"
       }
     ]
   },
@@ -215,13 +167,13 @@ const productsHierarchy = {
         id: "APT_200",
         name: "APT-200",
         img: "./images/top-range/portable-arc-series/single-phase/apt-200.webp",
-        desc: "Excellent arc quality"
+        desc: "EXCELLENT ARC QUALITY"
       },
       {
         id: "APT_250",
         name: "APT-250",
         img: "./images/top-range/portable-arc-series/single-phase/apt-250.webp",
-        desc: "High accuracy welding"
+        desc: "HIGH ACCURACY WELDING"
       }
     ],
 
@@ -230,7 +182,7 @@ const productsHierarchy = {
         id: "APT_250 H",
         name: "APT-250 H",
         img: "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp",
-        desc: "Precision welding"
+        desc: "EXCELLENT ARC QUALITY"
       },
     ]
   },
@@ -519,3 +471,31 @@ document.querySelectorAll(".has-sub-dropdown").forEach(sub => {
   });
 });
 
+
+// ----------------- SHOW SERIES PRODUCTS WHEN MEGA MENU CLICK -----------------
+function showSeriesProducts(seriesName) {
+  if (!productsHierarchy[seriesName]) return;
+
+  let products = [];
+  Object.values(productsHierarchy[seriesName]).forEach(arr => {
+    products.push(...arr);
+  });
+
+  showProducts(products);
+
+  document.querySelectorAll(".has-dropdown").forEach(item => {
+    const name = getText(item);
+    item.classList.toggle("active", name === seriesName);
+    item.classList.toggle("open", name === seriesName);
+  });
+}
+
+(function loadDefault() {
+
+  if (selectedSeries && productsHierarchy[selectedSeries]) {
+    showSeriesProducts(selectedSeries);
+  } else {
+    showSeriesProducts("ARC SERIES");
+  }
+
+})();
