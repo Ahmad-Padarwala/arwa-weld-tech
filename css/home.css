@@ -385,23 +385,40 @@ section.hero .hero-main .hero-buttons {
 
 .service-section .service-content .service-card {
     position: relative;
-    /* required for overlay */
     height: 100%;
     flex: 1;
     overflow: hidden;
     cursor: pointer;
-    transition: flex 0.6s ease, background 0.5s ease;
     display: flex;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/service1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     filter: blur(2px);
     opacity: 0.4;
     transition: all 0.4s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ARC */
+.service-section .service-content .service-card.arc {
+    background-image: url("../images/arc-series-service-bg.webp");
+}
+
+/* MIG */
+.service-section .service-content .service-card.mig {
+    background-image: url("../images/mig-series-service-bg.webp");
+}
+
+/* TIG */
+.service-section .service-content .service-card.tig {
+    background-image: url("../images/tig-series-service-bg.webp");
+}
+
+/* CUT */
+.service-section .service-content .service-card.cut {
+    background-image: url("../images/cut-series-service-bg.webp");
 }
 
 .service-section .service-content .service-card:hover {
@@ -424,12 +441,11 @@ section.hero .hero-main .hero-buttons {
     filter: blur(0px);
     opacity: 1;
 }
-
 .service-section .service-content .service-card::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     pointer-events: none;
     z-index: 1;
 }
