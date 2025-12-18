@@ -1,5 +1,5 @@
 /* -------------------- Hero Section -------------------- */
-section.hero {
+/* section.hero {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -11,9 +11,29 @@ section.hero {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} */
+section.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-/* Overlay */
+/* Background Video */
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
 section.hero .hero-overlay {
     position: absolute;
     inset: 0;
@@ -21,7 +41,6 @@ section.hero .hero-overlay {
     opacity: 0.5;
 }
 
-/* Content wrapper */
 section.hero .hero-content {
     position: relative;
     z-index: 2;
@@ -89,7 +108,7 @@ section.hero .hero-main .hero-buttons {
 /* ------------ About Section ------------- */
 .about-section {
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .about-section .about-main {
@@ -109,6 +128,7 @@ section.hero .hero-main .hero-buttons {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
+    margin-top: 5px;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeUp 1s ease forwards;
@@ -441,6 +461,7 @@ section.hero .hero-main .hero-buttons {
     filter: blur(0px);
     opacity: 1;
 }
+
 .service-section .service-content .service-card::after {
     content: "";
     position: absolute;

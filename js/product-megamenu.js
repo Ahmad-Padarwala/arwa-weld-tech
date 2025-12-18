@@ -31,49 +31,49 @@ const productsMegaMenu = {
             {
                 id: "ARC_200_ST",
                 name: "ARC 200-ST",
-                img: "./images/top-range/arc-series/1+2-phase/arc-200-st.webp",
+                img: "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st.webp",
                 desc: "SINGLE TWO-PHASE ARC 200 WELDING MACHINE"
             },
             {
                 id: "ARC_250_ST",
                 name: "ARC 250-ST",
-                img: "./images/top-range/arc-series/1+2-phase/arc-250-st.webp",
+                img: "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st.webp",
                 desc: "COMPACT SINGLE TWO PHASE WELDING MACHINE"
             },
             {
                 id: "ARC_300_ST",
                 name: "ARC 300-ST",
-                img: "./images/top-range/arc-series/1+2-phase/arc-300-st.webp",
+                img: "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st.webp",
                 desc: "SINGLE TWO PHASE COMPACT 300 ARC WELDING MACHINE"
             },
             {
                 id: "ARC_400_ST",
                 name: "ARC 400-ST",
-                img: "./images/top-range/arc-series/1+2+3-phase/arc-400-st.webp",
+                img: "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st.webp",
                 desc: "SINGLE TWO PHASE COMPACT 400 ARC WELDING MACHINE"
             },
             {
                 id: "ARC_300_IJ_T",
                 name: "ARC 300 IJ-T",
-                img: "./images/top-range/arc-series/three-phase/arc-300-ijt.webp",
+                img: "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt.webp",
                 desc: "HEAVY DUTY THREE PHASE 300 ARC WELDING MACHINE"
             },
             {
                 id: "ARC_400_ULTRA",
                 name: "ARC 400-ULTRA",
-                img: "./images/top-range/arc-series/three-phase/arc-400-ultra.webp",
+                img: "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra.webp",
                 desc: "POWERFULL ARC 400A WELDING MACHINE FOR INDUSTRIAL USE"
             },
             {
                 id: "ARC_400_IJ",
                 name: "ARC 400-IJ",
-                img: "./images/top-range/arc-series/three-phase/arc-400-ij.webp",
+                img: "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij.webp",
                 desc: "HEAVY DUTY 400 ARC INDUSTRIAL WELDING MACHINE"
             },
             {
                 id: "ARC_630_IJ",
                 name: "ARC 630-IJ",
-                img: "./images/top-range/arc-series/three-phase/arc-630-ij.webp",
+                img: "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij.webp",
                 desc: "HEAVY DUTY INDUSTRIAL ARC 630 WELDING MACHINE"
             }
         ]
@@ -86,19 +86,19 @@ const productsMegaMenu = {
             {
                 id: "MIG_300_IJ",
                 name: "MIG 300-IJ",
-                img: "./images/top-range/mig-series/three-phase/mig-300-ij.webp",
+                img: "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij.webp",
                 desc: "PROFESSIONAL MIG 300A WELDING MACHINE"
             },
             {
                 id: "MIG_400_IJ",
                 name: "MIG 400-IJ",
-                img: "./images/top-range/mig-series/three-phase/mig-400-ij.webp",
+                img: "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij.webp",
                 desc: "HIGH QUALITY MIG 400A WELDING MACHINE"
             },
             {
                 id: "MIG_630_IJ",
                 name: "MIG 630-IJ",
-                img: "./images/top-range/mig-series/three-phase/mig-630-ij.webp",
+                img: "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij.webp",
                 desc: " HEAVY DUTY INDUSTRIAL MIG WELDING MACHINE"
             }
         ]
@@ -111,31 +111,31 @@ const productsMegaMenu = {
             {
                 id: "TIG_250_IJ_S",
                 name: "TIG 250 IJ-S",
-                img: "./images/top-range/tig-series/single-phase/tig-250-ijs.webp",
+                img: "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs.webp",
                 desc: "HIGH PRECISION, SINGLE PHASE 250A TIG WELDING MACHINE"
             },
             {
                 id: "TIG_300_IJ_S",
                 name: "TIG 300 IJ-S",
-                img: "./images/top-range/tig-series/single-phase/tig-300-ijs.webp",
+                img: "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs.webp",
                 desc: "HIGH POWER, SINGLE PHASE 300A TIG WELDING MACHINE"
             },
             {
                 id: "TIG_300_IJ_T",
                 name: "TIG 300 IJ-T",
-                img: "./images/top-range/tig-series/three-phase/tig-300-ijt.webp",
+                img: "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt.webp",
                 desc: "INDSUTRIAL THREE PHASE 300A TIG WELDING MACHINE"
             },
             {
                 id: "TIG_400_IJ",
                 name: "TIG 400-IJ",
-                img: "./images/top-range/tig-series/three-phase/tig-400-ij.webp",
+                img: "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp",
                 desc: "HEAVY DUTY THREE PHASE 400A TIG WELDING MACHINE"
             },
             {
                 id: "TIG_630_IJ",
                 name: "TIG 630-IJ",
-                img: "./images/top-range/tig-series/three-phase/tig-630-ij.webp",
+                img: "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij.webp",
                 desc: "INDUSTRIAL 630A TIG WELDING MACHINE"
             }
         ]
@@ -148,7 +148,7 @@ const productsMegaMenu = {
             {
                 id: "CUT_100_LGK",
                 name: "CUT-100 LGK",
-                img: "./images/top-range/cut-series/three-phase/cut-100-lgk.webp",
+                img: "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk.webp",
                 desc: "POWERFUL THREE PHASE PLASMA CUTTING MACHINE"
             }
         ]
@@ -161,15 +161,21 @@ const productsMegaMenu = {
             {
                 id: "APT_200",
                 name: "APT-200",
-                img: "./images/top-range/portable-arc-series/single-phase/apt-200.webp",
+                img: "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp",
                 desc: "EXCELLENT ARC QUALITY"
             },
             {
                 id: "APT_250",
                 name: "APT-250",
-                img: "./images/top-range/portable-arc-series/single-phase/apt-250.webp",
+                img: "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250.webp",
                 desc: "HIGH ACCURACY WELDING"
-            }
+            },
+            {
+                id: "APT_250_H",
+                name: "APT-250 H",
+                img: "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp",
+                desc: "EXCELLENT ARC QUALITY"
+            },
         ]
     },
 

@@ -524,3 +524,4 @@ function renderColors(colors = []) {
 /* --------------- INITIAL AUTO LOAD --------------- */
 renderCategories();
 renderPhases(currentCategory);
+
