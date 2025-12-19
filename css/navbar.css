@@ -111,7 +111,7 @@ select {
 .hero-btn:hover {
     background-color: transparent;
     border: 2px solid var(--color-white);
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .secondary-btn {
