@@ -702,7 +702,7 @@ section.tab-content-wrapper .tab-content .spec-section .spec-title {
 
 section.tab-content-wrapper .tab-content .spec-section .spec-row {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 400px 1fr;
     border-bottom: 1px solid #e6e6e6;
 }
 
