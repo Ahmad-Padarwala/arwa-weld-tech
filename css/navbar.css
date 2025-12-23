@@ -351,10 +351,6 @@ header nav.nav-menu .dropdown .dropdown-menu .dropdown-right {
     color: var(--color-primary) !important;
 }
 
-.view-more-btn:hover i {
-    transform: rotate(1deg);
-}
-
 /* Scrollbar Styling */
 header nav.nav-menu .dropdown .dropdown-menu::-webkit-scrollbar {
     width: 6px;
