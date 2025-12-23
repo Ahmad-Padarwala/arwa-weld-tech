@@ -1250,35 +1250,116 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "VRD FUNCTION",
+                        desc: "VRD is a safety feature that lowers the Open Circuit Voltage (OCV) to a safe, non-lethal level when the machine is on but not welding. It helps protect operators from accidental electric shock, especially in damp or confined areas.",
+                        img: "./images/feature-icon/vrd-function.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "REMOTE CONTROL",
+                        desc: "Lets you change settings from a distance quickly and safely. Great for big jobs or hard-to-reach spots, giving you easy and precise control without stopping work.",
+                        img: "./images/feature-icon/remote-control.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "DUAL IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/dual-igbt-1.webp"
                     }
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "16.7",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "25A",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "82V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20A–400A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "20",
+                },
+                {
+                    label: "IGBT",
+                    value: "50A1200×2 MODULE",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "80A400V×6 TUBE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "50A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "487×250×377 mm",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "560×340×520 mm",
+                },
+                {
+                    label: "SUPPORTED ELECTRODE",
+                    value: "2.5(100%) - 3.15(100%) - 4.0(100%)",
+                },
             ],
 
             accessories: [
@@ -1325,35 +1406,121 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "VRD FUNCTION",
+                        desc: "VRD is a safety feature that lowers the Open Circuit Voltage (OCV) to a safe, non-lethal level when the machine is on but not welding. It helps protect operators from accidental electric shock, especially in damp or confined areas.",
+                        img: "./images/feature-icon/vrd-function.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "REMOTE CONTROL",
+                        desc: "Lets you change settings from a distance quickly and safely. Great for big jobs or hard-to-reach spots, giving you easy and precise control without stopping work.",
+                        img: "./images/feature-icon/remote-control.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
                     }
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "21.3",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "32",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "82V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20-400",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "22KG",
+                },
+                {
+                    label: "IGBT",
+                    value: "150A1200V",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V×2 MODULE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "100A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "525×265×450",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "560×340×520",
+                },
+                {
+                    label: "SUPPORTED ELECTRODE",
+                    value: "2.5(100%) - 3.15(100%) - 4.0(100%) - 5.0(40%)",
+                },
             ],
 
             accessories: [
@@ -1400,37 +1567,122 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "VRD FUNCTION",
+                        desc: "VRD is a safety feature that lowers the Open Circuit Voltage (OCV) to a safe, non-lethal level when the machine is on but not welding. It helps protect operators from accidental electric shock, especially in damp or confined areas.",
+                        img: "./images/feature-icon/vrd-function.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "REMOTE CONTROL",
+                        desc: "Lets you change settings from a distance quickly and safely. Great for big jobs or hard-to-reach spots, giving you easy and precise control without stopping work.",
+                        img: "./images/feature-icon/remote-control.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
                     }
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "40",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "60",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "105",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20-630",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "42",
+                },
+                {
+                    label: "IGBT",
+                    value: "150A1200V×2",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V×4 MODULE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "150A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "650×310×640",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "760×390×700",
+                },
+                {
+                    label: "SUPPORTED ELECTRODE",
+                    value: "2.5(100%) - 3.15(100%) - 4.0(100%) - 5.0(100%)",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -1477,37 +1729,116 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH PERFORMANCE",
+                        desc: "Engineered for high performance, this machine delivers consistent, precise, and powerful results, ensuring faster welding, minimal spatter, and superior efficiency. It’s built to handle demanding tasks while maintaining reliability and top-quality output every time.",
+                        img: "./images/feature-icon/high-performance.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MICROCONTROLLER",
+                        desc: "With advanced microcontroller technology, the machine intelligently manages welding parameters, offering unmatched precision, seamless operation, and enhanced protection for both the user and the equipment.",
+                        img: "./images/feature-icon/microcontroller.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH DUTY CYCLE",
+                        desc: "With a high duty cycle, this machine lets you work longer without frequent stops, boosting your productivity and efficiency. It’s designed to keep up with demanding tasks, ensuring reliable performance and peace of mind for every project.",
+                        img: "./images/feature-icon/high-duty.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "16",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "24",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "70",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "MIG 20-300 / MMA 20-270",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "37",
+                },
+                {
+                    label: "IGBT",
+                    value: "50A1200×2 MODULE",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "80A400V×6 TUBE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "50A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "480×255×450",
+                },
+                {
+                    label: "PACKING SIZE WELDER",
+                    value: "560×340×520",
+                },
+                {
+                    label: "PACKING SIZE FEEDER",
+                    value: "584×215×380",
+                },
+                {
+                    label: "SUPPORTED WIRE",
+                    value: "0.8(100%) - 1.0(100%)",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -1552,35 +1883,115 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH PERFORMANCE",
+                        desc: "Engineered for high performance, this machine delivers consistent, precise, and powerful results, ensuring faster welding, minimal spatter, and superior efficiency. It’s built to handle demanding tasks while maintaining reliability and top-quality output every time.",
+                        img: "./images/feature-icon/high-performance.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MICROCONTROLLER",
+                        desc: "With advanced microcontroller technology, the machine intelligently manages welding parameters, offering unmatched precision, seamless operation, and enhanced protection for both the user and the equipment.",
+                        img: "./images/feature-icon/microcontroller.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH DUTY CYCLE",
+                        desc: "With a high duty cycle, this machine lets you work longer without frequent stops, boosting your productivity and efficiency. It’s designed to keep up with demanding tasks, ensuring reliable performance and peace of mind for every project.",
+                        img: "./images/feature-icon/high-duty.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "20.7",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "31",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "75",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "MIG 20-400 / MMA 20-370",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "48",
+                },
+                {
+                    label: "IGBT",
+                    value: "100A1200×2 MODULE",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V×2 MODULE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "100A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "530×285×505",
+                },
+                {
+                    label: "PACKING SIZE WELDER",
+                    value: "630×380×610",
+                },
+                {
+                    label: "PACKING SIZE FEEDER",
+                    value: "584×215×380",
+                },
+                {
+                    label: "SUPPORTED WIRE",
+                    value: "0.8(100%) - 1.0(100%) - 1.2(100%)",
+                },
             ],
 
             accessories: [
@@ -1626,35 +2037,115 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH PERFORMANCE",
+                        desc: "Engineered for high performance, this machine delivers consistent, precise, and powerful results, ensuring faster welding, minimal spatter, and superior efficiency. It’s built to handle demanding tasks while maintaining reliability and top-quality output every time.",
+                        img: "./images/feature-icon/high-performance.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "HEAVY INDUSTRIAL WELD",
+                        desc: "Designed for heavy industrial welding, this machine handles the toughest jobs with ease, delivering strong, consistent welds while maintaining durability, reliability, and high efficiency in demanding work environments.",
+                        img: "./images/feature-icon/industrial-welder.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HIGH DUTY CYCLE",
+                        desc: "With a high duty cycle, this machine lets you work longer without frequent stops, boosting your productivity and efficiency. It’s designed to keep up with demanding tasks, ensuring reliable performance and peace of mind for every project.",
+                        img: "./images/feature-icon/high-duty.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "38",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "54",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "84",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "MIG 20-630 / MMA 20-560",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "66",
+                },
+                {
+                    label: "IGBT",
+                    value: "150A1200V×2",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V×3 MODULE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "150A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "650×310×640",
+                },
+                {
+                    label: "PACKING SIZE WELDER",
+                    value: "760×390×700",
+                },
+                {
+                    label: "PACKING SIZE FEEDER",
+                    value: "584×215×380",
+                },
+                {
+                    label: "SUPPORTED WIRE",
+                    value: "0.8(100%) - 1.0(100%) - 1.2(100%)",
+                },
             ],
 
             accessories: [
@@ -1704,37 +2195,108 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "POST FLOW SYSTEM TIG",
+                        desc: "Keeps shielding gas flowing for a few seconds after the weld to cool the tungsten and protect the weld pool. This improves weld quality, prevents contamination, and extends torch and tungsten life.",
+                        img: "./images/feature-icon/post-flow-system.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "LIGHT WEIGHT",
+                        desc: "Easy to carry, move, and handle anywhere on the job. Designed for maximum portability without compromising power or performance. Ideal for workshops and on-site work.",
+                        img: "./images/feature-icon/light-weight.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "DUAL PURPOSE ARC AND TIG",
+                        desc: "This dual-purpose machine combines ARC and TIG welding in one, giving you versatility and precision for a wide range of projects. It lets you switch seamlessly between welding types, saving time and effort while delivering consistent, high-quality results.",
+                        img: "./images/feature-icon/dual-purpose.webp"
+                    },
+                    {
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "5.7",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "35",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "60",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20A-250A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.73",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "8",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "360×155×260",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "430×200×320",
+                },
+                {
+                    label: "WIRE & ELECTRODE DIA",
+                    value: "1.6–3.15 & 1.6–3.15",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -1779,37 +2341,108 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "POST FLOW SYSTEM TIG",
+                        desc: "Keeps shielding gas flowing for a few seconds after the weld to cool the tungsten and protect the weld pool. This improves weld quality, prevents contamination, and extends torch and tungsten life.",
+                        img: "./images/feature-icon/post-flow-system.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "LIGHT WEIGHT",
+                        desc: "Easy to carry, move, and handle anywhere on the job. Designed for maximum portability without compromising power or performance. Ideal for workshops and on-site work.",
+                        img: "./images/feature-icon/light-weight.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "DUAL PURPOSE ARC AND TIG",
+                        desc: "This dual-purpose machine combines ARC and TIG welding in one, giving you versatility and precision for a wide range of projects. It lets you switch seamlessly between welding types, saving time and effort while delivering consistent, high-quality results.",
+                        img: "./images/feature-icon/dual-purpose.webp"
+                    },
+                    {
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "7.3",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "45",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "60",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20A-300A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.73",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "13",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "410×205×330",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "482×280×410",
+                },
+                {
+                    label: "WIRE & ELECTRODE DIA",
+                    value: "1.6–3.15 & 1.6–3.15",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -1854,35 +2487,107 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "POST FLOW SYSTEM TIG",
+                        desc: "Keeps shielding gas flowing for a few seconds after the weld to cool the tungsten and protect the weld pool. This improves weld quality, prevents contamination, and extends torch and tungsten life.",
+                        img: "./images/feature-icon/post-flow-system.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "LIGHT WEIGHT",
+                        desc: "Easy to carry, move, and handle anywhere on the job. Designed for maximum portability without compromising power or performance. Ideal for workshops and on-site work.",
+                        img: "./images/feature-icon/light-weight.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "DUAL PURPOSE ARC AND TIG",
+                        desc: "This dual-purpose machine combines ARC and TIG welding in one, giving you versatility and precision for a wide range of projects. It lets you switch seamlessly between welding types, saving time and effort while delivering consistent, high-quality results.",
+                        img: "./images/feature-icon/dual-purpose.webp"
+                    },
+                    {
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 415V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "9.5",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "14",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "66",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20A-300A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "13",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "410×205×330",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "482×280×410",
+                },
+                {
+                    label: "WIRE & ELECTRODE DIA",
+                    value: "1.6–3.15 & 1.6–3.15",
+                },
             ],
 
             accessories: [
@@ -1929,35 +2634,127 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "POST FLOW SYSTEM TIG",
+                        desc: "Keeps shielding gas flowing for a few seconds after the weld to cool the tungsten and protect the weld pool. This improves weld quality, prevents contamination, and extends torch and tungsten life.",
+                        img: "./images/feature-icon/post-flow-system.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "LIGHT WEIGHT",
+                        desc: "Easy to carry, move, and handle anywhere on the job. Designed for maximum portability without compromising power or performance. Ideal for workshops and on-site work.",
+                        img: "./images/feature-icon/light-weight.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "DUAL PURPOSE ARC AND TIG",
+                        desc: "This dual-purpose machine combines ARC and TIG welding in one, giving you versatility and precision for a wide range of projects. It lets you switch seamlessly between welding types, saving time and effort while delivering consistent, high-quality results.",
+                        img: "./images/feature-icon/dual-purpose.webp"
+                    },
+                    {
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "18.5",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "24 A",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "78 V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "TIG:20-400 / MMA:20-400",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "IGBT",
+                    value: "150A 1200V MODULE",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V MODULE*2",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "100A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "35",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "530×285×505",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "630×380×610",
+                },
+                {
+                    label: "WIRE & ELECTRODE DIA",
+                    value: "1.6-4.0 & 1.6-5.0",
+                },
             ],
 
             accessories: [
@@ -2004,37 +2801,128 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "AUTO PROTECTION OVER VOLTAGE AND CURRENT",
+                        desc: "Automatically safeguards the machine from sudden voltage spikes or excess current. Helps prevent damage, increases lifespan, and keeps welding operations safe and stable.",
+                        img: "./images/feature-icon/auto-protection-voltage.webp"
+                    },
+                    {
+                        title: "POST FLOW SYSTEM TIG",
+                        desc: "Keeps shielding gas flowing for a few seconds after the weld to cool the tungsten and protect the weld pool. This improves weld quality, prevents contamination, and extends torch and tungsten life.",
+                        img: "./images/feature-icon/post-flow-system.webp"
+                    },
+                    {
+                        title: "IGBT TECHNOLOGY",
+                        desc: "Uses advanced IGBT components for stable arc performance, higher efficiency, and lower power loss. Ensures smoother welding, better control, and longer machine life.",
+                        img: "./images/feature-icon/igbt-inverter.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "LIGHT WEIGHT",
+                        desc: "Easy to carry, move, and handle anywhere on the job. Designed for maximum portability without compromising power or performance. Ideal for workshops and on-site work.",
+                        img: "./images/feature-icon/light-weight.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "DUAL PURPOSE ARC AND TIG",
+                        desc: "This dual-purpose machine combines ARC and TIG welding in one, giving you versatility and precision for a wide range of projects. It lets you switch seamlessly between welding types, saving time and effort while delivering consistent, high-quality results.",
+                        img: "./images/feature-icon/dual-purpose.webp"
+                    },
+                    {
+                        title: "HOT START FOR BETTER ARC",
+                        desc: "Provides a quick, high initial current to easily start the arc, ensuring smooth ignition, reducing sticking, and delivering a stable weld from the very first strike.",
+                        img: "./images/feature-icon/hot-start.webp"
+                    },
+
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "40",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "60",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "TIG-136V / ARC-91V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "20-630",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21S",
+                },
+                {
+                    label: "IGBT",
+                    value: "150A1200V×2",
+                },
+                {
+                    label: "RECTIFIER TUBE",
+                    value: "200A600V×4 MODULE",
+                },
+                {
+                    label: "BRIDGE DIODE",
+                    value: "150A1600V",
+                },
+                {
+                    label: "CHOKE",
+                    value: "YES",
+                },
+                {
+                    label: "FAN",
+                    value: "8 INCH 415V",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "48",
+                },
+                {
+                    label: "WELDER SIZE",
+                    value: "650×310×640",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "760×390×700",
+                },
+                {
+                    label: "WIRE & ELECTRODE DIA",
+                    value: "1.6-5.0 & 1.6-6.3",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -2081,35 +2969,108 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "QUALITY NARROW CUTTING",
+                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
+                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                    },
+                    {
+                        title: "HIGH PERFORMANCE",
+                        desc: "Engineered for high performance, this machine delivers consistent, precise, and powerful results, ensuring faster welding, minimal spatter, and superior efficiency. It’s built to handle demanding tasks while maintaining reliability and top-quality output every time.",
+                        img: "./images/feature-icon/high-performance.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ENERGY SAVING",
+                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "415V ±15%",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "15.7",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "320",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "25-100",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "POWER FACTOR",
+                    value: "0.93",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "INSULATION CLASS",
+                    value: "F",
+                },
+                {
+                    label: "PROTECTION CLASS",
+                    value: "IP21",
+                },
+                {
+                    label: "GROSS WEIGHT (KG)",
+                    value: "37",
+                },
+                {
+                    label: "WELDER SIZE (MM)",
+                    value: "560×295×510",
+                },
+                {
+                    label: "MAXIMUM CUTTING THICKNESS (MM)",
+                    value: "30",
+                },
+                {
+                    label: "PLASMA GAS",
+                    value: "AIR",
+                },
+                {
+                    label: "OPERATING GAS PRESSURE",
+                    value: "0.4–0.5 MPA",
+                },
+                {
+                    label: "ARC APPROACH",
+                    value: "HF NON CONTACT TYPE",
+                },
+                {
+                    label: "COOLING METHODE",
+                    value: "AIR COOL",
+                },
+                {
+                    label: "PACKING SIZE",
+                    value: "630×380×610",
+                },
             ],
 
             accessories: [
@@ -2138,7 +3099,7 @@ const products = {
     /* ================= PORTABLE ARC SERIES ================= */
     APT_200: {
         heroTitle: "Portable ARC Welding Machine",
-        heroDesc: "Compact & efficient ARC welder",
+        heroDesc: "A Portable ARC welding machine uses a stable electric arc to weld electrically conductive metals with precision and reliability. It is widely used in fabrication, repair work, and industrial applications for its strong weld quality, efficiency, and easy portability.",
         heroImage: "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp",
         title: "APT 200 – SINGLE PHASE TRANSFORMER WELDING MACHINE",
         sku: "APT200",
@@ -2156,37 +3117,68 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "QUALITY NARROW CUTTING",
+                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
+                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ENERGY SAVING",
+                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "6.5",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "40",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "45V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-200A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "30",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "20",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -2212,7 +3204,7 @@ const products = {
 
     APT_250: {
         heroTitle: "Portable ARC Welding Machine",
-        heroDesc: "High accuracy welding solution",
+        heroDesc: "A Portable ARC welding machine uses a stable electric arc to weld electrically conductive metals with precision and reliability. It is widely used in fabrication, repair work, and industrial applications for its strong weld quality, efficiency, and easy portability.",
         heroImage: "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250.webp",
 
         title: "APT 250 - MULTI-PURPOSE ARC WELDING MACHINE FOR WORKSHOP & FIELD WORK",
@@ -2232,35 +3224,67 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "QUALITY NARROW CUTTING",
+                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
+                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ENERGY SAVING",
+                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "7.2",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "45",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "48V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-250A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "40",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "30",
+                },
             ],
 
             accessories: [
@@ -2288,7 +3312,7 @@ const products = {
 
     APT_250_H: {
         heroTitle: "Portable ARC Welding Machine",
-        heroDesc: "Heavy duty ARC welder",
+        heroDesc: "A Portable ARC welding machine uses a stable electric arc to weld electrically conductive metals with precision and reliability. It is widely used in fabrication, repair work, and industrial applications for its strong weld quality, efficiency, and easy portability.",
         heroImage: "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp",
 
         title: "APT 250 H HEAVY-DUTY SINGLE TWO PHASE WELDING MACHINE",
@@ -2307,35 +3331,67 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "ARC STABILITY WITH LESS SPATTER",
+                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "QUALITY NARROW CUTTING",
+                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
+                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "ENERGY SAVING",
+                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "7.2",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "45",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "48V",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-250A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "40",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "30",
+                },
             ],
 
             accessories: [
@@ -2364,7 +3420,7 @@ const products = {
     /* ================= STUD ARC SERIES ================= */
     AST_150: {
         heroTitle: "Stud ARC Welding Machine",
-        heroDesc: "Reliable stud arc welding solution",
+        heroDesc: "A Stud ARC welding machine is designed to weld studs and fasteners onto metal surfaces with high strength and precision. It is widely used in fabrication, construction, shipbuilding, and industrial applications for its fast operation, strong bonding, and consistent weld quality.",
         heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp",
 
         title: "AST 150 – LIGHT WEIGHT STUD 150A WELDING MACHINE",
@@ -2383,37 +3439,68 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HEAVY DUTY",
+                        desc: "Built for tough jobs, this heavy-duty machine handles continuous use with strength and reliability, making it ideal for demanding industrial environments.",
+                        img: "./images/feature-icon/heavy-duty.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "STURDY WHEEL",
+                        desc: "Built with heavy-duty, shock-resistant wheels for smooth movement on any shop floor. Designed to handle weight, rough surfaces, and daily industrial use without wobble or wear. Makes transporting the machine effortless and safe",
+                        img: "./images/feature-icon/sturdy-wheel.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MAKE IN INDIA",
+                        desc: "Proudly designed and manufactured in India with a focus on quality, reliability, and durability. Built to meet demanding industrial needs while supporting local innovation and manufacturing excellence.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "6",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "40",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "50",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-150A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "35",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "35",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -2439,7 +3526,7 @@ const products = {
 
     AST_200: {
         heroTitle: "Stud ARC Welding Machine",
-        heroDesc: "High accuracy stud welding system",
+        heroDesc: "A Stud ARC welding machine is designed to weld studs and fasteners onto metal surfaces with high strength and precision. It is widely used in fabrication, construction, shipbuilding, and industrial applications for its fast operation, strong bonding, and consistent weld quality.",
         heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
 
         title: "AST 200 – COMPACT POWER PORTABLE TRANSFORMER WELDING MACHINE",
@@ -2458,35 +3545,67 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HEAVY DUTY",
+                        desc: "Built for tough jobs, this heavy-duty machine handles continuous use with strength and reliability, making it ideal for demanding industrial environments.",
+                        img: "./images/feature-icon/heavy-duty.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "STURDY WHEEL",
+                        desc: "Built with heavy-duty, shock-resistant wheels for smooth movement on any shop floor. Designed to handle weight, rough surfaces, and daily industrial use without wobble or wear. Makes transporting the machine effortless and safe",
+                        img: "./images/feature-icon/sturdy-wheel.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MAKE IN INDIA",
+                        desc: "Proudly designed and manufactured in India with a focus on quality, reliability, and durability. Built to meet demanding industrial needs while supporting local innovation and manufacturing excellence.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "8",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "50",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "50",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-200A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "40",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "40",
+                },
             ],
 
             accessories: [
@@ -2514,7 +3633,7 @@ const products = {
 
     AST_250: {
         heroTitle: "Stud ARC Welding Machine",
-        heroDesc: "Precision stud welding machine",
+        heroDesc: "A Stud ARC welding machine is designed to weld studs and fasteners onto metal surfaces with high strength and precision. It is widely used in fabrication, construction, shipbuilding, and industrial applications for its fast operation, strong bonding, and consistent weld quality.",
         heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp",
 
         title: "AST 250 - HEAVY-DUTY PORTABLE ARC WELDING MACHINE",
@@ -2533,37 +3652,68 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HEAVY DUTY",
+                        desc: "Built for tough jobs, this heavy-duty machine handles continuous use with strength and reliability, making it ideal for demanding industrial environments.",
+                        img: "./images/feature-icon/heavy-duty.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "STURDY WHEEL",
+                        desc: "Built with heavy-duty, shock-resistant wheels for smooth movement on any shop floor. Designed to handle weight, rough surfaces, and daily industrial use without wobble or wear. Makes transporting the machine effortless and safe",
+                        img: "./images/feature-icon/sturdy-wheel.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MAKE IN INDIA",
+                        desc: "Proudly designed and manufactured in India with a focus on quality, reliability, and durability. Built to meet demanding industrial needs while supporting local innovation and manufacturing excellence.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "10",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "50",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "50",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-250A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "50",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "50",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -2589,7 +3739,7 @@ const products = {
 
     AST_300: {
         heroTitle: "Stud ARC Welding Machine",
-        heroDesc: "Industrial grade stud welder",
+        heroDesc: "A Stud ARC welding machine is designed to weld studs and fasteners onto metal surfaces with high strength and precision. It is widely used in fabrication, construction, shipbuilding, and industrial applications for its fast operation, strong bonding, and consistent weld quality.",
         heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp",
 
         title: "AST 300 – 300A STUD WELDING MACHINE",
@@ -2608,37 +3758,68 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HEAVY DUTY",
+                        desc: "Built for tough jobs, this heavy-duty machine handles continuous use with strength and reliability, making it ideal for demanding industrial environments.",
+                        img: "./images/feature-icon/heavy-duty.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "STURDY WHEEL",
+                        desc: "Built with heavy-duty, shock-resistant wheels for smooth movement on any shop floor. Designed to handle weight, rough surfaces, and daily industrial use without wobble or wear. Makes transporting the machine effortless and safe",
+                        img: "./images/feature-icon/sturdy-wheel.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MAKE IN INDIA",
+                        desc: "Proudly designed and manufactured in India with a focus on quality, reliability, and durability. Built to meet demanding industrial needs while supporting local innovation and manufacturing excellence.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "15",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "60",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "50",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-300A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "60",
+                },
             ],
-
             accessories: [
                 {
                     title: "Protective Nylon Cover",
@@ -2664,7 +3845,7 @@ const products = {
 
     AST_400: {
         heroTitle: "Stud ARC Welding Machine",
-        heroDesc: "Heavy industrial stud welding solution",
+        heroDesc: "A Stud ARC welding machine is designed to weld studs and fasteners onto metal surfaces with high strength and precision. It is widely used in fabrication, construction, shipbuilding, and industrial applications for its fast operation, strong bonding, and consistent weld quality.",
         heroImage: "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp",
 
         title: "AST 400 – BEST STUD WELDING MACHINE",
@@ -2683,35 +3864,67 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "Multiprocess Capabilities",
-                        desc: "MIG, Flux-cored, Stick and TIG welding.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "HEAVY DUTY",
+                        desc: "Built for tough jobs, this heavy-duty machine handles continuous use with strength and reliability, making it ideal for demanding industrial environments.",
+                        img: "./images/feature-icon/heavy-duty.webp"
                     },
                     {
-                        title: "Auto Spool Gun Detect™",
-                        desc: "Automatically detects spool gun.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "STURDY WHEEL",
+                        desc: "Built with heavy-duty, shock-resistant wheels for smooth movement on any shop floor. Designed to handle weight, rough surfaces, and daily industrial use without wobble or wear. Makes transporting the machine effortless and safe",
+                        img: "./images/feature-icon/sturdy-wheel.webp"
+                    },
                 ],
                 cardsRight: [
                     {
-                        title: "Fan-On-Demand™",
-                        desc: "Runs only when needed.",
-                        img: "./images/industry-equipement.jpg"
+                        title: "PILOT ARC",
+                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
+                        img: "./images/feature-icon/pilot-arc.webp"
                     },
                     {
-                        title: "Multi Voltage Plug (MVP™)",
-                        desc: "120V / 240V support.",
-                        img: "./images/industry-equipement.jpg"
-                    }
+                        title: "MAKE IN INDIA",
+                        desc: "Proudly designed and manufactured in India with a focus on quality, reliability, and durability. Built to meet demanding industrial needs while supporting local innovation and manufacturing excellence.",
+                        img: "./images/feature-icon/energy.webp"
+                    },
                 ]
             },
 
             specification: [
-                { label: "Amperage", value: "20A – 230A" },
-                { label: "Current Type", value: "DC" },
-                { label: "Input Voltage", value: "110V / 230V" },
-                { label: "Warranty", value: "3 Years" }
+                {
+                    label: "RATED INPUT VOLTAGE (V)",
+                    value: "AC 220V / 440V",
+                },
+                {
+                    label: "INPUT FREQUENCY (HZ)",
+                    value: "50/60",
+                },
+                {
+                    label: "RATED POWER (KVA)",
+                    value: "20",
+                },
+                {
+                    label: "RATED INPUT CURRENT (A)",
+                    value: "65",
+                },
+                {
+                    label: "NO LOAD VOLTAGE (V)",
+                    value: "60",
+                },
+                {
+                    label: "RATED OUTPUT CURRENT (A)",
+                    value: "75A-400A",
+                },
+                {
+                    label: "DUTY CYCLE (%)",
+                    value: "60",
+                },
+                {
+                    label: "EFFICIENCY (%)",
+                    value: "85",
+                },
+                {
+                    label: "WELDER WEIGHT (KGS)",
+                    value: "85",
+                },
             ],
 
             accessories: [
