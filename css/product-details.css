@@ -221,7 +221,7 @@ section.product-details .product-wrapper .right-col .short-desc {
     margin-top: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1278px) {
 
     section.product-details .product-wrapper {
         flex-direction: column;
@@ -229,6 +229,8 @@ section.product-details .product-wrapper .right-col .short-desc {
 
     section.product-details .product-wrapper .left-col {
         width: 100%;
+        /* display: flex;
+        justify-content: center; */
         position: static;
     }
 
