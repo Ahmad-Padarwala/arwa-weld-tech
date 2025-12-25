@@ -277,7 +277,19 @@ section.hero .hero-main .hero-buttons {
     color: var(--text-grey);
 }
 
-/* Tablet */
+@media (max-width: 1278px) {
+    .about-section .about-main .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section .about-main .about-content .about-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 992px) {
     .about-section .about-main .about-content {
         flex-direction: column;
@@ -1294,4 +1306,3 @@ section.reels-section .video-item:hover video {
         border-radius: 10px;
     }
 }
-
