@@ -1,4 +1,4 @@
-// Slider Service Section
+// =========>> Slider Service Section <<============
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".service-card");
   let activeIndex = 0;
@@ -43,8 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Product Tab JSON Data
+// ==============>> Product Tab JSON Data <<=============
 // OEM Manufacturing Excellence start
+const params = new URLSearchParams(window.location.search);
+const selectedProductId = params.get("id");
+
 const welderData = {
 
   /* -------------- (1) ARC SERIES ------------ */
@@ -65,31 +68,31 @@ const welderData = {
           "name": "Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/product1.png" },
-                { "name": "blue", "image": "./images/product2.webp" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold.webp" },
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold.webp" }
               ]
             },
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-left.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/product1.png" },
-                { "name": "blue", "image": "./images/product2.webp" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-left.webp" },
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-left.webp" }
               ]
             },
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-front.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-front.webp" },
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-front.webp" }
               ]
             },
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-back.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-back.webp", },
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-200-igold/arc-200-igold-back.webp", }
               ]
             }
           ]
@@ -100,10 +103,24 @@ const welderData = {
           "name": "Standard",
           "images": [
             {
-              "src": "./images/product2.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp",
               "colors": [
-                { "name": "red", "image": "./images/color-red.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-left.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-left.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-front.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-front.webp" },
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-250-igold/arc-250-igold-front.webp", }
               ]
             }
           ]
@@ -114,10 +131,31 @@ const welderData = {
           "name": "Heavy Duty",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "yellow", "image": "./images/color-yellow.png" }
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-left.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-front.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-back.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-back.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/single-phase/arc-250-ijs/arc-250-ijs-back.webp", }
               ]
             }
           ]
@@ -128,10 +166,31 @@ const welderData = {
           "name": "Industrial",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp",
               "colors": [
-                { "name": "green", "image": "./images/color-green.png" },
-                { "name": "red", "image": "./images/color-red.png" }
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-left.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-left.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-front.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-front.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-back.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-back.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/single-phase/arc-300-ijs/arc-300-ijs-back.webp", }
               ]
             }
           ]
@@ -142,10 +201,31 @@ const welderData = {
           "name": "Compact",
           "images": [
             {
-              "src": "./images/product2.png",
+              "src": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "red", "image": "./images/color-red.png" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-left.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-front.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-back.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-back.webp", }
               ]
             }
           ]
@@ -156,10 +236,24 @@ const welderData = {
           "name": "Standard",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-left.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-front.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/1+2-phase/arc-250-st/arc-250-st-front.webp", }
               ]
             }
           ]
@@ -170,10 +264,31 @@ const welderData = {
           "name": "Heavy Duty",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st.webp", },
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-left.webp", },
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-front.webp", },
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-back.webp", },
+                { "name": "blue", "image": "./images/top-range/arc-series/1+2-phase/arc-300-st/arc-300-st-back.webp", }
               ]
             }
           ]
@@ -184,10 +299,31 @@ const welderData = {
           "name": "Ultra Industrial",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st.webp",
               "colors": [
-                { "name": "red", "image": "./images/color-red.png" },
-                { "name": "yellow", "image": "./images/color-yellow.png" }
+                { "name": "red", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-left.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-left.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-front.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-front.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-back.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-back.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/1+2+3-phase/arc-400-st/arc-400-st-back.webp", }
               ]
             }
           ]
@@ -198,10 +334,31 @@ const welderData = {
           "name": "Three Phase Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "red", "image": "./images/color-red.png" }
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-left.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-front.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-back.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-back.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-300-ijt/arc-300-ijt-back.webp", }
               ]
             }
           ]
@@ -212,10 +369,31 @@ const welderData = {
           "name": "Ultra Heavy",
           "images": [
             {
-              "src": "./images/product2.png",
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-left.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-front.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-back.webp", },
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-400-ultra/arc-400-ultra-back.webp", }
               ]
             }
           ]
@@ -226,10 +404,31 @@ const welderData = {
           "name": "Industrial",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "yellow", "image": "./images/color-yellow.png" }
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-left.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-front.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-back.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-back.webp", },
+                { "name": "yellow", "image": "./images/top-range/arc-series/three-phase/arc-400-ij/arc-400-ij-back.webp", }
               ]
             }
           ]
@@ -240,10 +439,31 @@ const welderData = {
           "name": "Ultra Industrial Pro",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij.webp",
               "colors": [
-                { "name": "green", "image": "./images/color-green.png" },
-                { "name": "red", "image": "./images/color-red.png" }
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-left.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-left.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-front.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-front.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-back.webp",
+              "colors": [
+                { "name": "green", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-back.webp", },
+                { "name": "red", "image": "./images/top-range/arc-series/three-phase/arc-630-ij/arc-630-ij-back.webp", }
               ]
             }
           ]
@@ -266,10 +486,31 @@ const welderData = {
           "name": "Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij.webp", },
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-left.webp", },
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-front.webp", },
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-back.webp", },
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-300-ij/mig-300-ij-back.webp", }
               ]
             },
           ]
@@ -280,10 +521,31 @@ const welderData = {
           "name": "Standard",
           "images": [
             {
-              "src": "./images/product2.png",
+              "src": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij.webp",
               "colors": [
-                { "name": "red", "image": "./images/color-red.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "red", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij.webp", },
+                { "name": "green", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-left.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-left.webp", },
+                { "name": "green", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-front.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-front.webp", },
+                { "name": "green", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-back.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-back.webp", },
+                { "name": "green", "image": "./images/top-range/mig-series/three-phase/mig-400-ij/mig-400-ij-back.webp", }
               ]
             }
           ]
@@ -294,10 +556,24 @@ const welderData = {
           "name": "Heavy Duty",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "yellow", "image": "./images/color-yellow.png" }
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij.webp", },
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-left.webp", },
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-front.webp", },
+                { "name": "yellow", "image": "./images/top-range/mig-series/three-phase/mig-630-ij/mig-630-ij-front.webp", }
               ]
             }
           ]
@@ -321,12 +597,33 @@ const welderData = {
           "name": "Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs.webp", }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-left.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-front.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-back.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/single-phase/tig-250-ijs/tig-250-ijs-back.webp", }
+              ]
+            },
           ]
         }
       ],
@@ -335,12 +632,33 @@ const welderData = {
           "name": "Standard",
           "images": [
             {
-              "src": "./images/product2.png",
+              "src": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs.webp",
               "colors": [
-                { "name": "red", "image": "./images/color-red.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "red", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs.webp", }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-left.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-left.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-front.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-front.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-back.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-back.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/single-phase/tig-300-ijs/tig-300-ijs-back.webp", }
+              ]
+            },
           ]
         }
       ],
@@ -349,12 +667,33 @@ const welderData = {
           "name": "Three Phase Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt.webp",
               "colors": [
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "yellow", "image": "./images/color-yellow.png" }
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt.webp", },
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt.webp", }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-left.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-left.webp", },
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-front.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-front.webp", },
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-back.webp",
+              "colors": [
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-back.webp", },
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-300-ijt/tig-300-ijt-back.webp", }
+              ]
+            },
           ]
         }
       ],
@@ -364,12 +703,33 @@ const welderData = {
           "name": "Industrial",
           "images": [
             {
-              "src": "./images/product3.png",
+              "src": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp",
               "colors": [
-                { "name": "red", "image": "./images/color-red.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "red", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij-left.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij-front.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij-front.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij-back.webp",
+              "colors": [
+                { "name": "red", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-400-ij/tig-400-ij.webp" }
+              ]
+            },
           ]
         }
       ],
@@ -379,13 +739,37 @@ const welderData = {
           "name": "Ultra Heavy Duty",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" },
-                { "name": "green", "image": "./images/color-green.png" }
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij.webp", }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-left.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-left.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-front.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-front.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-back.webp", },
+                { "name": "blue", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-back.webp", },
+                { "name": "green", "image": "./images/top-range/tig-series/three-phase/tig-630-ij/tig-630-ij-back.webp", }
+              ]
+            },
           ]
         }
       ]
@@ -406,12 +790,33 @@ const welderData = {
           "name": "Compact",
           "images": [
             {
-              "src": "./images/product1.png",
+              "src": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk.webp",
               "colors": [
-                { "name": "yellow", "image": "./images/color-yellow.png" },
-                { "name": "blue", "image": "./images/color-blue.png" }
+                { "name": "yellow", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk.webp", },
+                { "name": "blue", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk.webp", }
               ]
-            }
+            },
+            {
+              "src": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-left.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-left.webp", },
+                { "name": "blue", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-left.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-front.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-front.webp", },
+                { "name": "blue", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-front.webp", }
+              ]
+            },
+            {
+              "src": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-back.webp",
+              "colors": [
+                { "name": "yellow", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-back.webp", },
+                { "name": "blue", "image": "./images/top-range/cut-series/three-phase/cut-100-lgk/cut-100-lgk-back.webp", }
+              ]
+            },
           ]
         }
       ],
@@ -421,104 +826,139 @@ const welderData = {
 };
 
 /* --------------- DOM SELECTORS --------------- */
-const tabContainer = document.querySelector('.tabs');
-const phaseContainer = document.querySelector('.tabs-phase');
-const modelContainer = document.querySelector('.tabs-two');
-const productListContainer = document.querySelector('.product-list');
-const mainDisplay = document.getElementById('main-image');
-const colorContainer = document.querySelector('.color-options');
+const tabContainer = document.querySelector(".tabs");
+const phaseContainer = document.querySelector(".tabs-phase");
+const modelContainer = document.querySelector(".tabs-two");
+const productListContainer = document.querySelector(".product-list");
+const mainImageBox = document.getElementById("mainImageBox");
+const colorContainer = document.querySelector(".color-options");
+const productBtnContainer = document.getElementById("productBtn");
 
 let currentCategory = "arc";
 let currentPhase = "";
 let currentModel = "";
 
+function generateProductId(name) {
+  return name.toUpperCase().replace(/\s+/g, "_").replace(/-+/g, "_");
+}
+
+function renderMainImage(src) {
+  mainImageBox.innerHTML = `<img src="${src}" alt="Product">`;
+}
+
 /* --------------- RENDER CATEGORY --------------- */
 function renderCategories() {
-  tabContainer.innerHTML = Object.keys(welderData)
-    .map((key, i) => `<button class="tab ${i === 0 ? 'active' : ''}" data-cat="${key}">${welderData[key].title}</button>`).join('');
+  tabContainer.innerHTML = Object.keys(welderData).map(
+    (key, i) => `<button class="tab ${i === 0 ? "active" : ""}" data-cat="${key}">
+      ${welderData[key].title}
+    </button>`
+  ).join("");
 
-  document.querySelectorAll('.tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
+  document.querySelectorAll(".tab").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
       currentCategory = btn.dataset.cat;
       renderPhases(currentCategory);
-    });
+    };
   });
 }
 
 /* --------------- RENDER PHASES --------------- */
 function renderPhases(cat) {
   const phases = welderData[cat].phases;
-  phaseContainer.innerHTML = Object.keys(phases)
-    .map((p, i) => `<button class="tab-phase ${i === 0 ? 'active' : ''}" data-phase="${p}">${phases[p].title}</button>`).join('');
+  const keys = Object.keys(phases);
 
-  currentPhase = Object.keys(phases)[0];
+  phaseContainer.innerHTML = keys.map(
+    (p, i) => `<button class="tab-phase ${i === 0 ? "active" : ""}" data-phase="${p}">
+      ${phases[p].title}
+    </button>`
+  ).join("");
+
+  currentPhase = keys[0];
   renderModels(cat, currentPhase);
 
-  document.querySelectorAll('.tab-phase').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-phase').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-      currentPhase = btn.dataset.phase;
-      renderModels(cat, currentPhase);
-    });
+  document.querySelectorAll(".tab-phase").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".tab-phase").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+      renderModels(cat, btn.dataset.phase);
+    };
   });
 }
 
 /* --------------- RENDER MODELS --------------- */
 function renderModels(cat, phase) {
   const models = welderData[cat].phases[phase].models;
-  modelContainer.innerHTML = models.map((m, i) => `<button class="tab-two ${i === 0 ? 'active' : ''}" data-model="${m}">${m}</button>`).join('');
+
+  modelContainer.innerHTML = models.map(
+    (m, i) => `<button class="tab-two ${i === 0 ? "active" : ""}" data-model="${m}">
+      ${m}
+    </button>`
+  ).join("");
 
   currentModel = models[0];
   renderProduct(cat, currentModel);
 
-  document.querySelectorAll('.tab-two').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-two').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-      currentModel = btn.dataset.model;
-      renderProduct(cat, currentModel);
-    });
+  document.querySelectorAll(".tab-two").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".tab-two").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+      renderProduct(cat, btn.dataset.model);
+    };
   });
 }
 
 /* --------------- RENDER PRODUCT (IMAGES + COLORS) --------------- */
 function renderProduct(cat, model) {
-  const body = welderData[cat].details[model][0];
-  const images = body.images;
+  const images = welderData[cat].details[model][0].images;
 
-  productListContainer.innerHTML = images
-    .map((img, i) => `<div class="thumb-box"><img src="${img.src}" class="small-img ${i === 0 ? 'active' : ''}" data-index="${i}"></div>`).join('');
+  /* SIDE THUMBS */
+  productListContainer.innerHTML = images.map(
+    (img, i) => `<div class="thumb-box">
+      <img src="${img.src}" class="small-img ${i === 0 ? "active" : ""}" data-index="${i}">
+    </div>`
+  ).join("");
 
-  mainDisplay.src = images[0].src;
+  renderMainImage(images[0].src);
+
   renderColors(images[0].colors);
+  renderGetNowButton(model);
 
-  document.querySelectorAll('.small-img').forEach(img => {
-    img.addEventListener('click', () => {
-      document.querySelectorAll('.small-img').forEach(t => t.classList.remove('active'));
-      img.classList.add('active');
+  document.querySelectorAll(".small-img").forEach(img => {
+    img.onclick = () => {
+      document.querySelectorAll(".small-img").forEach(i => i.classList.remove("active"));
+      img.classList.add("active");
+
       const index = img.dataset.index;
-      mainDisplay.src = images[index].src;
+      renderMainImage(images[index].src);
       renderColors(images[index].colors);
-    });
+    };
   });
 }
 
 /* --------------- RENDER COLORS --------------- */
 function renderColors(colors = []) {
-  if (colors.length === 0) { colorContainer.innerHTML = ''; return; }
-  colorContainer.innerHTML = colors.map((c, i) => `<span class="color-dot ${c.name} ${i === 0 ? 'active' : ''}" data-img="${c.image}"></span>`).join('');
-  mainDisplay.src = colors[0].image;
+  colorContainer.innerHTML = colors.map(
+    (c, i) => `<span class="color-dot ${c.name} ${i === 0 ? "active" : ""}" data-img="${c.image}"></span>`
+  ).join("");
 
-  document.querySelectorAll('.color-dot').forEach(dot => {
-    dot.addEventListener('click', () => {
-      document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
-      dot.classList.add('active');
-      mainDisplay.src = dot.dataset.img;
-    });
+  document.querySelectorAll(".color-dot").forEach(dot => {
+    dot.onclick = () => {
+      document.querySelectorAll(".color-dot").forEach(d => d.classList.remove("active"));
+      dot.classList.add("active");
+      renderMainImage(dot.dataset.img);
+    };
   });
+}
+
+// RENDER GET NOW BUTTON
+function renderGetNowButton(model) {
+  productBtnContainer.innerHTML = `
+    <a href="product-details.html?id=${generateProductId(model)}" class="get-now-btn">
+      Get Now
+    </a>
+  `;
 }
 
 /* --------------- INITIAL AUTO LOAD --------------- */
