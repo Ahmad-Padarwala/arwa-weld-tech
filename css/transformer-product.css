@@ -217,6 +217,7 @@ section.product .product-view-transformer .product-container .product-display {
     justify-content: end;
     flex-direction: column;
     align-items: center;
+    width: -webkit-fill-available;
 }
 
 section.product .product-view-transformer .product-container .product-display img {

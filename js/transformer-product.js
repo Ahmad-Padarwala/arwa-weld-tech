@@ -319,7 +319,6 @@ function transformerRenderColors(colors = []) {
     });
 }
 
-
 /* ================= GET NOW ================= */
 function transformerRenderGetNow(model) {
     transformerBtnContainer.innerHTML = `
@@ -329,7 +328,6 @@ function transformerRenderGetNow(model) {
         </a>
     `;
 }
-
 
 /* ================= INIT ================= */
 transformerRenderCategories();
