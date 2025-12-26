@@ -135,11 +135,12 @@ section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-bo
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    border-radius: 6px;
 }
 
 section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box:hover,
 section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box.active {
-    border-color: #0095FF;
+    border-color: var(--color-primary);
 }
 
 section.product-details .product-wrapper .left-col .left-small .thumbs .thumb-box img {
@@ -165,7 +166,8 @@ section.product-details .product-wrapper .left-col .main-image-box img {
     width: 380px;
     height: 420px;
     object-fit: contain;
-    border: 1px solid #0095FF;
+    border: 1px solid var(--color-primary);
+    border-radius: 6px;
     /* border-radius: 8px; */
     padding: 20px;
 }

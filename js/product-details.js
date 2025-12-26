@@ -566,7 +566,6 @@ const products = {
             "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-left.webp",
             "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-front.webp",
             "./images/top-range/arc-series/1+2-phase/arc-200-st/arc-200-st-back.webp",
-
         ],
         /* ================= TAB DATA ================= */
         tabs: {
@@ -3117,26 +3116,26 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "ARC STABILITY WITH LESS SPATTER",
-                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        title: "COMPACT AND PORTABLE DESIGN",
+                        desc: "Designed for maximum mobility, the Portable ARC Welding Machine features a compact and lightweight build that makes it easy to carry, transport, and operate in different work locations.Ideal for professionals who need power, flexibility, and efficiency in one reliable machine.",
                         img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "QUALITY NARROW CUTTING",
-                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
-                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                        title: "USER FRIENDLY",
+                        desc: "Simple controls and easy-to-understand interface make setup and operation easy for both beginners and professionals",
+                        img: "./images/feature-icon/user-friendly.webp"
                     },
                 ],
                 cardsRight: [
                     {
-                        title: "PILOT ARC",
-                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
-                        img: "./images/feature-icon/pilot-arc.webp"
+                        title: "EFFICIENT COOLING SYSTEM",
+                        desc: "The machine stays cool even during long hours, letting you work without interruptions. It ensures consistent performance, protects your investment, and keeps your productivity high, giving you peace of mind on every job.",
+                        img: "./images/feature-icon/efficient-cooling.webp"
                     },
                     {
-                        title: "ENERGY SAVING",
-                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
-                        img: "./images/feature-icon/energy.webp"
+                        title: "VERSATILE POWER",
+                        desc: "Engineered to handle a wide range of welding jobs with steady, reliable output. Easily adapts to different metals, electrodes, and work conditions. Perfect for workshops that need one machine for multiple applications.",
+                        img: "./images/feature-icon/versatile-power.webp"
                     },
                 ]
             },
@@ -3224,26 +3223,26 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "ARC STABILITY WITH LESS SPATTER",
-                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        title: "COMPACT AND PORTABLE DESIGN",
+                        desc: "Designed for maximum mobility, the Portable ARC Welding Machine features a compact and lightweight build that makes it easy to carry, transport, and operate in different work locations.Ideal for professionals who need power, flexibility, and efficiency in one reliable machine.",
                         img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "QUALITY NARROW CUTTING",
-                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
-                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                        title: "USER FRIENDLY",
+                        desc: "Simple controls and easy-to-understand interface make setup and operation easy for both beginners and professionals",
+                        img: "./images/feature-icon/user-friendly.webp"
                     },
                 ],
                 cardsRight: [
                     {
-                        title: "PILOT ARC",
-                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
-                        img: "./images/feature-icon/pilot-arc.webp"
+                        title: "EFFICIENT COOLING SYSTEM",
+                        desc: "The machine stays cool even during long hours, letting you work without interruptions. It ensures consistent performance, protects your investment, and keeps your productivity high, giving you peace of mind on every job.",
+                        img: "./images/feature-icon/efficient-cooling.webp"
                     },
                     {
-                        title: "ENERGY SAVING",
-                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
-                        img: "./images/feature-icon/energy.webp"
+                        title: "VERSATILE POWER",
+                        desc: "Engineered to handle a wide range of welding jobs with steady, reliable output. Easily adapts to different metals, electrodes, and work conditions. Perfect for workshops that need one machine for multiple applications.",
+                        img: "./images/feature-icon/versatile-power.webp"
                     },
                 ]
             },
@@ -3331,26 +3330,26 @@ const products = {
             features: {
                 cardsLeft: [
                     {
-                        title: "ARC STABILITY WITH LESS SPATTER",
-                        desc: "Delivers stable ARC performance with minimal spatter, ensuring cleaner, stronger welds. It makes your work smoother, reduces post-weld cleanup, and provides reliable results every time.",
+                        title: "COMPACT AND PORTABLE DESIGN",
+                        desc: "Designed for maximum mobility, the Portable ARC Welding Machine features a compact and lightweight build that makes it easy to carry, transport, and operate in different work locations.Ideal for professionals who need power, flexibility, and efficiency in one reliable machine.",
                         img: "./images/feature-icon/arc-stability-less.webp"
                     },
                     {
-                        title: "QUALITY NARROW CUTTING",
-                        desc: "Delivers clean, precise, and narrow cuts with minimal slag. Ideal for detailed work, giving smooth edges and reducing the need for extra finishing.",
-                        img: "./images/feature-icon/quality-narrow-cutting.webp"
+                        title: "USER FRIENDLY",
+                        desc: "Simple controls and easy-to-understand interface make setup and operation easy for both beginners and professionals",
+                        img: "./images/feature-icon/user-friendly.webp"
                     },
                 ],
                 cardsRight: [
                     {
-                        title: "PILOT ARC",
-                        desc: "Enables welding on painted, rusted, or rough surfaces without sticking, extending the life of consumables and ensuring smoother, more efficient welds.",
-                        img: "./images/feature-icon/pilot-arc.webp"
+                        title: "EFFICIENT COOLING SYSTEM",
+                        desc: "The machine stays cool even during long hours, letting you work without interruptions. It ensures consistent performance, protects your investment, and keeps your productivity high, giving you peace of mind on every job.",
+                        img: "./images/feature-icon/efficient-cooling.webp"
                     },
                     {
-                        title: "ENERGY SAVING",
-                        desc: "Optimized power consumption reduces electricity use while maintaining stable and efficient welding performance, saving costs and energy.",
-                        img: "./images/feature-icon/energy.webp"
+                        title: "VERSATILE POWER",
+                        desc: "Engineered to handle a wide range of welding jobs with steady, reliable output. Easily adapts to different metals, electrodes, and work conditions. Perfect for workshops that need one machine for multiple applications.",
+                        img: "./images/feature-icon/versatile-power.webp"
                     },
                 ]
             },

@@ -847,7 +847,7 @@ section.product .tab:hover {
 }
 
 section.product .tab.active {
-    background: var(--color-blue);
+    background: var(--color-primary);
     color: #fff;
 }
 
@@ -900,8 +900,8 @@ section.product .tabs-phase {
 
 .tab-phase.active {
     background: #EFF6FF;
-    border-color: #0095FF;
-    color: #000;
+    border-color: var(--color-primary);
+    color: var(--text-dark);
 }
 
 /* SECOND TAB STYLE */
@@ -937,8 +937,8 @@ section.product .tabs-two {
 .tab-two.active {
     background: #EFF6FF;
     /* active tab */
-    border-color: #0095FF;
-    color: #000;
+    border-color: var(--color-primary);
+    color: var(--text-dark);
 }
 
 .tabs-two .tab-two-content {
@@ -1004,7 +1004,7 @@ section.product .product-view .product-container .thumb-box {
     height: 130px;
     border: 1px solid #CACACA;
     background-color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
     transition: 0.3s ease;
@@ -1022,7 +1022,7 @@ section.product .product-view .product-container .thumb-box .small-img {
 
 .small-img.active,
 .small-img:hover {
-    border: 1px solid #0095FF;
+    border: 1px solid var(--color-primary);
     border-radius: 6px;
 }
 

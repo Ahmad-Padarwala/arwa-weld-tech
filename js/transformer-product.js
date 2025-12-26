@@ -16,10 +16,17 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/product1.png" },
-                                { "name": "blue", "image": "./images/product2.webp" }
+                                { "name": "yellow", "image": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp", },
+                                { "name": "blue", "image": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200.webp", }
+                            ]
+                        },
+                        {
+                            "src": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200-front.webp",
+                            "colors": [
+                                { "name": "yellow", "image": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200-front.webp", },
+                                { "name": "blue", "image": "./images/top-range/portable-arc-series/single-phase/apt-200/apt-200-front.webp", }
                             ]
                         }
                     ]
@@ -30,10 +37,17 @@ const TransformerData = {
                     "name": "Standard",
                     "images": [
                         {
-                            "src": "./images/product2.png",
+                            "src": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250.webp",
                             "colors": [
-                                { "name": "red", "image": "./images/color-red.png" },
-                                { "name": "green", "image": "./images/color-green.png" }
+                                { "name": "red", "image": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250.webp", },
+                                { "name": "green", "image": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250.webp", }
+                            ]
+                        },
+                        {
+                            "src": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250-front.webp",
+                            "colors": [
+                                { "name": "red", "image": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250-front.webp", },
+                                { "name": "green", "image": "./images/top-range/portable-arc-series/single-phase/apt-250/apt-250-front.webp", }
                             ]
                         }
                     ]
@@ -44,10 +58,10 @@ const TransformerData = {
                     "name": "Standard",
                     "images": [
                         {
-                            "src": "./images/product2.png",
+                            "src": "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp",
                             "colors": [
-                                { "name": "red", "image": "./images/color-red.png" },
-                                { "name": "green", "image": "./images/color-green.png" }
+                                { "name": "red", "image": "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp" },
+                                { "name": "green", "image": "./images/top-range/portable-arc-series/1+2 phase/apt-250-h.webp" }
                             ]
                         }
                     ]
@@ -70,19 +84,12 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
+                                { "name": "yellow", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp" },
+                                { "name": "blue", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-150.webp" }
                             ]
                         },
-                        {
-                            "src": "./images/product2.webp",
-                            "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
-                            ]
-                        }
                     ]
                 }
             ],
@@ -91,10 +98,10 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
+                                { "name": "yellow", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp" },
+                                { "name": "blue", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-200.webp" }
                             ]
                         }
                     ]
@@ -105,10 +112,10 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
+                                { "name": "yellow", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp" },
+                                { "name": "blue", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-250.webp" }
                             ]
                         }
                     ]
@@ -119,10 +126,10 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
+                                { "name": "yellow", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp" },
+                                { "name": "blue", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-300.webp" }
                             ]
                         }
                     ]
@@ -133,10 +140,10 @@ const TransformerData = {
                     "name": "Compact",
                     "images": [
                         {
-                            "src": "./images/product1.png",
+                            "src": "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp",
                             "colors": [
-                                { "name": "yellow", "image": "./images/color-yellow.png" },
-                                { "name": "blue", "image": "./images/color-blue.png" }
+                                { "name": "yellow", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp" },
+                                { "name": "blue", "image": "./images/top-range/stud-arc-series/1+2 phase/ast-400.webp" }
                             ]
                         }
                     ]
@@ -157,114 +164,173 @@ const TransformerData = {
         }
     }
 };
+/* ================= DOM SELECTORS ================= */
+const transformerTabContainer = document.querySelector(".tabs-transformer");
+const transformerPhaseContainer = document.querySelector(".tabs-phase-transformer");
+const transformerModelContainer = document.querySelector(".tabs-two-transformer");
+const transformerProductList = document.querySelector(".product-list-transformer");
+const transformerMainImageBox = document.getElementById("mainImageBox-transformer");
+const transformerColorContainer = document.querySelector(".product .color-options");
+const transformerBtnContainer = document.getElementById("productBtn-transformer");
 
-/* =================== TRANSFORMER UI SCRIPT =================== */
+let transformerCurrentCategory = "portable";
+let transformerCurrentPhase = "";
+let transformerCurrentModel = "";
 
-(() => {
-    const tabContainer = document.querySelector('.tabs-transformar');
-    const phaseContainer = document.querySelector('.tabs-phase-transformar');
-    const modelContainer = document.querySelector('.tabs-two-transformar');
-    const productListContainer = document.querySelector('.product-list-transformar');
-    const mainDisplay = document.getElementById('main-image');
-    const colorContainer = document.querySelector('.color-options');
+/* ================= UTILS ================= */
+function transformerGenerateProductId(name) {
+    return name.toUpperCase().replace(/\s+/g, "_").replace(/-+/g, "_");
+}
 
-    let currentCategory = "portable";
-    let currentPhase = "";
-    let currentModel = "";
+function transformerRenderMainImage(src) {
+    transformerMainImageBox.innerHTML = `<img src="${src}" alt="Transformer Product">`;
+}
 
-    /* --------------- CATEGORY --------------- */
-    function renderCategories() {
-        tabContainer.innerHTML = Object.keys(TransformerData)
-            .map((key, i) => `<button class="tab-transformar ${i === 0 ? 'active' : ''}" data-cat="${key}">${TransformerData[key].title}</button>`).join('');
+/* ================= CATEGORY ================= */
+function transformerRenderCategories() {
+    transformerTabContainer.innerHTML = Object.keys(TransformerData).map(key => `
+        <button 
+          class="tab ${key === transformerCurrentCategory ? "active" : ""}" 
+          data-cat="${key}">
+          ${TransformerData[key].title}
+        </button>
+    `).join("");
 
-        document.querySelectorAll('.tab-transformar').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.tab-transformar').forEach(t => t.classList.remove('active'));
-                btn.classList.add('active');
-                currentCategory = btn.dataset.cat;
-                renderPhases(currentCategory);
-            });
-        });
-    }
+    transformerTabContainer.querySelectorAll(".tab").forEach(btn => {
+        btn.onclick = () => {
+            transformerTabContainer.querySelectorAll(".tab")
+                .forEach(t => t.classList.remove("active"));
 
-    /* --------------- PHASE --------------- */
-    function renderPhases(cat) {
-        const phases = TransformerData[cat].phases;
-        phaseContainer.innerHTML = Object.keys(phases)
-            .map((p, i) => `<button class="tab-phase-transformar ${i === 0 ? 'active' : ''}" data-phase="${p}">${phases[p].title}</button>`).join('');
+            btn.classList.add("active");
+            transformerCurrentCategory = btn.dataset.cat;
+            transformerRenderPhases(transformerCurrentCategory);
+        };
+    });
+}
 
-        currentPhase = Object.keys(phases)[0];
-        renderModels(cat, currentPhase);
+/* ================= PHASE ================= */
+function transformerRenderPhases(cat) {
+    const phases = TransformerData[cat].phases;
+    const keys = Object.keys(phases);
 
-        document.querySelectorAll('.tab-phase-transformar').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.tab-phase-transformar').forEach(t => t.classList.remove('active'));
-                btn.classList.add('active');
-                currentPhase = btn.dataset.phase;
-                renderModels(cat, currentPhase);
-            });
-        });
-    }
+    transformerCurrentPhase = keys[0];
 
-    /* --------------- MODELS --------------- */
-    function renderModels(cat, phase) {
-        const models = TransformerData[cat].phases[phase].models;
-        modelContainer.innerHTML = models.map((m, i) =>
-            `<button class="tab-two-transformar ${i === 0 ? 'active' : ''}" data-model="${m}">${m}</button>`).join('');
+    transformerPhaseContainer.innerHTML = keys.map((p, i) => `
+        <button 
+          class="tab-phase ${i === 0 ? "active" : ""}" 
+          data-phase="${p}">
+          ${phases[p].title}
+        </button>
+    `).join("");
 
-        currentModel = models[0];
-        renderProduct(cat, currentModel);
+    transformerRenderModels(cat, transformerCurrentPhase);
 
-        document.querySelectorAll('.tab-two-transformar').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.tab-two-transformar').forEach(t => t.classList.remove('active'));
-                btn.classList.add('active');
-                currentModel = btn.dataset.model;
-                renderProduct(cat, currentModel);
-            });
-        });
-    }
+    transformerPhaseContainer.querySelectorAll(".tab-phase").forEach(btn => {
+        btn.onclick = () => {
+            transformerPhaseContainer.querySelectorAll(".tab-phase")
+                .forEach(t => t.classList.remove("active"));
 
-    /* --------------- PRODUCT + COLORS --------------- */
-    function renderProduct(cat, model) {
-        const body = TransformerData[cat].details[model][0];
-        const images = body.images;
+            btn.classList.add("active");
+            transformerCurrentPhase = btn.dataset.phase;
+            transformerRenderModels(cat, transformerCurrentPhase);
+        };
+    });
+}
 
-        productListContainer.innerHTML = images
-            .map((img, i) => `<div class="thumb-box"><img src="${img.src}" class="small-img ${i === 0 ? 'active' : ''}" data-index="${i}"></div>`).join('');
+/* ================= MODELS ================= */
+function transformerRenderModels(cat, phase) {
+    const models = TransformerData[cat].phases[phase].models;
 
-        mainDisplay.src = images[0].src;
-        renderColors(images[0].colors);
+    transformerCurrentModel = models[0];
 
-        document.querySelectorAll('.small-img').forEach(img => {
-            img.addEventListener('click', () => {
-                document.querySelectorAll('.small-img').forEach(t => t.classList.remove('active'));
-                img.classList.add('active');
-                const index = img.dataset.index;
-                mainDisplay.src = images[index].src;
-                renderColors(images[index].colors);
-            });
-        });
-    }
+    transformerModelContainer.innerHTML = models.map((m, i) => `
+        <button 
+          class="tab-two ${i === 0 ? "active" : ""}" 
+          data-model="${m}">
+          ${m}
+        </button>
+    `).join("");
 
-    /* --------------- COLORS --------------- */
-    function renderColors(colors = []) {
-        if (!colors.length) { colorContainer.innerHTML = ''; return; }
+    transformerRenderProduct(cat, transformerCurrentModel);
 
-        colorContainer.innerHTML = colors.map((c, i) =>
-            `<span class="color-dot ${c.name} ${i === 0 ? 'active' : ''}" data-img="${c.image}"></span>`).join('');
+    transformerModelContainer.querySelectorAll(".tab-two").forEach(btn => {
+        btn.onclick = () => {
+            transformerModelContainer.querySelectorAll(".tab-two")
+                .forEach(t => t.classList.remove("active"));
 
-        mainDisplay.src = colors[0].image;
+            btn.classList.add("active");
+            transformerCurrentModel = btn.dataset.model;
+            transformerRenderProduct(cat, transformerCurrentModel);
+        };
+    });
+}
 
-        document.querySelectorAll('.color-dot').forEach(dot => {
-            dot.addEventListener('click', () => {
-                document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
-                dot.classList.add('active');
-                mainDisplay.src = dot.dataset.img;
-            });
-        });
-    }
+/* ================= PRODUCT ================= */
+function transformerRenderProduct(cat, model) {
+    const product = TransformerData[cat].details[model];
+    if (!product) return;
 
-    renderCategories();
-    renderPhases(currentCategory);
-})();
+    const images = product[0].images;
+
+    transformerProductList.innerHTML = images.map((img, i) => `
+        <div class="thumb-box">
+            <img 
+              src="${img.src}" 
+              class="small-img ${i === 0 ? "active" : ""}" 
+              data-index="${i}">
+        </div>
+    `).join("");
+
+    transformerRenderMainImage(images[0].src);
+    transformerRenderColors(images[0].colors);
+    transformerRenderGetNow(model);
+
+    transformerProductList.querySelectorAll(".small-img").forEach(img => {
+        img.onclick = () => {
+            transformerProductList.querySelectorAll(".small-img")
+                .forEach(i => i.classList.remove("active"));
+
+            img.classList.add("active");
+
+            const index = Number(img.dataset.index);
+            transformerRenderMainImage(images[index].src);
+            transformerRenderColors(images[index].colors);
+        };
+    });
+}
+
+/* ================= COLORS ================= */
+function transformerRenderColors(colors = []) {
+    transformerColorContainer.innerHTML = colors.map((c, i) => `
+        <span 
+          class="color-dot ${c.name} ${i === 0 ? "active" : ""}" 
+          data-img="${c.image}">
+        </span>
+    `).join("");
+
+    transformerColorContainer.querySelectorAll(".color-dot").forEach(dot => {
+        dot.onclick = () => {
+            transformerColorContainer.querySelectorAll(".color-dot")
+                .forEach(d => d.classList.remove("active"));
+
+            dot.classList.add("active");
+            transformerRenderMainImage(dot.dataset.img);
+        };
+    });
+}
+
+
+/* ================= GET NOW ================= */
+function transformerRenderGetNow(model) {
+    transformerBtnContainer.innerHTML = `
+        <a href="product-details.html?id=${transformerGenerateProductId(model)}"
+           class="get-now-btn">
+          Get Now
+        </a>
+    `;
+}
+
+
+/* ================= INIT ================= */
+transformerRenderCategories();
+transformerRenderPhases(transformerCurrentCategory);
